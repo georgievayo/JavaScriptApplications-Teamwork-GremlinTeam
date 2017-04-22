@@ -1,0 +1,31 @@
+#main-menu {
+    list-style-type: none;
+    font-size: 22pt;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    margin-left: 70px;
+}
+
+.menu-item-left {
+    display: inline;
+    margin: 20px
+}
+
+.menu-item-right {
+    display: inline;
+    margin-left:500px;
+    margin-right: -450px
+}
+
+.menu-link {
+    text-decoration: none;
+    color: whitesmoke
+}
+
+.menu-link:hover {
+    text-shadow: 1px 1px 2px whitesmoke;
+}
+
+body {
+    background-image: url("../imgs/pizza.jpg");
+    background-size: 140%;
+}
