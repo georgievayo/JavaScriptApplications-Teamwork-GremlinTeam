@@ -30,6 +30,8 @@
 	border: 5px solid transparent;
 	padding: 20px 25px 20px 25px;
 	border-radius: 30px;
+    margin-left: 57%;
+    margin-top: -5%
 }
 
 #logo:hover {	
@@ -43,6 +45,7 @@
 body {
     background-image: url("../imgs/pizza.jpg");
     background-size: 140%;
+    background-repeat: no-repeat;
 }
 
 #main{
