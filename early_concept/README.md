@@ -24,5 +24,5 @@
 
 ##### *from team meeting on 23/04/2017*
 
-![alt text](https://github.com/georgievayo/JavaScriptApplications-Teamwork-GremlinTeam/blob/master/early concept/layout_landing.png "landind page layout by @georgievayo")
+![alt text](https://github.com/georgievayo/JavaScriptApplications-Teamwork-GremlinTeam/blob/master/early_concept/layout_landing.png "landind page layout by @georgievayo")
 
