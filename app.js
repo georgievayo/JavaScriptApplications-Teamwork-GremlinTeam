@@ -2,6 +2,7 @@ const express = require("express");
 const lowdb = require("lowdb");
 const bodyParser = require('body-parser');
 const dataControllers = require('./controllers/data-controllers');
+const keyGenerator = require('./Utils/auth-key-generator');
 
 let app = express();
 let db = lowdb('./data/data.json');
@@ -38,16 +39,20 @@ app.get("/api/users", (req, res) => {
 
 app.post("/api/users/register",(req, res) => {
     var user = req.body;
-      user.usernameLower = user.username.toLowerCase();
-      user.authKey = authKeyGenerator.get(user.id);
-      if (db('users').find({
-          usernameLower: user.username.toLowerCase()
-        })) {
+      user.usernameLower = user.data.username.toLowerCase();
+      user.authKey = keyGenerator.generate(user.id);
+        let foundUser = db.get('users').find({
+          usernameLower: user.data.username.toLowerCase()
+        }).value();
+      if (foundUser !== undefined) {
         res.status(400)
           .json('Username is already taken');
         return;
       }
-      db('users').insert(user);
+      console.log(db.get('users').value());
+      db.get('users')
+      .push(user)
+      .write();
 
       res.status(201)
         .json({

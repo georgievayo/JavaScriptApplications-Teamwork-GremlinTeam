@@ -11,7 +11,7 @@ let dataService = {
             passHash: CryptoJS.SHA1(user.username + user.password).toString()
         };
 
-        return requester.postJSON("/api/users", {
+        return requester.postJSON("/api/users/register", {
             data: reqUser
         })
             .then(function (res) {

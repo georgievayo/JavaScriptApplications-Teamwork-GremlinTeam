@@ -17,6 +17,7 @@
   "dependencies": {
     "navigo": "^4.7.0",
     "jquery": "^3.2.1",
-    "handlebars": "^4.0.5"
+    "handlebars": "^4.0.5",
+    "crypto-js": "^3.1.9"
   }
 }
