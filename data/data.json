@@ -5,39 +5,47 @@
       "name": "Margherita Pizza",
       "preparationTime": 45,
       "likes": 11,
-      "img": "https://www.google.bg/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwibgoCAz7jTAhUF1xoKHciICA8QjRwIBw&url=http%3A%2F%2Fwww.cbc.ca%2Finthekitchen%2F2012%2F11%2Fclassic-margherita-pizza.html&psig=AFQjCNEymQcQIAQfW4Nmlobp5QdvxKAsUg&ust=1492969516756521",
+      "img": "https://trello-attachments.s3.amazonaws.com/5786228a9dbaf8f1c7ee5e69/5900a0c1fa776c05511b2ee9/097b4c81b1f582a73dbf172ec1403e78/Margherita-Pizza-pic.jpg",
       "ingredients": [
         {
           "ingredient": "homemade pizza crust",
-          "quantity": 0.5
+          "quantity": 0.5,
+          "unit": "n/a"
         },
         {
           "ingredient": "olive oil",
-          "quantity": 0.25
+          "quantity": 0.25,
+          "unit": "n/a"
         },
         {
           "ingredient": "roasted garlic",
-          "quantity": 2
+          "quantity": 2,
+          "unit": "n/a"
         },
         {
           "ingredient": "tomato sauce",
-          "quantity": 7
+          "quantity": 7,
+          "unit": "n/a"
         },
         {
           "ingredient": "mozzarella cheese",
-          "quantity": 8
+          "quantity": 8,
+          "unit": "n/a"
         },
         {
           "ingredient": "tomaoes",
-          "quantity": 2
+          "quantity": 2,
+          "unit": "n/a"
         },
         {
           "ingredient": "basil",
-          "quantity": 0.1
+          "quantity": 0.1,
+          "unit": "n/a"
         },
         {
           "ingredient": "pepper",
-          "quantity": 1
+          "quantity": 1,
+          "unit": "n/a"
         }
       ],
       "steps": "Prepare the pizza dough through step 11, including preheating the oven to 475F as described in step 8.Mix the olive oil and chopped garlic together in a small dish. After waiting 15 minutes as described in step 11, spread olive oil/garlic mixture on top of crust. Top with pizza sauce, then the mozzarella cheese slices, then the tomato slices. Bake for 14-16 minutes or until the crust is lightly browned and the cheese is bubbling. For the last minute, I move the oven rack to the top rack to really brown the edges. That's optional. Remove from the oven and top with fresh basil and pepper. Slice pizza and serve immediately. Store leftover pizza covered tightly in the refrigerator and reheat as you prefer. Baked pizza slices may be frozen up to 1 month. Please see homemade pizza crust recipe for how to make ahead and freeze the pizza dough."
@@ -47,50 +55,405 @@
       "name": "Spaghetti Carbonara",
       "preparationTime": 40,
       "likes": 28,
-      "img": "https://www.google.bg/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwib0-Gp0LjTAhXErxoKHQzhChAQjRwIBw&url=https%3A%2F%2Frecipes.sparkpeople.com%2Frecipe-detail.asp%3Frecipe%3D803184&psig=AFQjCNGRHA_PcHO7j0hekac97rceuVGY0w&ust=1492969869490124",
+      "img": "https://trello-attachments.s3.amazonaws.com/5786228a9dbaf8f1c7ee5e69/5900a0c28e35db4d4449bcb3/66bc77ce6481d5d150a3c1debca55470/Spaghetti_alla_carbonara02.jpg",
       "ingredients": [
         {
           "ingredient": "spaghetti",
-          "quantity": 0.5
+          "quantity": 0.5,
+          "unit": "n/a"
         },
         {
           "ingredient": "olive oil",
-          "quantity": 0.25
+          "quantity": 0.25,
+          "unit": "n/a"
         },
         {
           "ingredient": "bacon",
-          "quantity": 125
+          "quantity": 125,
+          "unit": "n/a"
         },
         {
           "ingredient": "onion",
-          "quantity": 1
+          "quantity": 1,
+          "unit": "n/a"
         },
         {
           "ingredient": "garlic",
-          "quantity": 1
+          "quantity": 1,
+          "unit": "n/a"
         },
         {
           "ingredient": "white wine",
-          "quantity": 0.25
+          "quantity": 0.25,
+          "unit": "n/a"
         },
         {
           "ingredient": "eggs",
-          "quantity": 4
+          "quantity": 4,
+          "unit": "n/a"
         },
         {
           "ingredient": "parmesan cheese",
-          "quantity": 0.2
+          "quantity": 0.2,
+          "unit": "n/a"
         },
         {
           "ingredient": "salt",
-          "quantity": 15
+          "quantity": 15,
+          "unit": "n/a"
         },
         {
           "ingredient": "parsley",
-          "quantity": 2
+          "quantity": 2,
+          "unit": "n/a"
         }
       ],
       "steps": "In a large pot of boiling salted water, cook spaghetti pasta until al dente. Drain well. Toss with 1 tablespoon of olive oil, and set aside. Meanwhile in a large skillet, cook chopped bacon until slightly crisp; remove and drain onto paper towels. Reserve 2 tablespoons of bacon fat; add remaining 1 tablespoon olive oil, and heat in reused large skillet. Add chopped onion, and cook over medium heat until onion is translucent. Add minced garlic, and cook 1 minute more. Add wine if desired; cook one more minute. Return cooked bacon to pan; add cooked and drained spaghetti. Toss to coat and heat through, adding more olive oil if it seems dry or is sticking together. Add beaten eggs and cook, tossing constantly with tongs or large fork until eggs are barely set. Quickly add 1/2 cup Parmesan cheese, and toss again. Add salt and pepper to taste (remember that bacon and Parmesan are very salty). Serve immediately with chopped parsley sprinkled on top, and extra Parmesan cheese at table."
+    },
+    {
+      "id": 3,
+      "name": "Portobello \"steaks\" with a side of mashed cauliflower",
+      "preparationTime": "unknown",
+      "likes": 33,
+      "img": "https://trello-attachments.s3.amazonaws.com/580e34f3955d15182e1ff651/666x467/85c16ac1e396d05e787081700ac0cd74/portobello_steaks.jpg",
+      "ingredients": [
+        {
+          "ingredient": "portobello mushrooms",
+          "quantity": 2,
+          "unit": "whole"
+        },
+        {
+          "ingredient": "lemon",
+          "quantity": 0.25,
+          "unit": "whole"
+        },
+        {
+          "ingredient": "balsamic vinegar",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "tahini",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "cherry tomatoes",
+          "quantity": 0.25,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "mixed greens",
+          "quantity": 2,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "fresh cauliflower",
+          "quantity": 0.5,
+          "unit": "whole"
+        },
+        {
+          "ingredient": "1/2 clove of garlic",
+          "quantity": 0.05,
+          "unit": "whole"
+        },
+        {
+          "ingredient": "salt-free horseradish (optional)",
+          "quantity": 1,          
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "black pepper (to taste)",
+          "quantity": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": "Recipe from *[Dr. Greger's Lighter profile](https://www.lighter.world/providers/Michael_Greger)*\n 1. Rinse all the produce. Peel and mince the garlic. Slice the cherry tomatoes in half. Remove the portobello mushroom stem. Chop the fresh cauliflower into small pieces.\n 2. Boil the fresh cauliflower for about 10 minutes or until tender. Mash with a fork or potato masher, or puree in a food processor with some of the cooking liquid. Season with pepper and minced garlic.\n 3. Heat a grill pan, outdoor grill, or skillet over medium-high. Drizzle the portobello mushroom cap with balsamic vinegar, and place on hot pan. Cover and cook for 5 minutes, then flip and season with pepper, replace cover and cook for another 5-10 minutes, or until the portobello mushroom is tender. (Cooking time may vary, depending on the size of your portobello mushroom.) If you have a panini press or countertop grill, you can use that instead.\n 4. Whisk together tahini and lemon juice, adding a splash of water or balsamic vinegar to thin. Pile mixed greens and cherry tomatoes on a plate and drizzle with the lemon-tahini dressing.\n 5. Serve with mashed cauliflower topped with a dollop of horseradish and portobello 'steaks'. Serves 1"
+    },
+    {
+      "id": 4,
+      "name": "Зеленчуков пай",
+      "preparationTime": "unknown",
+      "likes": 2,
+      "img": "https://trello-attachments.s3.amazonaws.com/583953f9340ebbb0b625db91/335x235/c8b73bf6bd0feb9e32c76076a6da90e3/zelenchukov-pay_437.jpg.png",
+      "ingredients": [
+        {
+          "ingredient": "брашно от лимец",
+          "quantity": 250,
+          "unit": "g"
+        },
+        {
+          "ingredient": "филтрирана вода",
+          "quantity": 0.75,
+          "unit": "waterglass"
+        },
+        {
+          "ingredient": "сода за хляб",
+          "quantity": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "лимонов сок",
+          "quantity": 1,
+          "unit": "to taste"
+        },
+        {
+          "ingredient": "хималайска сол",
+          "quantity": 1,
+          "unit": "to taste"
+        },
+        {
+          "ingredient": "захар мусковадо",
+          "quantity": 1,
+          "unit": "pinch"
+        },
+        {
+          "ingredient": "сминдух",
+          "quantity": 1,
+          "unit": "to taste"
+        },
+        {
+          "ingredient": "карфиол",
+          "quantity": 0.25,
+          "unit": "whole"
+        },
+        {
+          "ingredient": "тофу",
+          "quantity": 150,
+          "unit": "g"
+        },
+        {
+          "ingredient": "брашно от елда",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "хранителна мая",
+          "quantity": 3.5,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "асафетида",
+          "quantity": 1,
+          "unit": "to taste"
+        },
+        {
+          "ingredient": "черен пипер",
+          "quantity": 1,
+          "unit": "to taste"
+        },
+        {
+          "ingredient": "хималайска сол",
+          "quantity": 1,
+          "unit": "to taste"
+        },
+        {
+          "ingredient": "тиквички",
+          "quantity": 2,
+          "unit": "whole"
+        },
+        {
+          "ingredient": "патладжани",
+          "quantity": 2,
+          "unit": "whole"
+        },
+        {
+          "ingredient": "моркови",
+          "quantity": 2,
+          "unit": "whole"
+        }
+      ],
+      "steps": "*[рецепта от VitaRama](http://vitarama.bg/bg/zelenchukov-pai/437/item/)*\n Приготвяне:\n 1. Смесете брашното, солта, захарта и сминдуха. Добавете водата с малко лимонов сок. Замесете твърдо тесто като за пай. Оставете да престои за около половин час.\n 2. Сварете карфиола на пара.\n 3. Разточете тестото на кръг дебелина 3-4 мм с диаметър за формата, в която ще печете заедно с височината на борда. В кръгла силиконова форма или форма с незалепващо покритие поставете разточения лист и оформете борда. Сложете за около 10 минути в предварително загрята до180 градуса фурна. Извадете и оставете да се охлади.\n 4. Блендирайте до хомогенна смес карфиола, тофуто, брашното от елда, хранителната мая, черния пипер, асафетидата и солта.\n 5. Нарежете зеленчуците с помощта на белачка за зеленчуци или ренде на фини и дълги ленти. Започнете да ги навивате на не много стегната спирала като редувате кръг от морков, кръг от тиквичка, кръг от патладжан. Докато се оформи, голяма красива розетка с диаметъра на съда, в който печете пая.\n 6. След това изсипете плънката в твата с тестото. Внимателно преместете розетката от зеленчуци върху плънката и претиснете така, че тя да влезе между слоевете на розетката, но без да излиза над ръба на зеленчуците.\n 7. Печете за около 30 минути в загрята до 180 градуса фурна."
+    },
+    {
+      "id": 5,
+      "name": "Dr. Greger's Luck of The Greens Veggie Bowl",
+      "preparationTime": "unknown",
+      "likes": 5,
+      "img": "https://trello-attachments.s3.amazonaws.com/58cce2345db1f19d0f5e5fae/960x640/fa7dd02aef92c4a3cbe8d14485ad7f62/green_bowl.jpg.png",
+      "ingredients": [
+        {
+          "ingredient": "fresh basil leaves",
+          "quantity": 2,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "walnuts",
+          "quantity": 0.25,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "2 cloves fresh garlic",
+          "quantity": 0.2,
+          "unit": "whole"
+        },
+        {
+          "ingredient": "peeled lemon",
+          "quantity": 0.25,
+          "unit": "whole"
+        },
+        {
+          "ingredient": "lemon zest",
+          "quantity": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "fresh turmeric root or turmeric powder",
+          "quantity": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "pinto beans (canned, salt free)",
+          "quantity": 0.25,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "water or liquid from bean can",
+          "quantity": 0.25,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "pepper",
+          "quantity": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": "Luck of the greens!\n A green veggie bowl with split peas, avocado, brussels sprouts, broccoli, asparagus, green peppers, zucchini, and quinoa. Served on a bed of kale and topped with homemade pesto sauce.\n METHOD:\n Combine all ingredients in a food processor. Blend until smooth.\n Recipe from 'How Not to Die' page 374.\n Image from: Kristina DeMuth\n For more tasty recipe ideas, check out the [NutritionFacts.org Instagram page](https://www.instagram.com/nutrition_facts_org/)"
+    },
+    {
+      "id": 6,
+      "name": "Persian rice",
+      "preparationTime": "unknown",
+      "likes": 3000,
+      "img": "https://trello-attachments.s3.amazonaws.com/57fac75cb1c5e6d1c9572f29/666x374/f8368d0f7fcf8c6d2cfac4dc7e6cb789/persian_rice.jpg",
+      "ingredients": [
+        {
+          "ingredient": "basmati rice",
+          "quantity": 390,
+          "unit": "g"
+        },
+        {
+          "ingredient": "water",
+          "quantity": 3,
+          "unit": "l"
+        },
+        {
+          "ingredient": "salt",
+          "quantity": 3,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "potato, peeled, cut into 0.5-cm slices",
+          "quantity": 1,
+          "unit": "whole"
+        },
+        {
+          "ingredient": "ground cumin",
+          "quantity": 1,
+          "unit": "pinch"
+        },
+        {
+          "ingredient": "saffron",
+          "quantity": 1,
+          "unit": "pinch"
+        },
+        {
+          "ingredient": "margarine",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "cooking oil",
+          "quantity": 1,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": "#*Persian rice*#\n -----------------\n *Persian-inspired recipe from [Food Wishes on YouTube](https://youtu.be/OuPABfgsa4g)*\n -----------------\n 1. Bring salted water to a boil\n 2. Prep rice - rinse extra starch off\n 3. Add rice to boiling water and cook for 7 minutes\n 4. Stir from time to time\n 5. After 7 minutes are up drain rice in colander, but do not rinse\n 6. Put medium pot on medium to high heat, add table spoon of oil\n 7. Cover bottom of pot with potato slices\n 8. Salt lightly and sprinkle ground cumin/cumin seeds on top of potato layer\n 9. Add the rice gently. Fluff it up and do not pack it - make sure it has lots of air so it can steam properly\n 10. Turn heat down to low\n 11. Add margarine on top of rice\n 12. Cover with paper towel and put lid on top of the pot\n 13. Steam on low heat for 45 minutes. Keep covered at all times\n 14. Crush a pinch of saffron in mortar for coloring - add a splash of hot water\n 15. Take rice off heat and take the lid off\n 16. Add several spoonfuls of rice to the saffron \"dye\" and mix well to get yellow rice\n 17. Serve rice on plate - white rice on the bottom, heap of yellow rice on top, potato slices surrounding the base of the heap"
+    },
+    {
+      "id": 7,
+      "name": "Постен пататник",
+      "preparationTime": "unknown",
+      "likes": 50,
+      "img": "https://trello-attachments.s3.amazonaws.com/5800a285ac8563dc9d281b17/666x500/4ba07fe648f5cd4b1098973a7860ce5c/patatnik.jpg",
+      "ingredients": [
+        {
+          "ingredient": "картофи",
+          "quantity": 1,
+          "unit": "kg"
+        },
+        {
+          "ingredient": "кромид лук",
+          "quantity": 2,
+          "unit": "whole"
+        },
+        {
+          "ingredient": "джоджен",
+          "quantity": 1,
+          "unit": "to taste"
+        },
+        {
+          "ingredient": "сол",
+          "quantity": 1,
+          "unit": "to taste"
+        },
+        {
+          "ingredient": "олио",
+          "quantity": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": "1. Суровите картофи се обелват и се настъргват на едро ренде.\n 2. След това се настъргва и лукът.\n 3. Добавя се сол и джоджен на вкус. Разбъркват се и се оставят 15 минути да престоят.\n 4. В широк тиган се сипва олио и се слага сместа да се пържи под похлупак.\n 5. Когато отдолу стане златисто се обръща върху капака, връща се в тигана и се изпържва от другата страна.\n 6. За по-лесно може да се сложи в намазана с олио тава и да се изпече във фурната."
+    },
+    {
+      "id": 8,
+      "name": "English Apple Pie",
+      "preparationTime": "unknown",
+      "likes": 42,
+      "img": "https://trello-attachments.s3.amazonaws.com/57f438a7c34db6ed75bd4ff6/1000x563/c7f31debb3ff7502ddfffddb792eed65/apple_pie.jpg",
+      "ingredients": [
+        {
+          "ingredient": "apples",
+          "quantity": 4,
+          "unit": "whole"
+        },
+        {
+          "ingredient": "pastry",
+          "quantity": 500,
+          "unit": "g"
+        },
+        {
+          "ingredient": "raisins",
+          "quantity": 4,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "sugar",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "cinnamon",
+          "quantity": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "nutmeg",
+          "quantity": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "lemon juice",
+          "quantity": 0.5,
+          "unit": "whole"
+        },
+        {
+          "ingredient": "lemon's rind - grated",
+          "quantity": 0.5,
+          "unit": "whole"
+        }
+      ],
+      "steps": "#*English Apple Pie*#\n -----------------\n *Traditional English recipe from [Titli's Busy Kitchen](https://youtu.be/DkHQcXLVSUU)*\n -----------------\n 1. Peel the apples\n 2. Core them\n 3. Slice them into thin circles\n 4. Add the apples in a big bowl\n 5. Add the rest of the ingredients\n 6. Mix well\n 7. Layer first half of pastry in round tin\n 8. Add filling\n 9. Cover with second half of pastry\n 10. Use a fork to seal pastry's edges - crimping\n 11. Trim excess edges\n 12. Brush with lemon juice\n 13. Sprinkle caster sugar on top\n 14. Bake in a pre-heated over at 200 deg C for 15 minutes\n 15. Reduce heat to 170 deg C and bake for another 20 minutes\n 16. Turn the heat off, let pie cool off and enjoy"
     }
   ]
 }
