@@ -1,0 +1,96 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Margherita Pizza",
+      "preparationTime": 45,
+      "likes": 11,
+      "img": "https://www.google.bg/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwibgoCAz7jTAhUF1xoKHciICA8QjRwIBw&url=http%3A%2F%2Fwww.cbc.ca%2Finthekitchen%2F2012%2F11%2Fclassic-margherita-pizza.html&psig=AFQjCNEymQcQIAQfW4Nmlobp5QdvxKAsUg&ust=1492969516756521",
+      "ingredients": [
+        {
+          "ingredient": "homemade pizza crust",
+          "quantity": 0.5
+        },
+        {
+          "ingredient": "olive oil",
+          "quantity": 0.25
+        },
+        {
+          "ingredient": "roasted garlic",
+          "quantity": 2
+        },
+        {
+          "ingredient": "tomato sauce",
+          "quantity": 7
+        },
+        {
+          "ingredient": "mozzarella cheese",
+          "quantity": 8
+        },
+        {
+          "ingredient": "tomaoes",
+          "quantity": 2
+        },
+        {
+          "ingredient": "basil",
+          "quantity": 0.1
+        },
+        {
+          "ingredient": "pepper",
+          "quantity": 1
+        }
+      ],
+      "steps": "Prepare the pizza dough through step 11, including preheating the oven to 475F as described in step 8.Mix the olive oil and chopped garlic together in a small dish. After waiting 15 minutes as described in step 11, spread olive oil/garlic mixture on top of crust. Top with pizza sauce, then the mozzarella cheese slices, then the tomato slices. Bake for 14-16 minutes or until the crust is lightly browned and the cheese is bubbling. For the last minute, I move the oven rack to the top rack to really brown the edges. That's optional. Remove from the oven and top with fresh basil and pepper. Slice pizza and serve immediately. Store leftover pizza covered tightly in the refrigerator and reheat as you prefer. Baked pizza slices may be frozen up to 1 month. Please see homemade pizza crust recipe for how to make ahead and freeze the pizza dough."
+    },
+    {
+      "id": 2,
+      "name": "Spaghetti Carbonara",
+      "preparationTime": 40,
+      "likes": 28,
+      "img": "https://www.google.bg/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwib0-Gp0LjTAhXErxoKHQzhChAQjRwIBw&url=https%3A%2F%2Frecipes.sparkpeople.com%2Frecipe-detail.asp%3Frecipe%3D803184&psig=AFQjCNGRHA_PcHO7j0hekac97rceuVGY0w&ust=1492969869490124",
+      "ingredients": [
+        {
+          "ingredient": "spaghetti",
+          "quantity": 0.5
+        },
+        {
+          "ingredient": "olive oil",
+          "quantity": 0.25
+        },
+        {
+          "ingredient": "bacon",
+          "quantity": 125
+        },
+        {
+          "ingredient": "onion",
+          "quantity": 1
+        },
+        {
+          "ingredient": "garlic",
+          "quantity": 1
+        },
+        {
+          "ingredient": "white wine",
+          "quantity": 0.25
+        },
+        {
+          "ingredient": "eggs",
+          "quantity": 4
+        },
+        {
+          "ingredient": "parmesan cheese",
+          "quantity": 0.2
+        },
+        {
+          "ingredient": "salt",
+          "quantity": 15
+        },
+        {
+          "ingredient": "parsley",
+          "quantity": 2
+        }
+      ],
+      "steps": "In a large pot of boiling salted water, cook spaghetti pasta until al dente. Drain well. Toss with 1 tablespoon of olive oil, and set aside. Meanwhile in a large skillet, cook chopped bacon until slightly crisp; remove and drain onto paper towels. Reserve 2 tablespoons of bacon fat; add remaining 1 tablespoon olive oil, and heat in reused large skillet. Add chopped onion, and cook over medium heat until onion is translucent. Add minced garlic, and cook 1 minute more. Add wine if desired; cook one more minute. Return cooked bacon to pan; add cooked and drained spaghetti. Toss to coat and heat through, adding more olive oil if it seems dry or is sticking together. Add beaten eggs and cook, tossing constantly with tongs or large fork until eggs are barely set. Quickly add 1/2 cup Parmesan cheese, and toss again. Add salt and pepper to taste (remember that bacon and Parmesan are very salty). Serve immediately with chopped parsley sprinkled on top, and extra Parmesan cheese at table."
+    }
+  ]
+}

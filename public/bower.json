@@ -1,0 +1,22 @@
+{
+  "name": "public",
+  "authors": [
+    "Yoana Georgieva <yo.ana.georgieva@abv.bg>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "navigo": "^4.7.0",
+    "jquery": "^3.2.1",
+    "handlebars": "^4.0.5"
+  }
+}
