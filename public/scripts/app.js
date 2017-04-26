@@ -5,6 +5,7 @@ router
    .on('/popular', controllers.popular)
    .on('/recipes/:id', controllers.details)
    .on('/create', controllers.create)
+   .on('/users/register', usersControllers.register)
    .on('/home',()=>{
    })
     .on(() => {

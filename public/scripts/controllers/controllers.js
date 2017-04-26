@@ -46,7 +46,6 @@ let controllers = {
         requester.getJSON(`/api/recipes/details/${id}`)
             .then((data) => {
                 recipe = data.result;
-                console.log(recipe);
                 return templates.get("singleRecipe");
             })
             .then((template) => {
@@ -71,6 +70,4 @@ let controllers = {
                 })
             })
     }
-
-
 };
