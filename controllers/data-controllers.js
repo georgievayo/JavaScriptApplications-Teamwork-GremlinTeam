@@ -1,19 +1,20 @@
-let dataControllers = {
-    getRecent: function (db) {
+module.exports = (db) => {
+    return {
+    getRecent: (req, res) => {
         let recipes = db.get('recipes').value();
         recipes.sort((a, b) => a.id > b.id ? 0 : 1);
         const recent = recipes.slice(0, 9);
-        return recent;
+        res.send({result: recent});
     },
-    getMostPopular: function (db) {
+    getMostPopular: (req, res) => {
         let recipes = db.get('recipes').value();
         recipes.sort((a, b) => a.likes > b.likes ? 0 : 1);
         const popular = recipes.slice(0, 9);
-        return popular;
+        res.send({result: popular});
     },
-    getAllRecipes: function (db) {
+    getAllRecipes: (req, res) =>{
         let recipes = db.get('recipes').value();
-        return recipes;
+        res.send({result: recipes});
+    }
     }
 };
-module.exports = dataControllers;

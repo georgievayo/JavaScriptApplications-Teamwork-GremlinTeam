@@ -1,28 +1,17 @@
 const express = require("express");
 const lowdb = require("lowdb");
+let db = lowdb('./data/data.json');
 const bodyParser = require('body-parser');
-const dataControllers = require('./controllers/data-controllers');
+const dataControllers = require('./controllers/data-controllers')(db);
 const keyGenerator = require('./Utils/auth-key-generator');
 
 let app = express();
-let db = lowdb('./data/data.json');
 app.use(express.static('public'));
-
 app.use(bodyParser.json());
-app.get("/api/recent", (req, res) => {
-    let recent = dataControllers.getRecent(db);
-    res.send({ result: recent });
-});
 
-app.get("/api/popular", (req, res) => {
-    let popular = dataControllers.getMostPopular(db);
-    res.send({ result: popular });
-});
-
-app.get("/api/recipes", (req, res) => {
-    let recipes = dataControllers.getAllRecipes(db);
-    res.send({ result: recipes });
-});
+app.get("/api/recent", dataControllers.getRecent);
+app.get("/api/popular", dataControllers.getMostPopular);
+app.get("/api/recipes", dataControllers.getAllRecipes);
 
 app.get("/api/recipes/details/:id", (req, res) => {
     let recipe = db.get("recipes")
