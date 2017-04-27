@@ -18,5 +18,17 @@ let usersControllers = {
                         });
                 });
             });
+    },
+    all: function () {
+        requester.getJSON("/api/users")
+            .then((data) => {
+                let users = data.result;
+                return templates.get("allUsers")
+            })
+            .then((template) => {
+                let templateFunc = handlebars.compile(template);
+                let html = templateFunc();
+                $("#main").html(html);
+            })
     }
 };
