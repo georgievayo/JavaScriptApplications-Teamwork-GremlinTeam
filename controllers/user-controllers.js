@@ -1,3 +1,5 @@
+const keyGenerator = require("../Utils/auth-key-generator");
+
 module.exports = (db) => {
     return {
         getUsers: (req, res) => {
@@ -26,5 +28,28 @@ module.exports = (db) => {
                     result: user
                 });
         },
+        login: (req, res) => {
+            var user = req.body.data;
+            console.log(user);
+            var dbUser = db.get("users").find({
+                usernameLower: user.username.toLowerCase()
+            }).value();
+            console.log(dbUser);
+
+            if (dbUser.data.passHash !== user.passHash) {
+                res.status(404)
+                    .json("Username or password is invalid");
+            }
+            else {
+                console.log("true");
+                res.status(200)
+                    .send({
+                        result: {
+                            username: dbUser.username,
+                            authKey: dbUser.authKey
+                        }
+                    });
+            }
+        }
     }
 };

@@ -1,10 +1,11 @@
 let usersControllers = {
-    register: function (context) {
+    register: function () {
         templates.get("register")
             .then((template) => {
                 let templateFunc = handlebars.compile(template);
                 let html = templateFunc();
                 $("#main").html(html);
+
                 $("#btn-register").on("click", (ev) => {
                     let user = {
                         username: $("#tb-username").val(),
@@ -12,9 +13,25 @@ let usersControllers = {
                     };
                     dataService.register(user)
                         .then(function () {
-                            toastr.success('User registered!');
-                            context.redirect('#/');
-                            document.location.reload(true);
+                            window.location.replace('#/home');
+                        });
+                });
+            });
+    },
+    login: function () {
+        templates.get("login")
+            .then((template) => {
+                let templateFunc = handlebars.compile(template);
+                let html = templateFunc();
+                $("#main").html(html);
+                $("#btn-login").on("click", (ev) => {
+                    let user = {
+                        username: $("#tb-username").val(),
+                        password: $("#tb-pass").val()
+                    };
+                    dataService.login(user)
+                        .then((res) => {
+                            window.location.replace('#/home');
                         });
                 });
             });
@@ -30,5 +47,5 @@ let usersControllers = {
                 let html = templateFunc();
                 $("#main").html(html);
             })
-    }
+    },
 };

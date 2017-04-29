@@ -19,6 +19,8 @@ app.get("/api/users", userControllers.getUsers);
 app.post("/api/users/register", userControllers.register);
 app.post("/api/recipes", dataControllers.postRecipe);
 
+app.put("/api/users/login", userControllers.login);
+
 app.listen(3000, () => {
     console.log("App is running on localhost:3000");
 });

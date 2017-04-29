@@ -458,10 +458,6 @@
   ],
   "users": [
     {
-      "username": "gosho",
-      "password": 158596
-    },
-    {
       "data": {
         "username": "sammy",
         "passHash": "dc164909990ec32a43f9f7f46bb9585da6b36001"
@@ -484,6 +480,14 @@
       },
       "usernameLower": "gwrgs",
       "authKey": "undefinedxfv%*tVd_B^b#rHZzgfO$$JKVsWyKTvarsb^rwxTW%ZtZYgzQNT"
+    },
+    {
+      "data": {
+        "username": "Yoana",
+        "passHash": "ba80289edfa24b5674abb5a47bf487526a633f40"
+      },
+      "usernameLower": "yoana",
+      "authKey": "undefinedYkI_WvBv-OdAnHR^qWEU#G&%M(t!=o!(&wLApIMoSRRJfawZBi("
     }
   ]
 }
