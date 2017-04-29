@@ -1,5 +1,5 @@
-let requester = {
-    get: (url) => {
+let requester = (function () {
+    function get(url) {
         let promise = new Promise((resolve, reject) => {
             $.ajax({
                 url,
@@ -11,8 +11,9 @@ let requester = {
         });
 
         return promise;
-    },
-    putJSON: (url, body, options = {}) => {
+    }
+
+    function putJSON(url, body, options = {}) {
         let promise = new Promise((resolve, reject) => {
             var headers = options.headers || {};
             $.ajax({
@@ -27,8 +28,9 @@ let requester = {
             });
         });
         return promise;
-    },
-    postJSON: (url, body, options = {}) => {
+    }
+
+    function postJSON(url, body, options = {}) {
         let promise = new Promise((resolve, reject) => {
             var headers = options.headers || {};
 
@@ -44,8 +46,9 @@ let requester = {
             });
         });
         return promise;
-    },
-    getJSON: (url) => {
+    }
+
+    function getJSON(url) {
         let promise = new Promise((resolve, reject) => {
             $.ajax({
                 url,
@@ -58,4 +61,11 @@ let requester = {
         });
         return promise;
     }
-};
+
+    return {
+        get: get,
+        putJSON: putJSON,
+        postJSON: postJSON,
+        getJSON: getJSON
+    };
+}());

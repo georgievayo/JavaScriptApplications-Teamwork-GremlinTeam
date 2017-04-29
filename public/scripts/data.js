@@ -1,11 +1,12 @@
-const LOCAL_STORAGE_USERNAME_KEY = 'signed-in-user-username',
-    LOCAL_STORAGE_AUTHKEY_KEY = 'signed-in-user-auth-key';
+let dataService = (function () {
+    const LOCAL_STORAGE_USERNAME_KEY = 'signed-in-user-username',
+        LOCAL_STORAGE_AUTHKEY_KEY = 'signed-in-user-auth-key';
 
-let dataService = {
-    create(recipe) {
+
+    function create(recipe) {
         return requester.postJSON("/api/recipes", recipe);
-    },
-    register(user) {
+    }
+    function register(user) {
         let reqUser = {
             username: user.username,
             passHash: CryptoJS.SHA1(user.username + user.password).toString()
@@ -23,4 +24,9 @@ let dataService = {
                 };
             })
     }
-};
+
+    return {
+        create: create,
+        register: register
+    }
+}());
