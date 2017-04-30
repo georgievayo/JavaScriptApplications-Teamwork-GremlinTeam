@@ -31,10 +31,17 @@ let usersControllers = {
                     };
                     dataService.login(user)
                         .then((res) => {
-                            window.location.replace('#/home');
+                            alert("You have been logged in!");
+                            window.location = '#/home';
+                            $("#login-form").remove();
+                            $("#login").hide();
+                            $("#logout").show();
                         });
                 });
             });
+    },
+    logout: function(){
+        dataService.logout();
     },
     all: function () {
         requester.getJSON("/api/users")

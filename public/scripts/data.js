@@ -39,9 +39,25 @@ let dataService = (function () {
             });
     };
 
+    function logout() {
+        return Promise.resolve()
+            .then(() => {
+                sessionStorage.removeItem("username");
+                sessionStorage.removeItem("authKey");
+            });
+    }
+
+    function hasLoggedUser(){
+        return Promise.resolve()
+        .then(() => {
+            return !!sessionStorage.getItem(SESSION_STORAGE_USERNAME_KEY);
+        });
+    }
+
     return {
         create,
         register,
-        login
+        login,
+        logout
     };
 }());

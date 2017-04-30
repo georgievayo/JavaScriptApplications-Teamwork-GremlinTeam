@@ -30,22 +30,19 @@ module.exports = (db) => {
         },
         login: (req, res) => {
             var user = req.body.data;
-            console.log(user);
             var dbUser = db.get("users").find({
                 usernameLower: user.username.toLowerCase()
             }).value();
-            console.log(dbUser);
-
+            
             if (dbUser.data.passHash !== user.passHash) {
                 res.status(404)
                     .json("Username or password is invalid");
             }
             else {
-                console.log("true");
                 res.status(200)
                     .send({
                         result: {
-                            username: dbUser.username,
+                            username: dbUser.data.username,
                             authKey: dbUser.authKey
                         }
                     });

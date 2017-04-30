@@ -26,12 +26,15 @@
                 <a href="#" class="menu-link">About</a>
             </li>
             <li class="menu-item-right">
-                <a href="#/users/login" class="menu-link">Log in</a>
+                <a href="#/users/login" class="menu-link" id="login">Log in</a>
+            </li>
+            <li id="logout">
+                <a href="#/home" class="menu-link">Log out</a>
             </li>
         </ul>
         <img alt="logo" class="menu-link" id="logo" src="imgs/logo-text.png">
-
     </nav>
+
     <div id="main" class="container">
         <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
         </fb:login-button>

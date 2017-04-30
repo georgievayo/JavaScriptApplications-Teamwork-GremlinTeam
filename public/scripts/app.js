@@ -14,3 +14,12 @@ router
         router.navigate("#/home");
     })
     .resolve();
+
+    $("#logout").hide();
+    
+    $("#logout").on("click", (ev) => {
+        usersControllers.logout();
+        alert("You have been logged out!");
+        $("#logout").hide();
+        $("#login").show();        
+    });
