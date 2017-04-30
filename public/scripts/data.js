@@ -1,6 +1,6 @@
 let dataService = (function () {
-    const LOCAL_STORAGE_USERNAME_KEY = 'signed-in-user-username',
-        LOCAL_STORAGE_AUTHKEY_KEY = 'signed-in-user-auth-key';
+    const SESSION_STORAGE_USERNAME_KEY = 'signed-in-user-username',
+        SESSION_STORAGE_AUTHKEY_KEY = 'signed-in-user-auth-key';
 
     function create(recipe) {
         return requester.postJSON("/api/recipes", recipe);
@@ -17,8 +17,8 @@ let dataService = (function () {
         })
             .then(function (res) {
                 let user = res.result;
-                localStorage.setItem(LOCAL_STORAGE_USERNAME_KEY, user.username);
-                localStorage.setItem(LOCAL_STORAGE_AUTHKEY_KEY, user.authKey);
+                sessionStorage.setItem(SESSION_STORAGE_USERNAME_KEY, user.username);
+                sessionStorage.setItem(SESSION_STORAGE_AUTHKEY_KEY, user.authKey);
                 return {
                     username: res.result.username
                 };
@@ -33,8 +33,8 @@ let dataService = (function () {
         return requester.putJSON("/api/users/login", { data: reqUser })
             .then((res) => {
                 let user = res.result;
-                localStorage.setItem(LOCAL_STORAGE_USERNAME_KEY, user.username);
-                localStorage.setItem(LOCAL_STORAGE_AUTHKEY_KEY, user.authKey);
+                sessionStorage.setItem(SESSION_STORAGE_USERNAME_KEY, user.username);
+                sessionStorage.setItem(SESSION_STORAGE_AUTHKEY_KEY, user.authKey);
                 return user;
             });
     };

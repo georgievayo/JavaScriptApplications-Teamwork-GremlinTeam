@@ -32,12 +32,21 @@
         <img alt="logo" class="menu-link" id="logo" src="imgs/logo-text.png">
 
     </nav>
-    <div id="main">
+    <div id="main" class="container">
+        <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+        </fb:login-button>
     </div>
-    <script src="./bower_components/jquery/dist/jquery.js"></script>
-    <script src="./bower_components/handlebars/handlebars.js"></script>
-    <script src="./bower_components/navigo/lib/navigo.js"></script>
-    <script src="./bower_components/crypto-js/crypto-js.js"></script>
+
+    <script src="./scripts/fb-login-loader.js">     
+    </script>
+    <script src="./bower_components/jquery/dist/jquery.js">
+    </script>
+    <script src="./bower_components/handlebars/handlebars.js">
+    </script>
+    <script src="./bower_components/navigo/lib/navigo.js">
+    </script>
+    <script src="./bower_components/crypto-js/crypto-js.js">
+    </script>
     <script src="./scripts/requester.js">
     </script>
     <script src="./scripts/templater.js">
@@ -48,7 +57,8 @@
     </script>
     <script src="./scripts/controllers/usersControllers.js">
     </script>
-    <script src="./scripts/app.js"></script>
+    <script src="./scripts/app.js">
+    </script>
 </body>
 
 </html>
