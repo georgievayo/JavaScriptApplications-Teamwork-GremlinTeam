@@ -1,6 +1,11 @@
 var handlebars = handlebars || Handlebars;
+const $navButtons = $("#nav-buttons").children();
+const $recentButton = $('#nav-recent');
+const $popularButton = $('#nav-popular');
+const $allButton = $('#nav-all');
+const $aboutButton = $('#nav-about');
 
-let controllers = {
+let controllers = {	
     all: function () {
         let recipes = [];
         requester.getJSON("/api/recipes")
@@ -12,7 +17,8 @@ let controllers = {
                 let templateFunc = handlebars.compile(template);
                 let html = templateFunc(recipes);
                 $("#main").html(html);
-
+				$navButtons.removeClass();
+				$allButton.addClass('active');
             })
     },
     recent: function(){
@@ -25,6 +31,8 @@ let controllers = {
                 let templateFunc = handlebars.compile(template);
                 let html = templateFunc(recipes);
                 $("#main").html(html);
+				$navButtons.removeClass();
+				$recentButton.addClass('active');
             })
     },
     popular: function(){
@@ -37,6 +45,8 @@ let controllers = {
                 let templateFunc = handlebars.compile(template);
                 let html = templateFunc(recipes);
                 $("#main").html(html);
+				$navButtons.removeClass();
+				$popularButton.addClass('active');
             })
     },
     details: function (params) {

@@ -43,10 +43,6 @@
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#61ffffff', endColorstr='#9ef6f6f6',GradientType=0 );
 }
 
-.navbar-brand > img {
-	width: 24px;
-}
-
 body {
     background-image: url("../imgs/pizza.jpg");
     background-size: 140%;
