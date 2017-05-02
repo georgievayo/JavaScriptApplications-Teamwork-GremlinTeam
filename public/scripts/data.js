@@ -3,13 +3,7 @@ let dataService = (function () {
         SESSION_STORAGE_AUTHKEY_KEY = 'signed-in-user-auth-key';
 
     function create(recipe) {
-        var options = {
-            data: recipe,
-            headers: {
-                'x-auth-key': sessionStorage.getItem(SESSION_STORAGE_AUTHKEY_KEY)
-            }
-        };
-        return requester.postJSON("/api/recipes", options);
+        return requester.postJSON("/api/recipes", recipe);
     };
 
     function register(user) {
@@ -38,10 +32,6 @@ let dataService = (function () {
         };
         return requester.putJSON("/api/users/login", { data: reqUser })
             .then((res) => {
-                if(res === "Username or password is invalid"){
-                    return null;
-                }
-            
                 let user = res.result;
                 sessionStorage.setItem(SESSION_STORAGE_USERNAME_KEY, user.username);
                 sessionStorage.setItem(SESSION_STORAGE_AUTHKEY_KEY, user.authKey);
@@ -52,24 +42,22 @@ let dataService = (function () {
     function logout() {
         return Promise.resolve()
             .then(() => {
-                sessionStorage.removeItem("signed-in-user-username");
-                sessionStorage.removeItem("signed-in-user-auth-key");
-                console.log(sessionStorage);
+                sessionStorage.removeItem("username");
+                sessionStorage.removeItem("authKey");
             });
     }
 
-    function hasLoggedUser() {
+    function hasLoggedUser(){
         return Promise.resolve()
-            .then(() => {
-                return !!sessionStorage.getItem(SESSION_STORAGE_USERNAME_KEY);
-            });
+        .then(() => {
+            return !!sessionStorage.getItem(SESSION_STORAGE_USERNAME_KEY);
+        });
     }
 
     return {
         create,
         register,
         login,
-        logout,
-        hasLoggedUser
+        logout
     };
 }());

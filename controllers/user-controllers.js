@@ -33,10 +33,10 @@ module.exports = (db) => {
             var dbUser = db.get("users").find({
                 usernameLower: user.username.toLowerCase()
             }).value();
-
-            if (!dbUser || dbUser.data.passHash !== user.passHash) {
-                res.send("Username or password is invalid")
-                .status(404);
+            
+            if (dbUser.data.passHash !== user.passHash) {
+                res.status(404)
+                    .json("Username or password is invalid");
             }
             else {
                 res.status(200)

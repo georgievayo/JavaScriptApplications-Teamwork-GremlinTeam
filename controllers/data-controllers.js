@@ -1,5 +1,3 @@
-const idGenerator = require('../Utils/id-generator.js')();
-
 module.exports = (db) => {
     return {
         getRecent: (req, res) => {
@@ -25,14 +23,7 @@ module.exports = (db) => {
             res.send({ result: recipe });
         },
         postRecipe: (req, res) => {
-            var user = req.user;
-            if (!user) {
-                res.status(401)
-                    .json('Not authorized User');
-                return;
-            }
             let newRecipe = req.body;
-            newRecipe.id = idGenerator();
             db.get('recipes')
                 .push(newRecipe)
                 .write();
