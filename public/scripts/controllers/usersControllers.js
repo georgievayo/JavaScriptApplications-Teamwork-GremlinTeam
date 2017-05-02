@@ -31,16 +31,21 @@ let usersControllers = {
                     };
                     dataService.login(user)
                         .then((res) => {
-                            alert("You have been logged in!");
-                            window.location = '#/home';
-                            $("#login-form").remove();
-                            $("#login").hide();
-                            $("#logout").show();
+                            // if user was not logged in
+                            if(res === null){
+                                alert("Username or password is invallid!");
+                                return;
+                            }                           
+                                alert("You have been logged in!");
+                                window.location = '#/home';
+                                $("#login-form").remove();
+                                $("#login").hide();
+                                $("#logout").show();
                         });
                 });
             });
     },
-    logout: function(){
+    logout: function () {
         dataService.logout();
     },
     all: function () {
