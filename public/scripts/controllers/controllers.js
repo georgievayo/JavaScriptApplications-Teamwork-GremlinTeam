@@ -93,5 +93,13 @@ let controllers = {
                         })
                 })
             })
+    },
+    about: function(){
+        templates.get("about")
+        .then((template) => {
+            let templateFunc = handlebars.compile(template);
+            let html = templateFunc();
+            $("#main").html(html);
+        })
     }
 };

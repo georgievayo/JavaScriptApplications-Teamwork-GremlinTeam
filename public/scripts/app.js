@@ -8,6 +8,7 @@ router
     .on('/users', usersControllers.all)
     .on('/users/register', usersControllers.register)
     .on('/users/login', usersControllers.login)
+    .on('/about', controllers.about)
     .on('/home', () => {
     })
     .on(() => {
