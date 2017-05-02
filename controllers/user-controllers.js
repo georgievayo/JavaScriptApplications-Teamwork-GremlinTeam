@@ -29,8 +29,8 @@ module.exports = (db) => {
                 });
         },
         login: (req, res) => {
-            var user = req.body.data;
-            var dbUser = db.get("users").find({
+            let user = req.body.data;
+            let dbUser = db.get("users").find({
                 usernameLower: user.username.toLowerCase()
             }).value();
 
@@ -39,14 +39,27 @@ module.exports = (db) => {
                 .status(404);
             }
             else {
+                let id = idGenerator();
+                let authKey = keyGenerator.generate(id);
+                console.log(authKey);
+                db.get("currentUser")
+                .push(authKey)
+                .write();
+
                 res.status(200)
                     .send({
                         result: {
                             username: dbUser.data.username,
-                            authKey: keyGenerator.generate(idGenerator())
+                            authKey: authKey
                         }
                     });
             }
+        },
+        logout: (req, res) => {
+            db.get("currentUser")
+                .pop()
+                .write();
+                res.status(200);
         }
     }
 };

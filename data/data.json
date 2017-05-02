@@ -464,6 +464,14 @@
       },
       "usernameLower": "yoana",
       "authKey": "undefinedYkI_WvBv-OdAnHR^qWEU#G&%M(t!=o!(&wLApIMoSRRJfawZBi("
+    },
+    {
+      "data": {
+        "username": "mama",
+        "passHash": "4c5999e84c62d051536864e6e6643b7258942e70"
+      },
+      "usernameLower": "mama"
     }
-  ]
+  ],
+  "currentUser": []
 }

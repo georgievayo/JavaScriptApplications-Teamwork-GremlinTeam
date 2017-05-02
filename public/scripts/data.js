@@ -20,15 +20,7 @@ let dataService = (function () {
 
         return requester.postJSON("/api/users/register", {
             data: reqUser
-        })
-            .then(function (res) {
-                let user = res.result;
-                sessionStorage.setItem(SESSION_STORAGE_USERNAME_KEY, user.username);
-                sessionStorage.setItem(SESSION_STORAGE_AUTHKEY_KEY, user.authKey);
-                return {
-                    username: res.result.username
-                };
-            })
+        });
     };
 
     function login(user) {
@@ -38,10 +30,10 @@ let dataService = (function () {
         };
         return requester.putJSON("/api/users/login", { data: reqUser })
             .then((res) => {
-                if(res === "Username or password is invalid"){
+                if (res === "Username or password is invalid") {
                     return null;
                 }
-            
+
                 let user = res.result;
                 sessionStorage.setItem(SESSION_STORAGE_USERNAME_KEY, user.username);
                 sessionStorage.setItem(SESSION_STORAGE_AUTHKEY_KEY, user.authKey);
@@ -50,12 +42,9 @@ let dataService = (function () {
     };
 
     function logout() {
-        return Promise.resolve()
-            .then(() => {
-                sessionStorage.removeItem("signed-in-user-username");
-                sessionStorage.removeItem("signed-in-user-auth-key");
-                console.log(sessionStorage);
-            });
+        requester.postJSON("/api/users/logout");
+        sessionStorage.removeItem("signed-in-user-username");
+        sessionStorage.removeItem("signed-in-user-auth-key");
     }
 
     function hasLoggedUser() {

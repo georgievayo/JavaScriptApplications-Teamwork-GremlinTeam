@@ -13,7 +13,7 @@ let usersControllers = {
                     };
                     dataService.register(user)
                         .then(function () {
-                            window.location.replace('#/home');
+                            window.location = '#/home';
                         });
                 });
             });
@@ -32,21 +32,28 @@ let usersControllers = {
                     dataService.login(user)
                         .then((res) => {
                             // if user was not logged in
-                            if(res === null){
+                            if (res === null) {
                                 alert("Username or password is invallid!");
                                 return;
-                            }                           
-                                alert("You have been logged in!");
-                                window.location = '#/home';
-                                $("#login-form").remove();
-                                $("#login").hide();
-                                $("#logout").show();
+                            }
+                            alert("You have been logged in!");
+                            window.location = '#/home';
+                            $("#login-form").remove();
+                            $("#login").hide();
+                            $("#logout").show();
                         });
                 });
             });
     },
     logout: function () {
         dataService.logout();
+        console.log("here");
+        alert("You have been logged out!");
+        window.location = '#/home';
+
+        $("#logout").hide();
+        $("#login").show();
+
     },
     all: function () {
         requester.getJSON("/api/users")
