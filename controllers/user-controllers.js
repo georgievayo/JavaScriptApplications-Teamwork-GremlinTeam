@@ -1,4 +1,5 @@
 const keyGenerator = require("../Utils/auth-key-generator");
+const idGenerator = require("../Utils/id-generator");
 
 module.exports = (db) => {
     return {
@@ -10,7 +11,6 @@ module.exports = (db) => {
         register: (req, res) => {
             var user = req.body;
             user.usernameLower = user.data.username.toLowerCase();
-            user.authKey = keyGenerator.generate(user.id);
             let foundUser = db.get('users').find({
                 usernameLower: user.data.username.toLowerCase()
             }).value();
@@ -43,7 +43,7 @@ module.exports = (db) => {
                     .send({
                         result: {
                             username: dbUser.data.username,
-                            authKey: dbUser.authKey
+                            authKey: keyGenerator.generate(idGenerator())
                         }
                     });
             }
