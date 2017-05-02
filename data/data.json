@@ -459,30 +459,6 @@
   "users": [
     {
       "data": {
-        "username": "sammy",
-        "passHash": "dc164909990ec32a43f9f7f46bb9585da6b36001"
-      },
-      "usernameLower": "sammy",
-      "authKey": "undefinedrt$Lj*bPI(cFBlHsjAv_lRyw%AmmU@menTjXLfGNKIzmfg@eFYt"
-    },
-    {
-      "data": {
-        "username": "angular",
-        "passHash": "d6ef35f8e03e6d2cc4ce3be711dae490b7b4872a"
-      },
-      "usernameLower": "angular",
-      "authKey": "undefinedP=VdyQ#qWshegkCG-MakXJT(HkOYQ*!qSfir-ToC$p_YoMdibsK"
-    },
-    {
-      "data": {
-        "username": "gwrgs",
-        "passHash": "1383357f249e747c3d0df35a0b6baf888a6c7b13"
-      },
-      "usernameLower": "gwrgs",
-      "authKey": "undefinedxfv%*tVd_B^b#rHZzgfO$$JKVsWyKTvarsb^rwxTW%ZtZYgzQNT"
-    },
-    {
-      "data": {
         "username": "Yoana",
         "passHash": "ba80289edfa24b5674abb5a47bf487526a633f40"
       },

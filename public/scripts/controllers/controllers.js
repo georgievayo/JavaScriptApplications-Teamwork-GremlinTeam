@@ -58,7 +58,6 @@ let controllers = {
                 recipe = data.result;
                 dataService.hasLoggedUser()
                     .then((hasUser) => {
-                        console.log(hasUser);
                         if (hasUser) {
                             return templates.get("singleRecipeLoggedUser");
                         }
@@ -67,7 +66,6 @@ let controllers = {
                         }
                     })
                     .then((template) => {
-                        console.log(template);
                         let templateFunc = handlebars.compile(template);
                         let html = templateFunc(recipe);
                         $("#main").html(html);
@@ -76,30 +74,47 @@ let controllers = {
             ;
     },
     create: function () {
-        templates.get("createRecipe")
+        dataService.hasLoggedUser()
+            .then((hasUser) => {
+                if (hasUser) {
+                    templates.get("createRecipe")
+                        .then((template) => {
+                            let templateFunc = handlebars.compile(template);
+                            let html = templateFunc();
+                            $("#main").html(html);
+                            $("#btn-add").on("click", (ev) => {
+                                let recipe = {
+                                    name: $("#tb-name").val(),
+                                    preparationTime: $("#tb-preparation-time").val(),
+                                    ingredients: $("#tb-ingredients").val().split(", "),
+                                    instructions: $("#tb-instructions").val().split(". "),
+                                    img: $("#tb-img").val()
+                                };
+
+                                dataService.create(recipe)
+                                    .then((res) => {
+                                        console.log(res);
+                                        if (res === "Not authorized User") {
+                                            alert("The recipe was not added! Try again!")
+                                        }
+                                        else {
+                                            alert("The recipe was added successfully!");
+                                        }
+                                    })
+                            });
+                        });
+                }
+                else {
+                    alert("You cannot add new recipe! Please, login!");
+                }
+            });
+    },
+    about: function () {
+        templates.get("about")
             .then((template) => {
                 let templateFunc = handlebars.compile(template);
                 let html = templateFunc();
                 $("#main").html(html);
-                $("#btn-add").on("click", (ev) => {
-                    let recipe = {
-                        name: $("#tb-name").val(),
-                        img: $("#tb-img").val()
-                    };
-
-                    dataService.create(recipe)
-                        .then((res) => {
-                            alert("The recipe was added successfully!");
-                        })
-                })
             })
-    },
-    about: function(){
-        templates.get("about")
-        .then((template) => {
-            let templateFunc = handlebars.compile(template);
-            let html = templateFunc();
-            $("#main").html(html);
-        })
     }
 };

@@ -25,13 +25,12 @@ module.exports = (db) => {
             res.send({ result: recipe });
         },
         postRecipe: (req, res) => {
-            var user = req.user;
+            var user = req.body.headers;
             if (!user) {
-                res.status(401)
-                    .json('Not authorized User');
+                res.send('Not authorized User');
                 return;
             }
-            let newRecipe = req.body;
+            let newRecipe = req.body.data;
             newRecipe.id = idGenerator();
             db.get('recipes')
                 .push(newRecipe)
