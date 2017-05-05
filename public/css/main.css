@@ -55,7 +55,7 @@ body {
     background-image: url("../imgs/pizza.jpg");
     background-size: 140%;
     background-repeat: no-repeat;
-	body { padding-top: 70px; }
+	/*body { padding-top: 70px; }*/
 }
 
 #recipes {

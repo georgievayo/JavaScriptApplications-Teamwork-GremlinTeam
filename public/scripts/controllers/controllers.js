@@ -74,14 +74,11 @@ let controllers = {
             ;
     },
     search: function () {
-        console.log("in controllers")
         let recipeToSearch = $("#tb-search").val();
-        console.log(recipeToSearch);
         let foundRecipes = [];
         requester.putJSON('/api/search', {data: recipeToSearch})
             .then((recipes) => {
                 foundRecipes = recipes.result;
-                console.log(foundRecipes);
                 return templates.get("allRecipes");
             })
             .then((template) => {
