@@ -15,6 +15,7 @@ app.get("/api/recent", dataControllers.getRecent);
 app.get("/api/popular", dataControllers.getMostPopular);
 app.get("/api/recipes", dataControllers.getAllRecipes);
 app.get("/api/recipes/details/:id", dataControllers.getRecipe);
+app.put("/api/search", dataControllers.search);
 app.get("/api/users", userControllers.getUsers);
 
 app.post("/api/users/register", userControllers.register);

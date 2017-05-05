@@ -54,6 +54,7 @@ let requester = (function () {
                 url,
                 method: "GET",
                 contentType: "application/json",
+                //data: body,                
                 success: (response) => {
                     resolve(response);
                 }

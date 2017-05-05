@@ -24,6 +24,18 @@ module.exports = (db) => {
                 .value();
             res.send({ result: recipe });
         },
+        search: (req, res) => {
+            let recipeName = req.body.data.toLowerCase();
+            let recipes = db.get("recipes").value();
+            let foundRecipes = [];
+            recipes.forEach((recipe) => {
+                let toLower = recipe.name.toLowerCase();
+                if (toLower.includes(recipeName)) {
+                    foundRecipes.push(recipe);
+                }
+            });
+            res.send({ result: foundRecipes });
+        },
         postRecipe: (req, res) => {
             var user = req.body.headers;
             if (!user) {

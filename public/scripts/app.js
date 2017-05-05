@@ -27,6 +27,7 @@ router
     //     $("#login").show();        
     // });
 
-    // $("#btn-search").on("click", (ev) => {
-
-    // })
+    $("#btn-search").on("click", (ev) => {
+        console.log("here");
+        controllers.search();
+    })

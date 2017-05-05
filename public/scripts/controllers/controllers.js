@@ -73,6 +73,23 @@ let controllers = {
             })
             ;
     },
+    search: function () {
+        console.log("in controllers")
+        let recipeToSearch = $("#tb-search").val();
+        console.log(recipeToSearch);
+        let foundRecipes = [];
+        requester.putJSON('/api/search', {data: recipeToSearch})
+            .then((recipes) => {
+                foundRecipes = recipes.result;
+                console.log(foundRecipes);
+                return templates.get("allRecipes");
+            })
+            .then((template) => {
+                let templateFunc = handlebars.compile(template);
+                let html = templateFunc(foundRecipes);
+                $("#main").html(html);
+            })
+    },
     create: function () {
         dataService.hasLoggedUser()
             .then((hasUser) => {
@@ -114,7 +131,7 @@ let controllers = {
             .then((template) => {
                 let templateFunc = handlebars.compile(template);
                 let html = templateFunc();
-                $("#main").html(html);				
+                $("#main").html(html);
             })
     }
 };
