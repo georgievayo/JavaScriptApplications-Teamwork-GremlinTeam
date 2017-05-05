@@ -14,6 +14,7 @@ router
     })
     .on(() => {
         router.navigate("#/home");
+		$('#main').children().remove();
     })
     .resolve();
 

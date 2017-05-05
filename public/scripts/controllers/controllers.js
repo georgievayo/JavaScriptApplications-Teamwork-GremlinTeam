@@ -114,7 +114,7 @@ let controllers = {
             .then((template) => {
                 let templateFunc = handlebars.compile(template);
                 let html = templateFunc();
-                $("#main").html(html);
+                $("#main").html(html);				
             })
     }
 };

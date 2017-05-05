@@ -1,30 +1,43 @@
-<div id="recipes">
-    <table cellspacing=8>
-        <tr>
-            <td class="arrow">
-                <img src="../../imgs/left-arrow.png" class="arrow-img">
-            </td>
-            {{#each this}}
-            <td class="recipe">
-                <h1 class="recipe-header">{{this.name}}</h1>
-                <img src="{{this.img}}" class="recipe-image">
-                <div>
-                    <br>
-                    <strong>Preparation time:</strong> {{this.preparationTime}}
-                </div>
-                <div>
-                    <br>
-                    <strong>What do you need?</strong>
-                    <br> {{#each this.ingredients}} {{this.ingredient}}, {{/each}}
-                </div>
-            </td>
-            {{/each}}
-            </td>
-            <td class="arrow">
-                <img src="../../imgs/right-arrow.png" class="arrow-img">
-            </td>
-        </tr>
-    </table>
+<div id="recipes" class="row">    
+    <div class="arrow media col-sm-2">
+        <img class=""d-flex mr-3 arrow-img" src="../../imgs/left-arrow.png">
+    </div>
+	{{#each this}}
+		<div class="recipe media col-xs-2 well">
+			<div class="media-top">
+				<img class="d-flex align-self-center mr-3 recipe-image img-circle img-responsive" src="{{this.img}}">
+			</div>
+			<div class="media-body">
+				<h3>
+					{{this.name}}
+					<small>
+						<span class="label label-success">
+							new
+						</span>
+					</small>
+				</h3>                
+				<div>
+					<p>
+						<span class="glyphicon glyphicon-time">
+						</span>	
+						{{this.preparationTime}}
+					</p>
+					<h4>
+						<small>
+							<strong>What do you need?</strong>
+						</small>
+					</h4>					
+					<p class="well well-sm">
+						{{#each this.ingredients}} {{this.ingredient}}, {{/each}}
+					</p>
+				</div>
+			</div>
+		</div>
+	{{/each}}
+    </div>
+    <div class="arrow media col-sm-2">
+        <img class="d-flex mr-3 arrow-img" src="../../imgs/right-arrow.png">
+    </div>    
 </div>
 
 
