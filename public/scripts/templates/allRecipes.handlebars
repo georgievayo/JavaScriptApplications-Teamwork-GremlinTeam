@@ -1,24 +1,25 @@
-<div id="recipes" class="row">    
-    <div class="arrow media col-sm-2">
-        <img class=""d-flex mr-3 arrow-img" src="../../imgs/left-arrow.png">
+{{!--
+<div id="recipes" class="row">
+	<div class="arrow media col-sm-2">
+		<img class="" d-flex mr-3 arrow-img " src="../../imgs/left-arrow.png ">
     </div>
 	{{#each this}}
-		<div class="recipe media col-xs-2 well">
-			<div class="media-top">
-				<img class="d-flex align-self-center mr-3 recipe-image img-circle img-responsive" src="{{this.img}}">
+		<div class="recipe media col-xs-2 well ">
+			<div class="media-top ">
+				<img class="d-flex align-self-center mr-3 recipe-image img-circle img-responsive " src="{{this.img}} ">
 			</div>
-			<div class="media-body">
+			<div class="media-body ">
 				<h3>
 					{{this.name}}
 					<small>
-						<span class="label label-success">
+						<span class="label label-success ">
 							new
 						</span>
 					</small>
 				</h3>                
 				<div>
 					<p>
-						<span class="glyphicon glyphicon-time">
+						<span class="glyphicon glyphicon-time ">
 						</span>	
 						{{this.preparationTime}} min.
 					</p>
@@ -27,7 +28,7 @@
 							<strong>What do you need?</strong>
 						</small>
 					</h4>					
-					<p class="well well-sm">
+					<p class="well well-sm ">
 						{{#each this.ingredients}} {{this.ingredient}}, {{/each}}
 					</p>
 				</div>
@@ -35,9 +36,75 @@
 		</div>
 	{{/each}}
     </div>
-    <div class="arrow media col-sm-2">
-        <img class="d-flex mr-3 arrow-img" src="../../imgs/right-arrow.png">
+    <div class="arrow media col-sm-2 ">
+        <img class="d-flex mr-3 arrow-img " src="../../imgs/right-arrow.png ">
     </div>    
+</div>--}}
+
+
+<div>
+  <div class='row'>
+    <div class='col-md-offset-1 col-md-10'>
+      <div class="carousel slide " data-ride="carousel " id="recipe-carousel ">
+        <!-- Bottom Carousel Indicators -->
+        <ol class="carousel-indicators ">
+			{{#each this}}
+			{{#if @first}}
+          <li data-target="#quote-carousel " data-slide-to={{this.id}} class="active"></li>
+		  {{/if}}
+		  {{#unless @first}}
+		  <li data-target="#quote-carousel " data-slide-to={{this.id}}></li>
+		  {{/unless}}
+		  {{/each}}
+        </ol>
+        
+        <!-- Carousel Slides / Quotes -->
+        <div class="carousel-inner ">
+		  {{#each this}}
+		  {{#if @first}}
+		  <div class="item active">
+			  {{/if}}
+			  {{#unless @first}}
+		  <div class="item">
+			  {{/unless}}
+		<div class="recipe media col-xs-12 well ">
+			<div class="media-top ">
+				<img class="d-flex align-self-center mr-3 recipe-image img-circle img-responsive " src="{{this.img}} ">
+			</div>
+			<div class="media-body ">
+				<h3>
+					{{this.name}}
+					<small>
+						<span class="label label-success ">
+							new
+						</span>
+					</small>
+				</h3>                
+				<div>
+					<p>
+						<span class="glyphicon glyphicon-time ">
+						</span>	
+						{{this.preparationTime}} min.
+					</p>
+					<h4>
+						<small>
+							<strong>What do you need?</strong>
+						</small>
+					</h4>					
+					<p class="well well-sm ">
+						{{#each this.ingredients}} {{this.ingredient}}, {{/each}}
+					</p>
+				</div>
+			</div>
+		</div>
+		</div>
+	{{/each}}
+        </div>
+        </div>
+        <!-- Carousel Buttons Next/Prev -->
+        <a data-slide="prev " href="#quote-carousel " class="left carousel-control "><i class="fa fa-chevron-left "></i></a>
+        <a data-slide="next " href="#quote-carousel " class="right carousel-control "><i class="fa fa-chevron-right "></i></a>
+                        
+    </div>
+  </div>
 </div>
-
-

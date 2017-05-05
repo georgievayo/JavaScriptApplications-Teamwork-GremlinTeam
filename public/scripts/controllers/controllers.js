@@ -19,6 +19,10 @@ let controllers = {
                 $("#main").html(html);
                 $navButtons.removeClass();
                 $allButton.addClass('active');
+                $('#quote-carousel').carousel({
+                    pause: true,
+                    interval: 4000,
+                });
             })
     },
     recent: function () {
@@ -76,7 +80,7 @@ let controllers = {
     search: function () {
         let recipeToSearch = $("#tb-search").val();
         let foundRecipes = [];
-        requester.putJSON('/api/search', {data: recipeToSearch})
+        requester.putJSON('/api/search', { data: recipeToSearch })
             .then((recipes) => {
                 foundRecipes = recipes.result;
                 return templates.get("allRecipes");
