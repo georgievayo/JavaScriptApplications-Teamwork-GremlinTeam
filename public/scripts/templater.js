@@ -4,3 +4,11 @@ let templates = {
         return requester.get(url);
     }
 };
+
+if (typeof module !== 'undefined') {
+  module.exports = (function(){ 
+    return [
+      templates
+    ]; 
+  })();
+}

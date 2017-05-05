@@ -62,3 +62,11 @@ let dataService = (function () {
         hasLoggedUser
     };
 }());
+
+if (typeof module !== 'undefined') {
+  module.exports = (function(){ 
+    return [
+      dataService
+    ]; 
+  })();
+}

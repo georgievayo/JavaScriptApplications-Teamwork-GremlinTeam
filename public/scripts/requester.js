@@ -69,3 +69,11 @@ let requester = (function () {
         getJSON: getJSON
     };
 }());
+
+if (typeof module !== 'undefined') {
+  module.exports = (function(){ 
+    return [
+      requester
+    ]; 
+  })();
+}

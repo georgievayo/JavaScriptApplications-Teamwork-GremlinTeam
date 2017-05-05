@@ -68,3 +68,11 @@ let usersControllers = {
             })
     },
 };
+
+if (typeof module !== 'undefined') {
+  module.exports = (function(){ 
+    return [
+      usersControllers
+    ]; 
+  })();
+}
