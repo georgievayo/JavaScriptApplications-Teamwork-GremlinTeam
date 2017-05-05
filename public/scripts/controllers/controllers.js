@@ -10,7 +10,7 @@ let controllers = {
         let recipes = [];
         requester.getJSON("/api/recipes")
             .then((data) => {
-                recipes = data.result;
+                recipes = (JSON.parse(JSON.stringify(data.result)));
                 return templates.get("allRecipes");
             })
             .then((template) => {

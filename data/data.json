@@ -3,8 +3,8 @@
     {
       "id": 8,
       "name": "English Apple Pie",
-      "preparationTime": "unknown",
-      "likes": 42,
+      "preparationTime": "60",
+      "likes": "42",
       "img": "https://trello-attachments.s3.amazonaws.com/57f438a7c34db6ed75bd4ff6/1000x563/c7f31debb3ff7502ddfffddb792eed65/apple_pie.jpg",
       "ingredients": [
         {
@@ -53,8 +53,8 @@
     {
       "id": 7,
       "name": "Постен пататник",
-      "preparationTime": "unknown",
-      "likes": 50,
+      "preparationTime": "45",
+      "likes": "50",
       "img": "https://trello-attachments.s3.amazonaws.com/5800a285ac8563dc9d281b17/666x500/4ba07fe648f5cd4b1098973a7860ce5c/patatnik.jpg",
       "ingredients": [
         {
@@ -88,8 +88,8 @@
     {
       "id": 6,
       "name": "Persian rice",
-      "preparationTime": "unknown",
-      "likes": 3000,
+      "preparationTime": "90",
+      "likes": "3000",
       "img": "https://trello-attachments.s3.amazonaws.com/57fac75cb1c5e6d1c9572f29/666x374/f8368d0f7fcf8c6d2cfac4dc7e6cb789/persian_rice.jpg",
       "ingredients": [
         {
@@ -138,8 +138,8 @@
     {
       "id": 5,
       "name": "Dr. Greger's Luck of The Greens Veggie Bowl",
-      "preparationTime": "unknown",
-      "likes": 5,
+      "preparationTime": "30",
+      "likes": "5",
       "img": "https://trello-attachments.s3.amazonaws.com/58cce2345db1f19d0f5e5fae/960x640/fa7dd02aef92c4a3cbe8d14485ad7f62/green_bowl.jpg.png",
       "ingredients": [
         {
@@ -193,7 +193,7 @@
     {
       "id": 4,
       "name": "Зеленчуков пай",
-      "preparationTime": "unknown",
+      "preparationTime": "60",
       "likes": 2,
       "img": "https://trello-attachments.s3.amazonaws.com/583953f9340ebbb0b625db91/335x235/c8b73bf6bd0feb9e32c76076a6da90e3/zelenchukov-pay_437.jpg.png",
       "ingredients": [
@@ -288,8 +288,8 @@
     {
       "id": 3,
       "name": "Portobello \"steaks\" with a side of mashed cauliflower",
-      "preparationTime": "unknown",
-      "likes": 33,
+      "preparationTime": "70",
+      "likes": "33",
       "img": "https://trello-attachments.s3.amazonaws.com/580e34f3955d15182e1ff651/666x467/85c16ac1e396d05e787081700ac0cd74/portobello_steaks.jpg",
       "ingredients": [
         {
@@ -348,8 +348,8 @@
     {
       "id": 2,
       "name": "Spaghetti Carbonara",
-      "preparationTime": 40,
-      "likes": 28,
+      "preparationTime": "40",
+      "likes": "28",
       "img": "https://trello-attachments.s3.amazonaws.com/5786228a9dbaf8f1c7ee5e69/5900a0c28e35db4d4449bcb3/66bc77ce6481d5d150a3c1debca55470/Spaghetti_alla_carbonara02.jpg",
       "ingredients": [
         {
@@ -408,8 +408,8 @@
     {
       "id": 1,
       "name": "Margherita Pizza",
-      "preparationTime": 45,
-      "likes": 11,
+      "preparationTime": "45",
+      "likes": "11",
       "img": "https://trello-attachments.s3.amazonaws.com/5786228a9dbaf8f1c7ee5e69/5900a0c1fa776c05511b2ee9/097b4c81b1f582a73dbf172ec1403e78/Margherita-Pizza-pic.jpg",
       "ingredients": [
         {
