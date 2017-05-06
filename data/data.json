@@ -269,6 +269,18 @@
         {
           "user": "Yoana",
           "comment": "try"
+        },
+        {
+          "user": "Yoana",
+          "comment": "elfp"
+        },
+        {
+          "user": "Yoana",
+          "comment": "next try"
+        },
+        {
+          "user": "Yoana",
+          "comment": "again"
         }
       ]
     },
@@ -486,7 +498,9 @@
       "id": 2,
       "name": "Spaghetti Carbonara",
       "preparationTime": "40",
-      "likes": "28",
+      "likes": [
+        28
+      ],
       "img": "https://trello-attachments.s3.amazonaws.com/5786228a9dbaf8f1c7ee5e69/5900a0c28e35db4d4449bcb3/66bc77ce6481d5d150a3c1debca55470/Spaghetti_alla_carbonara02.jpg",
       "ingredients": [
         {
@@ -540,7 +554,53 @@
           "unit": "n/a"
         }
       ],
-      "steps": "In a large pot of boiling salted water, cook spaghetti pasta until al dente. Drain well. Toss with 1 tablespoon of olive oil, and set aside. Meanwhile in a large skillet, cook chopped bacon until slightly crisp; remove and drain onto paper towels. Reserve 2 tablespoons of bacon fat; add remaining 1 tablespoon olive oil, and heat in reused large skillet. Add chopped onion, and cook over medium heat until onion is translucent. Add minced garlic, and cook 1 minute more. Add wine if desired; cook one more minute. Return cooked bacon to pan; add cooked and drained spaghetti. Toss to coat and heat through, adding more olive oil if it seems dry or is sticking together. Add beaten eggs and cook, tossing constantly with tongs or large fork until eggs are barely set. Quickly add 1/2 cup Parmesan cheese, and toss again. Add salt and pepper to taste (remember that bacon and Parmesan are very salty). Serve immediately with chopped parsley sprinkled on top, and extra Parmesan cheese at table."
+      "steps": [
+        {
+          "step": "1. In a large pot of boiling salted water, cook spaghetti pasta until al dente."
+        },
+        {
+          "step": "2. Drain well."
+        },
+        {
+          "step": "3. Toss with 1 tablespoon of olive oil, and set aside."
+        },
+        {
+          "step": "4. Meanwhile in a large skillet, cook chopped bacon until slightly crisp; remove and drain onto paper towels."
+        },
+        {
+          "step": "5. Reserve 2 tablespoons of bacon fat."
+        },
+        {
+          "step": "6. Add remaining 1 tablespoon olive oil, and heat in reused large skillet."
+        },
+        {
+          "step": "7. Add chopped onion, and cook over medium heat until onion is translucent."
+        },
+        {
+          "step": "8. Add minced garlic, and cook 1 minute more."
+        },
+        {
+          "step": "9. Add wine if desired; cook one more minute."
+        },
+        {
+          "step": "10. Return cooked bacon to pan; add cooked and drained spaghetti."
+        },
+        {
+          "step": "11. Toss to coat and heat through, adding more olive oil if it seems dry or is sticking together."
+        },
+        {
+          "step": "12. Add beaten eggs and cook, tossing constantly with tongs or large fork until eggs are barely set."
+        },
+        {
+          "step": "13. Quickly add 1/2 cup Parmesan cheese, and toss again."
+        },
+        {
+          "step": "14. Add salt and pepper to taste (remember that bacon and Parmesan are very salty)."
+        },
+        {
+          "step": "15. Serve immediately with chopped parsley sprinkled on top, and extra Parmesan cheese at table."
+        }
+      ]
     },
     {
       "id": 1,
@@ -599,8 +659,7 @@
         "username": "Yoana",
         "passHash": "ba80289edfa24b5674abb5a47bf487526a633f40"
       },
-      "usernameLower": "yoana",
-      "authKey": "undefinedYkI_WvBv-OdAnHR^qWEU#G&%M(t!=o!(&wLApIMoSRRJfawZBi("
+      "usernameLower": "yoana"
     },
     {
       "data": {
@@ -613,7 +672,7 @@
   "currentUser": [
     {
       "username": "Yoana",
-      "authKey": "10LzTr-(i(F^KqW!#j#%OnEN%yBOBLp%xxH^T%Hm*jMao@TwH=^^WYCZqUbW"
+      "authKey": "10yfaGT!PNVou&bAUt%+j@&gk&WiK^)tarsT^aFrIdDOvzE%*MiEqFAejbi="
     }
   ]
 }

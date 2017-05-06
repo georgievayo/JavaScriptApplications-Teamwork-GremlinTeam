@@ -51,33 +51,36 @@ module.exports = (db) => {
         },
         updateRecipe: (req, res) => {
             let id = +req.params.id;
-            if(req.body.hasOwnProperty("comment")){
+            if (req.body.hasOwnProperty("comment")) {
                 let comment = req.body;
-            db.get("recipes")
-                .find({ id: id })
-                .get('comments')
-                .push(comment)
-                .write();
+                db.get("recipes")
+                    .find({ id: id })
+                    .get('comments')
+                    .push(comment)
+                    .write();
             }
-            else{
+            else {
                 let likes = +db.get("recipes")
-                .find({ id: id })
-                .get('likes').value();
+                    .find({ id: id })
+                    .get('likes').value();
 
                 db.get("recipes")
-                .find({ id: id })
-                .get("likes")
-                .pop()
-                .write();
+                    .find({ id: id })
+                    .get("likes")
+                    .pop()
+                    .write();
 
                 db.get("recipes")
-                .find({ id: id })
-                .get("likes")
-                .push(++likes)
-                .write();
+                    .find({ id: id })
+                    .get("likes")
+                    .push(++likes)
+                    .write();
 
             }
-            res.status(200);
+            let comments = db.get("recipes")
+                .find({ id: id })
+                .get('comments').value();
+            res.send({ result: comments });
         }
     }
 };

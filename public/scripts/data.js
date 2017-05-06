@@ -48,16 +48,20 @@ let dataService = (function () {
     }
 
     function hasLoggedUser() {
-        return requester.getJSON("/api/hasUser")
+        let currentUser = {
+            username: sessionStorage.getItem(SESSION_STORAGE_USERNAME_KEY),
+            authKey: sessionStorage.getItem(SESSION_STORAGE_AUTHKEY_KEY)
+        };
+        return requester.postJSON("/api/hasUser", currentUser)
         .then((data) => {
-            let count = data.count;
-            if(count === 0){
+            let foundUser = data.result;
+            if(!foundUser){
                 return false;
             }
             else{
                 return true;
             }
-        })
+        });
     }
 
     return {

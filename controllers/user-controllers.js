@@ -65,8 +65,12 @@ module.exports = (db) => {
             res.send({ result: user });
         },
         hasLoggedUser: (req, res) => {
-            let users = db.get("currentUser").value();
-            res.send({ count: users.length });
+            let user = req.body;
+            console.log(user.username);
+            let users = db.get("currentUser")
+            .find(user)
+            .value();
+            res.send({ result: users });
         }
     }
 };

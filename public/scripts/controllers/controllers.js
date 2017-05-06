@@ -76,9 +76,21 @@ let controllers = {
                                 .then((data) => {
                                     username = data.result[0].username;
                                     let comment = $("#description").val();
+                                    $("#description").val("");
+                                    
                                     let commentToSend = { user: username, comment: comment };
                                     let updatedRecipe = {};
-                                    requester.putJSON(`/api/recipes/details/${id}`, commentToSend);
+                                    requester.putJSON(`/api/recipes/details/${id}`, commentToSend)
+                                        .then((data) => {
+                                            let comments = data.result;
+                                            let commentToShow = comments[comments.length - 1];
+                                            templates.get("addComment")
+                                                .then((template) => {
+                                                    let templateFunc = handlebars.compile(template);
+                                                    let html = templateFunc(commentToShow);
+                                                    $(".comments-all").append(html);
+                                                })
+                                        })
                                 });
                         });
 

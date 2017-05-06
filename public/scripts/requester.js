@@ -53,8 +53,7 @@ let requester = (function () {
             $.ajax({
                 url,
                 method: "GET",
-                contentType: "application/json",
-                //data: body,                
+                contentType: "application/json",               
                 success: (response) => {
                     resolve(response);
                 }
