@@ -66,7 +66,7 @@ body {
 }
 
 .recipe {
-    border: 1px solid grey;
+    border: 1px solid black;
     border-radius: 3px;
 }
 
@@ -83,7 +83,7 @@ tr {
 }
 
 .recipe-image {    
-	width: 150px;
+	width: 300px;
 }
 
 .jumbotron {

@@ -19,10 +19,6 @@ let controllers = {
                 $("#main").html(html);
                 $navButtons.removeClass();
                 $allButton.addClass('active');
-                $('#quote-carousel').carousel({
-                    pause: true,
-                    interval: 4000,
-                });
             })
     },
     recent: function () {
