@@ -11,5 +11,23 @@
 
 .ingredients{
   background: rgba(0, 0, 0, .9);
+  border: 1px solid black; 
+  text-align: left; 
+}
+
+.recipe-details{
+  background: rgba(0, 0, 0, .8);
   border: 1px solid black;  
+  border-radius: 3px;
+  color: white;
+  text-align: center;
+}
+
+.recipe-details img{
+  height: 300px;
+  border-radius: 3px;
+}
+
+#like-button{
+  height: 30px;
 }

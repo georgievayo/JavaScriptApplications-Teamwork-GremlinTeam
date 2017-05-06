@@ -48,7 +48,56 @@
           "unit": "whole"
         }
       ],
-      "steps": "#*English Apple Pie*#\n -----------------\n *Traditional English recipe from [Titli's Busy Kitchen](https://youtu.be/DkHQcXLVSUU)*\n -----------------\n 1. Peel the apples\n 2. Core them\n 3. Slice them into thin circles\n 4. Add the apples in a big bowl\n 5. Add the rest of the ingredients\n 6. Mix well\n 7. Layer first half of pastry in round tin\n 8. Add filling\n 9. Cover with second half of pastry\n 10. Use a fork to seal pastry's edges - crimping\n 11. Trim excess edges\n 12. Brush with lemon juice\n 13. Sprinkle caster sugar on top\n 14. Bake in a pre-heated over at 200 deg C for 15 minutes\n 15. Reduce heat to 170 deg C and bake for another 20 minutes\n 16. Turn the heat off, let pie cool off and enjoy"
+      "steps": [
+        {
+          "step": "1. Peel the apples."
+        },
+        {
+          "step": "2. Core them."
+        },
+        {
+          "step": "3. Slice them into thin circles."
+        },
+        {
+          "step": "4. Add the apples in a big bowl."
+        },
+        {
+          "step": "5. Add the rest of the ingredients."
+        },
+        {
+          "step": "6. Mix well."
+        },
+        {
+          "step": "7. Layer first half of pastry in round tin."
+        },
+        {
+          "step": "8. Add filling."
+        },
+        {
+          "step": "9. Cover with second half of pastry."
+        },
+        {
+          "step": "10. Use a fork to seal pastry's edges - crimping."
+        },
+        {
+          "step": "11. Trim excess edges."
+        },
+        {
+          "step": "12. Brush with lemon juice."
+        },
+        {
+          "step": "13. Sprinkle caster sugar on top."
+        },
+        {
+          "step": "14. Bake in a pre-heated over at 200 deg C for 15 minutes."
+        },
+        {
+          "step": "15. Reduce heat to 170 deg C and bake for another 20 minutes."
+        },
+        {
+          "step": "16. Turn the heat off, let pie cool off and enjoy."
+        }
+      ]
     },
     {
       "id": 7,
@@ -83,7 +132,26 @@
           "unit": "to taste"
         }
       ],
-      "steps": "1. Суровите картофи се обелват и се настъргват на едро ренде.\n 2. След това се настъргва и лукът.\n 3. Добавя се сол и джоджен на вкус. Разбъркват се и се оставят 15 минути да престоят.\n 4. В широк тиган се сипва олио и се слага сместа да се пържи под похлупак.\n 5. Когато отдолу стане златисто се обръща върху капака, връща се в тигана и се изпържва от другата страна.\n 6. За по-лесно може да се сложи в намазана с олио тава и да се изпече във фурната."
+      "steps": [
+        {
+          "step": "1. Суровите картофи се обелват и се настъргват на едро ренде."
+        },
+        {
+          "step": "2. След това се настъргва и лукът."
+        },
+        {
+          "step": "3. Добавя се сол и джоджен на вкус. Разбъркват се и се оставят 15 минути да престоят."
+        },
+        {
+          "step": "4. В широк тиган се сипва олио и се слага сместа да се пържи под похлупак."
+        },
+        {
+          "step": "5. Когато отдолу стане златисто се обръща върху капака, връща се в тигана и се изпържва от другата страна."
+        },
+        {
+          "step": "6. За по-лесно може да се сложи в намазана с олио тава и да се изпече във фурната."
+        }
+      ]
     },
     {
       "id": 6,
@@ -133,7 +201,69 @@
           "unit": "tbsp"
         }
       ],
-      "steps": "#*Persian rice*#\n -----------------\n *Persian-inspired recipe from [Food Wishes on YouTube](https://youtu.be/OuPABfgsa4g)*\n -----------------\n 1. Bring salted water to a boil\n 2. Prep rice - rinse extra starch off\n 3. Add rice to boiling water and cook for 7 minutes\n 4. Stir from time to time\n 5. After 7 minutes are up drain rice in colander, but do not rinse\n 6. Put medium pot on medium to high heat, add table spoon of oil\n 7. Cover bottom of pot with potato slices\n 8. Salt lightly and sprinkle ground cumin/cumin seeds on top of potato layer\n 9. Add the rice gently. Fluff it up and do not pack it - make sure it has lots of air so it can steam properly\n 10. Turn heat down to low\n 11. Add margarine on top of rice\n 12. Cover with paper towel and put lid on top of the pot\n 13. Steam on low heat for 45 minutes. Keep covered at all times\n 14. Crush a pinch of saffron in mortar for coloring - add a splash of hot water\n 15. Take rice off heat and take the lid off\n 16. Add several spoonfuls of rice to the saffron \"dye\" and mix well to get yellow rice\n 17. Serve rice on plate - white rice on the bottom, heap of yellow rice on top, potato slices surrounding the base of the heap"
+      "steps": [
+        {
+          "step": "1. Bring salted water to a boil."
+        },
+        {
+          "step": "2. Prep rice - rinse extra starch off."
+        },
+        {
+          "step": "3. Add rice to boiling water and cook for 7 minutes."
+        },
+        {
+          "step": "4. Stir from time to time."
+        },
+        {
+          "step": "5. After 7 minutes are up drain rice in colander, but do not rinse."
+        },
+        {
+          "step": "6. Put medium pot on medium to high heat, add table spoon of oil."
+        },
+        {
+          "step": "7. Cover bottom of pot with potato slices."
+        },
+        {
+          "step": "8. Salt lightly and sprinkle ground cumin/cumin seeds on top of potato layer."
+        },
+        {
+          "step": "9. Add the rice gently. Fluff it up and do not pack it - make sure it has lots of air so it can steam properly."
+        },
+        {
+          "step": "10. Turn heat down to low."
+        },
+        {
+          "step": "11. Add margarine on top of rice."
+        },
+        {
+          "step": "12. Cover with paper towel and put lid on top of the pot."
+        },
+        {
+          "step": "13. Steam on low heat for 45 minutes. Keep covered at all times."
+        },
+        {
+          "step": "14. Crush a pinch of saffron in mortar for coloring - add a splash of hot water."
+        },
+        {
+          "step": "15. Take rice off heat and take the lid off."
+        },
+        {
+          "step": "16. Add several spoonfuls of rice to the saffron \"dye\" and mix well to get yellow rice."
+        },
+        {
+          "step": "17. Serve rice on plate - white rice on the bottom, heap of yellow rice on top, potato slices surrounding the base of the heap."
+        }
+      ],
+      "comments": [
+        {
+          "user": "Mitko",
+          "comment": "So delicious!!!"
+        },
+        {
+          "user": "Gosho",
+          "comment": "Awesome!!! :)"
+        }
+      ]
     },
     {
       "id": 5,
@@ -473,5 +603,14 @@
       "usernameLower": "mama"
     }
   ],
-  "currentUser": []
+  "currentUser": [
+    "10TP&pu)ipoSHDVR)TlQx)IK+kY_igGqAtuZ@irUgK_RTUPv#-tec)RvaY*R",
+    "11OrmSHBF-Af^H$s=PCCMj)_Bse--nFn=UhKGrQlPfMkZh@uTn#(NcpV*mL#",
+    "12E^Y=g@bNVPYhVbH+wF*c=gUZUpEAKtjArvedmS_jsBCXhJF*Gctbj_TctD",
+    "13_KFaIncxdZavkr#K@hLqU&RTsPwl@G#%C-Z_*(hetW&Vj)aYt=mC)erOt^",
+    "14Qs%tgbKy!OxiYXtQkojmRLQu(tKGfyc)W#qbnYDLJql&C#XUOT^hD_BDFS",
+    "10ku)MKUDnd-yzTY!^%T$jGaJtDtwqZRK*Gz%i-qxwXx_To=tWjFcg^hy(*l",
+    "11PdyyOkASPa$UZ#GenmPbHFwjky=kLy@NFdHeiZqA#%lkoLPWjf+G=itx+o",
+    "12uKGo@WKshUgZAoYae!iIHCdl-^cYWDdWxZBl(uqGDPv_eetFlkLgObj(R)"
+  ]
 }

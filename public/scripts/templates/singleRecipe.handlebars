@@ -1,3 +1,37 @@
-<div>
-    For guest
+<div class="col-xs-12 recipe-details">
+    <div class="row">
+        <h2> {{this.name}} </h2>
+        </br>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <img src="{{this.img}}" class="img-responsive center-block">
+        </div>
+
+    </div>
+    <div class="row">
+            <p>
+                </br>
+                Preparation Time:
+                <span class="glyphicon glyphicon-time ">
+			</span> {{this.preparationTime}} min.
+            </p>
+        </div>
+    <div class="row">      
+        <div class="col-xs-6">
+            <h4> Ingredients:</h4>
+            <p class="well well-sm ingredients">
+                {{#each this.ingredients}} {{this.quantity}} {{this.unit}} {{this.ingredient}}
+                </br>
+                {{/each}}
+            </p>
+        </div>
+        <div class="col-xs-6">
+            <h4>Directions:</h4>
+            <p class="well well-sm ingredients">
+                {{#each this.steps}} {{this.step}}
+                <br/> {{/each}}
+            </p>
+        </div>
+    </div>
 </div>

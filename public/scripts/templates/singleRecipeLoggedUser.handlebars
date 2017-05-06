@@ -1,3 +1,81 @@
-<div> 
-    For logged user
+<div class="col-xs-12 recipe-details">
+    <div class="row">
+        <h2> {{this.name}} </h2>
+        </br>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <img src="{{this.img}}" class="img-responsive center-block">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-2 col-md-offset-3">
+            <br/>
+            <img src="../../imgs/like-button.png" id="like-button"> {{this.likes}} likes.
+        </div>
+        <div class="col-xs-3 col-md-offset-0">
+            </br>
+
+            Preparation Time:
+            <span class="glyphicon glyphicon-time ">
+			</span> {{this.preparationTime}} min.
+        </div>
+        </br>
+    </div>
+    <div class="row">
+        <div class="col-xs-6">
+            <h4> Ingredients:</h4>
+            <p class="well well-sm ingredients">
+                {{#each this.ingredients}} {{this.quantity}} {{this.unit}} {{this.ingredient}}
+                </br>
+                {{/each}}
+            </p>
+        </div>
+        <div class="col-xs-6">
+            <h4>Directions:</h4>
+            <p class="well well-sm ingredients">
+                {{#each this.steps}} {{this.step}}
+                <br/> {{/each}}
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <h3>Comments</h3>
+        <br/>
+    </div>
+    {{#each this.comments}}
+    <div class="row comments">
+        <div class="col-sm-10 offset-md-8">
+            <div class="panel panel-white post panel-shadow">
+                <div class="post-heading">
+                    <div class="pull-left image">
+                        <img src="http://bootdey.com/img/Content/user_1.jpg" class="img-circle avatar" alt="user profile image">
+                    </div>
+                    <div>
+                        <div class="title h5">
+                            <a href="#"><b>{{this.user}}</b></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <p>{{this.comment}}</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    {{/each}}
+    <div class="row">
+        <form>
+            <fieldset>
+                <div class="col-sm-10">
+                    <textarea rows="3" id="description" name="description" class="form-control" rows="5" placeholder="Write a comment..."></textarea>
+                    <br/>
+                </div>
+                <div class="col-sm-10">
+                    <button type="submit" class="btn btn-warning">Send comment</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
 </div>

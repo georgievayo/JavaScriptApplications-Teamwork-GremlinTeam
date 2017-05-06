@@ -89,7 +89,14 @@
 						</small>
 					</h4>					
 					<p class="well well-sm ingredients">
-						{{#each this.ingredients}} {{this.ingredient}}, {{/each}}
+						{{#each this.ingredients}}
+						{{#if @last}}
+						 {{this.ingredient}}
+						 {{/if}}
+						 {{#unless @last}}
+						 {{this.ingredient}},
+						 {{/unless}}
+						 {{/each}}
 					</p>
 				</div>
 			</div>
