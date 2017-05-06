@@ -69,9 +69,20 @@ let controllers = {
                         let templateFunc = handlebars.compile(template);
                         let html = templateFunc(recipe);
                         $("#main").html(html);
+
+                        $("#btn-send-comment").on("click", (ev) => {
+                            let comment = $("#description").val();
+                            let data = {comment: comment}; // SHOULD BE FIXED!!! TO ADD USERNAME
+                            let updatedRecipe = {};                            
+                            requester.putJSON(`/api/recipes/details/${id}`, data);
+                        });
+
+                        $("#like-button").on("click",(ev) => {
+                            let data = {};
+                            requester.putJSON(`/api/recipes/details/${id}`, data);
+                        })
                     })
-            })
-            ;
+            });
     },
     search: function () {
         let recipeToSearch = $("#tb-search").val();
@@ -97,17 +108,33 @@ let controllers = {
                             let html = templateFunc();
                             $("#main").html(html);
                             $("#btn-add").on("click", (ev) => {
+                                let splittedIngredients = $("#tb-ingredients").val().split(", ");
+                                let ingredientsToAdd = [];
+                                ingredients.forEach(function(ingr) {
+                                    let quantity = ingr.split(' ')[0];
+                                    let unit = ingr.split(' ')[1];
+                                    let ingredient = ingr.split(' ')[2];
+                                    ingredientsToAdd.push({quantity: quantity, unit: unit, ingredient: ingredient});
+                                }, this);
+
+                                let splittedSteps = $("#tb-instructions").val().split('\n');
+                                let stepsToAdd = [];
+                                splittedSteps.forEach(function(step){
+                                    stepsToAdd.push({step: step});
+                                }, this);
+
                                 let recipe = {
                                     name: $("#tb-name").val(),
                                     preparationTime: $("#tb-preparation-time").val(),
-                                    ingredients: $("#tb-ingredients").val().split(", "),
-                                    instructions: $("#tb-instructions").val().split(". "),
-                                    img: $("#tb-img").val()
+                                    ingredients: ingredientsToAdd,
+                                    steps: stepsToAdd,
+                                    img: $("#tb-img").val(),
+                                    comments: [],
+                                    likes: [0]
                                 };
 
                                 dataService.create(recipe)
                                     .then((res) => {
-                                        console.log(res);
                                         if (res === "Not authorized User") {
                                             alert("The recipe was not added! Try again!")
                                         }

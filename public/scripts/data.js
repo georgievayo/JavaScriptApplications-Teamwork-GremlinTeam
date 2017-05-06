@@ -48,10 +48,16 @@ let dataService = (function () {
     }
 
     function hasLoggedUser() {
-        return Promise.resolve()
-            .then(() => {
-                return !!sessionStorage.getItem(SESSION_STORAGE_USERNAME_KEY);
-            });
+        return requester.getJSON("/api/hasUser")
+        .then((data) => {
+            let count = data.count;
+            if(count === 0){
+                return false;
+            }
+            else{
+                return true;
+            }
+        })
     }
 
     return {

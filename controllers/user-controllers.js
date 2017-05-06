@@ -60,6 +60,10 @@ module.exports = (db) => {
                 .pop()
                 .write();
                 res.status(200);
+        },
+        hasLoggedUser: (req, res) => {
+            let users = db.get("currentUser").value();
+            res.send({count: users.length});
         }
     }
 };

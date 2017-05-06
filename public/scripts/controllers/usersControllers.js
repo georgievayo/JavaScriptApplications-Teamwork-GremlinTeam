@@ -13,7 +13,7 @@ let usersControllers = {
                     };
                     dataService.register(user)
                         .then(function () {
-                            window.location = '#/home';
+                            $(".register").remove();
                         });
                 });
             });
@@ -37,8 +37,7 @@ let usersControllers = {
                                 return;
                             }
                             alert("You have been logged in!");
-                            window.location = '#/home';
-                            $("#login-form").remove();
+                            $(".login").remove();
                             $("#login").hide();
                             $("#logout").show();
                         });
@@ -47,10 +46,7 @@ let usersControllers = {
     },
     logout: function () {
         dataService.logout();
-        console.log("here");
         alert("You have been logged out!");
-        window.location = '#/home';
-
         $("#logout").hide();
         $("#login").show();
 

@@ -15,8 +15,10 @@ app.get("/api/recent", dataControllers.getRecent);
 app.get("/api/popular", dataControllers.getMostPopular);
 app.get("/api/recipes", dataControllers.getAllRecipes);
 app.get("/api/recipes/details/:id", dataControllers.getRecipe);
+app.put("/api/recipes/details/:id", dataControllers.updateRecipe);
 app.put("/api/search", dataControllers.search);
 app.get("/api/users", userControllers.getUsers);
+app.get("/api/hasUser", userControllers.hasLoggedUser)
 
 app.post("/api/users/register", userControllers.register);
 app.post("/api/recipes", dataControllers.postRecipe);

@@ -14,20 +14,19 @@ router
     })
     .on(() => {
         router.navigate("#/home");
-		$('#main').children().remove();
+        $('#main').children().remove();
     })
     .resolve();
 
+if (dataService.hasLoggedUser() === false) {
     $("#logout").hide();
-    
-    // $("#logout").on("click", (ev) => {
-    //     usersControllers.logout()
-    //     alert("You have been logged out!");
-    //     $("#logout").hide();
-    //     $("#login").show();        
-    // });
+    $("#login").show();
+}
+else {
+    $("#login").hide();
+    $("#logout").show();
+}
 
-    $("#btn-search").on("click", (ev) => {
-        console.log("here");
-        controllers.search();
-    })
+$("#btn-search").on("click", (ev) => {
+    controllers.search();
+})
