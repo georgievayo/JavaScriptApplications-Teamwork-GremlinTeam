@@ -18,7 +18,8 @@ app.get("/api/recipes/details/:id", dataControllers.getRecipe);
 app.put("/api/recipes/details/:id", dataControllers.updateRecipe);
 app.put("/api/search", dataControllers.search);
 app.get("/api/users", userControllers.getUsers);
-app.get("/api/hasUser", userControllers.hasLoggedUser)
+app.get("/api/hasUser", userControllers.hasLoggedUser);
+app.get("/api/getUser", userControllers.getLoggedUser);
 
 app.post("/api/users/register", userControllers.register);
 app.post("/api/recipes", dataControllers.postRecipe);

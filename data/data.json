@@ -267,24 +267,9 @@
           "comment": "Awesome!!! :)"
         },
         {
-          "comment": "wedsfghbn"
-        },
-        {
-          "comment": "edsrfgt"
-        },
-        {
-          "comment": "wdert"
-        },
-        {
-          "comment": "qwerty"
-        },
-        {
-          "comment": "qwerty"
-        },
-        {
-          "comment": "fgr"
-        },
-        {}
+          "user": "Yoana",
+          "comment": "try"
+        }
       ]
     },
     {
@@ -626,7 +611,9 @@
     }
   ],
   "currentUser": [
-    "10P(_P%hBsvQ&ZVMCepQkxKQXKyowUs_PZTWqnW)&XiMbufHS@fvFous*M$m",
-    "10g#QI=XYav^RkYB(IcTkgzb(kA^#wGvPb@dzcT_YcRcpiN*X&=va+bAb@B#"
+    {
+      "username": "Yoana",
+      "authKey": "10LzTr-(i(F^KqW!#j#%OnEN%yBOBLp%xxH^T%Hm*jMao@TwH=^^WYCZqUbW"
+    }
   ]
 }

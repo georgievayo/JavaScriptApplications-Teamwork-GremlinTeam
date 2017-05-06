@@ -36,15 +36,14 @@ module.exports = (db) => {
 
             if (!dbUser || dbUser.data.passHash !== user.passHash) {
                 res.send("Username or password is invalid")
-                .status(404);
+                    .status(404);
             }
             else {
                 let id = idGenerator();
                 let authKey = keyGenerator.generate(id);
-                console.log(authKey);
                 db.get("currentUser")
-                .push(authKey)
-                .write();
+                    .push({ username: user.username, authKey: authKey })
+                    .write();
 
                 res.status(200)
                     .send({
@@ -59,11 +58,15 @@ module.exports = (db) => {
             db.get("currentUser")
                 .pop()
                 .write();
-                res.status(200);
+            res.status(200);
+        },
+        getLoggedUser: (req, res) => {
+            let user = db.get("currentUser").value();
+            res.send({ result: user });
         },
         hasLoggedUser: (req, res) => {
             let users = db.get("currentUser").value();
-            res.send({count: users.length});
+            res.send({ count: users.length });
         }
     }
 };

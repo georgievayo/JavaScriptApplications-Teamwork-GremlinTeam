@@ -71,13 +71,18 @@ let controllers = {
                         $("#main").html(html);
 
                         $("#btn-send-comment").on("click", (ev) => {
-                            let comment = $("#description").val();
-                            let data = {comment: comment}; // SHOULD BE FIXED!!! TO ADD USERNAME
-                            let updatedRecipe = {};                            
-                            requester.putJSON(`/api/recipes/details/${id}`, data);
+                            let username;
+                            requester.getJSON("/api/getUser")
+                                .then((data) => {
+                                    username = data.result[0].username;
+                                    let comment = $("#description").val();
+                                    let commentToSend = { user: username, comment: comment };
+                                    let updatedRecipe = {};
+                                    requester.putJSON(`/api/recipes/details/${id}`, commentToSend);
+                                });
                         });
 
-                        $("#like-button").on("click",(ev) => {
+                        $("#like-button").on("click", (ev) => {
                             let data = {};
                             requester.putJSON(`/api/recipes/details/${id}`, data);
                         })
@@ -110,17 +115,17 @@ let controllers = {
                             $("#btn-add").on("click", (ev) => {
                                 let splittedIngredients = $("#tb-ingredients").val().split(", ");
                                 let ingredientsToAdd = [];
-                                ingredients.forEach(function(ingr) {
+                                ingredients.forEach(function (ingr) {
                                     let quantity = ingr.split(' ')[0];
                                     let unit = ingr.split(' ')[1];
                                     let ingredient = ingr.split(' ')[2];
-                                    ingredientsToAdd.push({quantity: quantity, unit: unit, ingredient: ingredient});
+                                    ingredientsToAdd.push({ quantity: quantity, unit: unit, ingredient: ingredient });
                                 }, this);
 
                                 let splittedSteps = $("#tb-instructions").val().split('\n');
                                 let stepsToAdd = [];
-                                splittedSteps.forEach(function(step){
-                                    stepsToAdd.push({step: step});
+                                splittedSteps.forEach(function (step) {
+                                    stepsToAdd.push({ step: step });
                                 }, this);
 
                                 let recipe = {
