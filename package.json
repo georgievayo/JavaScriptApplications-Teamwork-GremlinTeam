@@ -1,6 +1,6 @@
 {
   "name": "Forkstare",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "for educational purposes only",
   "main": "index.js",
   "dependencies": {
@@ -12,8 +12,9 @@
     "handlebars": "^4.0.6",
     "jquery": "^3.2.1",
     "lowdb": "^0.16.2",
-    "mocha": "^3.3.0",    
-    "navigo": "^4.7.0"
+    "mocha": "^3.3.0",
+    "navigo": "^4.7.0",
+    "sinon": "^2.2.0"
   },
   "devDependencies": {},
   "scripts": {
