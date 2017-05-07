@@ -1,10 +1,1149 @@
 {
   "recipes": [
     {
+      "id": 18,
+      "name": "Baked Scallops",
+      "preparationTime": "50",
+      "likes": [
+        147
+      ],
+      "img": "http://images.media-allrecipes.com/userphotos/560x315/394217.jpg",
+      "ingredients": [
+        {
+          "ingredient": "butter, melted",
+          "quantity": 4,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "bay scallops, rinsed and drained",
+          "quantity": 1.5,
+          "unit": "pounds"
+        },
+        {
+          "ingredient": "seasoned dry bread crumbs",
+          "quantity": 1.5,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "onion powder",
+          "quantity": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "garlic powder",
+          "quantity": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "paprika",
+          "quantity": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "dried parsley",
+          "quantity": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "garlic, minced",
+          "quantity": 3,
+          "unit": "cloves"
+        },
+        {
+          "ingredient": "grated Parmesan cheese",
+          "quantity": 0.25,
+          "unit": "cup"
+        }
+      ],
+      "steps": [
+        {
+          "step": "1. Preheat oven to 400 degrees F (200 degrees C)."
+        },
+        {
+          "step": "2. Pour melted butter into a 2 quart oval casserole dish. Distribute butter and scallops evenly inside the dish."
+        },
+        {
+          "step": "3. Combine the bread crumbs, onion powder, garlic powder, paprika, parsley, minced garlic and Parmesan cheese. Sprinkle this mixture over the scallops."
+        },
+        {
+          "step": "4. Bake in pre-heated oven until scallops are firm, about 20 minutes."
+        }
+      ],
+      "comments": [
+        {
+          "user": "Mitko",
+          "comment": "So delicious!!!"
+        },
+        {
+          "user": "Gosho",
+          "comment": "Awesome!!! :)"
+        },
+        {
+          "user": "Yoana",
+          "comment": "try"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Gourmet Mushroom Risotto",
+      "preparationTime": "50",
+      "likes": [
+        147
+      ],
+      "img": "http://images.media-allrecipes.com/userphotos/560x315/246711.jpg",
+      "ingredients": [
+        {
+          "ingredient": "chicken broth, divided",
+          "quantity": 6,
+          "unit": "cups"
+        },
+        {
+          "ingredient": "olive oil, divided",
+          "quantity": 3,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "portobello mushrooms, thinly sliced",
+          "quantity": 1,
+          "unit": "pound"
+        },
+        {
+          "ingredient": "white mushrooms, thinly sliced",
+          "quantity": 1,
+          "unit": "pound"
+        },
+        {
+          "ingredient": "shallots, diced",
+          "quantity": 2,
+          "unit": "whole"
+        },
+        {
+          "ingredient": "Arborio rice",
+          "quantity": 1.5,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "dry white wine",
+          "quantity": 0.5,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "sea salt",
+          "quantity": 1,
+          "unit": "to taste"
+        },
+        {
+          "ingredient": "freshly ground black pepper",
+          "quantity": 1,
+          "unit": "to taste"
+        },
+        {
+          "ingredient": "finely chopped chives",
+          "quantity": 3,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "butter",
+          "quantity": 3,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "freshly grated Parmesan cheese",
+          "quantity": 0.33,
+          "unit": "cup"
+        }
+      ],
+      "steps": [
+        {
+          "step": "1. In a saucepan, warm the broth over low heat."
+        },
+        {
+          "step": "2. Warm 2 tablespoons olive oil in a large saucepan over medium-high heat. Stir in the mushrooms, and cook until soft, about 3 minutes. Remove mushrooms and their liquid, and set aside."
+        },
+        {
+          "step": "3. Add 1 tablespoon olive oil to skillet, and stir in the shallots. Cook 1 minute. Add rice, stirring to coat with oil, about 2 minutes. When the rice has taken on a pale, golden color, pour in wine, stirring constantly until the wine is fully absorbed. Add 1/2 cup broth to the rice, and stir until the broth is absorbed. Continue adding broth 1/2 cup at a time, stirring continuously, until the liquid is absorbed and the rice is al dente, about 15 to 20 minutes."
+        },
+        {
+          "step": "4. Remove from heat, and stir in mushrooms with their liquid, butter, chives, and parmesan. Season with salt and pepper to taste."
+        }
+      ],
+      "comments": [
+        {
+          "user": "Mitko",
+          "comment": "So delicious!!!"
+        },
+        {
+          "user": "Gosho",
+          "comment": "Awesome!!! :)"
+        },
+        {
+          "user": "Yoana",
+          "comment": "try"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Curried Coconut Chicken",
+      "preparationTime": "70",
+      "likes": [
+        47
+      ],
+      "img": "http://images.media-allrecipes.com/userphotos/560x315/3591067.jpg",
+      "ingredients": [
+        {
+          "ingredient": "boneless skinless chicken breasts, cut into 1/2-inch chunks",
+          "quantity": 2,
+          "unit": "pounds"
+        },
+        {
+          "ingredient": "salt and pepper",
+          "quantity": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "vegetable oil",
+          "quantity": 1.5,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "curry powder",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "onion, thinly sliced",
+          "quantity": 0.5,
+          "unit": "clove"
+        },
+        {
+          "ingredient": "garlic, crushed",
+          "quantity": 2,
+          "unit": "cloves"
+        },
+        {
+          "ingredient": "coconut milk",
+          "quantity": 1,
+          "unit": "can"
+        },
+        {
+          "ingredient": "stewed, diced tomatoes",
+          "quantity": 1,
+          "unit": "can"
+        },
+        {
+          "ingredient": "tomato sauce",
+          "quantity": 1,
+          "unit": "can"
+        },
+        {
+          "ingredient": "sugar",
+          "quantity": 3,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "step": "1. Season chicken pieces with salt and pepper."
+        },
+        {
+          "step": "2. Heat oil and curry powder in a large skillet over medium-high heat for two minutes. Stir in onions and garlic, and cook 1 minute more. Add chicken, tossing lightly to coat with curry oil. Reduce heat to medium, and cook for 7 to 10 minutes, or until chicken is no longer pink in center and juices run clear."
+        },
+        {
+          "step": "3. Pour coconut milk, tomatoes, tomato sauce, and sugar into the pan, and stir to combine. Cover and simmer, stirring occasionally, approximately 30 to 40 minutes."
+        }
+      ],
+      "comments": [
+        {
+          "user": "Mitko",
+          "comment": "So delicious!!!"
+        },
+        {
+          "user": "Gosho",
+          "comment": "Awesome!!! :)"
+        },
+        {
+          "user": "Yoana",
+          "comment": "try"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Burrito Pie",
+      "preparationTime": "60",
+      "likes": [
+        32
+      ],
+      "img": "http://images.media-allrecipes.com/userphotos/720x405/392583.jpg",
+      "ingredients": [
+        {
+          "ingredient": "ground beef",
+          "quantity": 2,
+          "unit": "pounds"
+        },
+        {
+          "ingredient": "onion, chopped",
+          "quantity": 1,
+          "unit": "whole"
+        },
+        {
+          "ingredient": "minced garlic",
+          "quantity": 2,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "black olives, sliced",
+          "quantity": 2,
+          "unit": "ounces"
+        },
+        {
+          "ingredient": "diced green chili peppers",
+          "quantity": 4,
+          "unit": "ounces"
+        },
+        {
+          "ingredient": "diced tomatoes with green chile peppers",
+          "quantity": 1,
+          "unit": "can"
+        },
+        {
+          "ingredient": "taco sauce",
+          "quantity": 1,
+          "unit": "jar"
+        },
+        {
+          "ingredient": "refried beans",
+          "quantity": 2,
+          "unit": "cans"
+        },
+        {
+          "ingredient": "tortillas",
+          "quantity": 12,
+          "unit": "whole"
+        },
+        {
+          "ingredient": "shredded Colby cheese",
+          "quantity": 9,
+          "unit": "ounces"
+        }
+      ],
+      "steps": [
+        {
+          "step": "1. Preheat oven to 350 degrees F (175 degrees C)."
+        },
+        {
+          "step": "2. In a large skillet over medium heat, saute the ground beef for 5 minutes. Add the onion and garlic, and saute for 5 more minutes. Drain any excess fat, if desired. Mix in the olives, green chile peppers, tomatoes with green chile peppers, taco sauce and refried beans. Stir mixture thoroughly, reduce heat to low, and let simmer for 15 to 20 minutes."
+        },
+        {
+          "step": "3. Spread a thin layer of the meat mixture in the bottom of a 4 quart casserole dish. Cover with a layer of tortillas followed by more meat mixture, then a layer of cheese. Repeat tortilla, meat, cheese pattern until all the tortillas are used, topping off with a layer of meat mixture and cheese."
+        },
+        {
+          "step": "4. Bake for 20 to 30 minutes in the preheated oven, or until cheese is slightly brown and bubbly."
+        }
+      ],
+      "comments": [
+        {
+          "user": "Mitko",
+          "comment": "So delicious!!!"
+        },
+        {
+          "user": "Gosho",
+          "comment": "Awesome!!! :)"
+        },
+        {
+          "user": "Yoana",
+          "comment": "try"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Slow Cooker Chicken Taco Soup",
+      "preparationTime": "180",
+      "likes": [
+        84
+      ],
+      "img": "http://keeprecipes.com/sites/keeprecipes/files/imagecache/recipe_large/tacosoup1www.bos-bowl.com_.jpg",
+      "ingredients": [
+        {
+          "ingredient": "onion, chopped",
+          "quantity": 1,
+          "unit": "clove"
+        },
+        {
+          "ingredient": "chili beans",
+          "quantity": 16,
+          "unit": "ounces"
+        },
+        {
+          "ingredient": "black beans",
+          "quantity": 15,
+          "unit": "ounces"
+        },
+        {
+          "ingredient": "whole kernel corn, drained",
+          "quantity": 15,
+          "unit": "ounces"
+        },
+        {
+          "ingredient": "tomato sauce",
+          "quantity": 8,
+          "unit": "ounces"
+        },
+        {
+          "ingredient": "beer",
+          "quantity": 1,
+          "unit": "bottle"
+        },
+        {
+          "ingredient": "diced tomatoes with green chilies, undrained",
+          "quantity": 10,
+          "unit": "ounces"
+        },
+        {
+          "ingredient": "taco seasoning",
+          "quantity": 1,
+          "unit": "package"
+        },
+        {
+          "ingredient": "skinless, boneless chicken breasts",
+          "quantity": 3,
+          "unit": "whole"
+        },
+        {
+          "ingredient": "shredded Cheddar cheese (optional)",
+          "quantity": 1,
+          "unit": "package"
+        },
+        {
+          "ingredient": "sour cream (optional)",
+          "quantity": 1,
+          "unit": "to taste"
+        },
+        {
+          "ingredient": "crushed tortilla chips (optional)",
+          "quantity": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        {
+          "step": "1. Place the onion, chili beans, black beans, corn, tomato sauce, beer, and diced tomatoes in a slow cooker. Add taco seasoning, and stir to blend. Lay chicken breasts on top of the mixture, pressing down slightly until just covered by the other ingredients. Set slow cooker for low heat, cover, and cook for 5 hours."
+        },
+        {
+          "step": "2. Remove chicken breasts from the soup, and allow to cool long enough to be handled. Stir the shredded chicken back into the soup, and continue cooking for 2 hours. Serve topped with shredded Cheddar cheese, a dollop of sour cream, and crushed tortilla chips, if desired."
+        }
+      ],
+      "comments": [
+        {
+          "user": "Mitko",
+          "comment": "So delicious!!!"
+        },
+        {
+          "user": "Gosho",
+          "comment": "Awesome!!! :)"
+        },
+        {
+          "user": "Yoana",
+          "comment": "try"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Buffalo Chicken Wings",
+      "preparationTime": "120",
+      "likes": [
+        84
+      ],
+      "img": "http://images.media-allrecipes.com/userphotos/720x405/445293.jpg",
+      "ingredients": [
+        {
+          "ingredient": "all-purpose flour",
+          "quantity": 0.5,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "paprika",
+          "quantity": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "cayenne pepper",
+          "quantity": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "salt",
+          "quantity": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "chicken wings",
+          "quantity": 10,
+          "unit": "whole"
+        },
+        {
+          "ingredient": "oil for deep frying",
+          "quantity": 1,
+          "unit": "to taste"
+        },
+        {
+          "ingredient": "butter",
+          "quantity": 0.25,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "hot sauce",
+          "quantity": 0.25,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "ground black pepper",
+          "quantity": 1,
+          "unit": "dash"
+        },
+        {
+          "ingredient": "garlic powder",
+          "quantity": 1,
+          "unit": "dash"
+        }
+      ],
+      "steps": [
+        {
+          "step": "1. In a small bowl mix together the flour, paprika, cayenne pepper and salt. Place chicken wings in a large nonporous glass dish or bowl and sprinkle flour mixture over them until they are evenly coated. Cover dish or bowl and refrigerate for 60 to 90 minutes."
+        },
+        {
+          "step": "2. Heat oil in a deep fryer to 375 degrees F (190 degrees C). The oil should be just enough to cover wings entirely, an inch or so deep. Combine the butter, hot sauce, pepper and garlic powder in a small saucepan over low heat. Stir together and heat until butter is melted and mixture is well blended. Remove from heat and reserve for serving."
+        },
+        {
+          "step": "3. Fry coated wings in hot oil for 10 to 15 minutes, or until parts of wings begin to turn brown. Remove from heat, place wings in serving bowl, add hot sauce mixture and stir together. Serve."
+        }
+      ],
+      "comments": [
+        {
+          "user": "Mitko",
+          "comment": "So delicious!!!"
+        },
+        {
+          "user": "Gosho",
+          "comment": "Awesome!!! :)"
+        },
+        {
+          "user": "Yoana",
+          "comment": "try"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Guacamole",
+      "preparationTime": "10",
+      "likes": [
+        6
+      ],
+      "img": "http://images.media-allrecipes.com/userphotos/720x405/811729.jpg",
+      "ingredients": [
+        {
+          "ingredient": "avocados - peeled, pitted, and mashed",
+          "quantity": 3,
+          "unit": "whole"
+        },
+        {
+          "ingredient": "lime, juiced",
+          "quantity": 1,
+          "unit": "whole"
+        },
+        {
+          "ingredient": "salt",
+          "quantity": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "diced onion",
+          "quantity": 0.5,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "chopped fresh cilantro",
+          "quantity": 3,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "roma (plum) tomatoes, diced",
+          "quantity": 2,
+          "unit": "whole"
+        },
+        {
+          "ingredient": "minced garlic",
+          "quantity": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "ground cayenne pepper (optional)",
+          "quantity": 1,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "step": "1. In a medium bowl, mash together the avocados, lime juice, and salt. "
+        },
+        {
+          "step": "2. Mix in onion, cilantro, tomatoes, and garlic. "
+        },
+        {
+          "step": "3. Stir in cayenne pepper. Refrigerate 1 hour for best flavor, or serve immediately."
+        }
+      ],
+      "comments": [
+        {
+          "user": "Mitko",
+          "comment": "So delicious!!!"
+        },
+        {
+          "user": "Gosho",
+          "comment": "Awesome!!! :)"
+        },
+        {
+          "user": "Yoana",
+          "comment": "try"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Sesame Seared Tuna",
+      "preparationTime": "20",
+      "likes": [
+        140
+      ],
+      "img": "http://images.media-allrecipes.com/userphotos/720x405/3496846.jpg",
+      "ingredients": [
+        {
+          "ingredient": "soy sauce",
+          "quantity": 0.25,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "mirin (Japanese sweet wine)",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "honey",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "sesame oil",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "rice wine vinegar",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "tuna steaks",
+          "quantity": 6,
+          "unit": "ounce"
+        },
+        {
+          "ingredient": "sesame seeds",
+          "quantity": 0.5,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "wasabi paste",
+          "quantity": 1,
+          "unit": "to taste"
+        },
+        {
+          "ingredient": "olive oil",
+          "quantity": 1,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "step": "1. In a small bowl, stir together the soy sauce, mirin, honey and sesame oil. Divide into two equal parts. Stir the rice vinegar into one part and set aside as a dipping sauce."
+        },
+        {
+          "step": "2. Spread the sesame seeds out on a plate. Coat the tuna steaks with the remaining soy sauce mixture, then press into the sesame seeds to coat."
+        },
+        {
+          "step": "3. Heat olive oil in a cast iron skillet over high heat until very hot. Place steaks in the pan, and sear for about 30 seconds on each side. Serve with the dipping sauce and wasabi paste."
+        }
+      ],
+      "comments": [
+        {
+          "user": "Mitko",
+          "comment": "So delicious!!!"
+        },
+        {
+          "user": "Gosho",
+          "comment": "Awesome!!! :)"
+        },
+        {
+          "user": "Yoana",
+          "comment": "try"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Garlic Shrimp",
+      "preparationTime": "25",
+      "likes": [
+        14
+      ],
+      "img": "http://images.media-allrecipes.com/userphotos/720x405/1330843.jpg",
+      "ingredients": [
+        {
+          "ingredient": "olive oil",
+          "quantity": 1.5,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "shrimp, peeled and deveined",
+          "quantity": 1,
+          "unit": "pound"
+        },
+        {
+          "ingredient": "salt",
+          "quantity": 1,
+          "unit": "to taste"
+        },
+        {
+          "ingredient": "garlic, finely minced",
+          "quantity": 6,
+          "unit": "cloves"
+        },
+        {
+          "ingredient": "red pepper flakes",
+          "quantity": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "lemon juice",
+          "quantity": 3,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "caper brine",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "cold butter",
+          "quantity": 1.5,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "chopped Italian flat leaf parsley, divided",
+          "quantity": 0.33,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "cold butter",
+          "quantity": 1.5,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "water",
+          "quantity": 1,
+          "unit": "as needed"
+        }
+      ],
+      "steps": [
+        {
+          "step": "1. Heat olive oil in a heavy skillet over high heat until it just begins to smoke. Place shrimp in an even layer on the bottom of the pan and cook for 1 minute without stirring."
+        },
+        {
+          "step": "2. Season shrimp with salt; cook and stir until shrimp begin to turn pink, about 1 minute."
+        },
+        {
+          "step": "3. Stir in garlic and red pepper flakes; cook and stir 1 minute. Stir in lemon juice, caper brine, 1 1/2 teaspoon cold butter, and half the parsley."
+        },
+        {
+          "step": "4. Cook until butter has melted, about 1 minute, then turn heat to low and stir in 1 1/2 tablespoon cold butter. Cook and stir until all butter has melted to form a thick sauce and shrimp are pink and opaque, about 2 to 3 minutes."
+        },
+        {
+          "step": "5. Remove shrimp with a slotted spoon and transfer to a bowl; continue to cook butter sauce, adding water 1 teaspoon at a time if too thick, about 2 minutes. Season with salt to taste."
+        },
+        {
+          "step": "6. Serve shrimp topped with the pan sauce. Garnish with remaining flat-leaf parsley."
+        }
+      ],
+      "comments": [
+        {
+          "user": "Mitko",
+          "comment": "So delicious!!!"
+        },
+        {
+          "user": "Gosho",
+          "comment": "Awesome!!! :)"
+        },
+        {
+          "user": "Yoana",
+          "comment": "try"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Sweet, Sticky and Spicy Chicken",
+      "preparationTime": "120",
+      "likes": [
+        580
+      ],
+      "img": "http://images.media-allrecipes.com/userphotos/720x405/4477756.jpg",
+      "ingredients": [
+        {
+          "ingredient": "brown sugar",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "honey",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "soy sauce",
+          "quantity": 0.25,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "chopped fresh ginger root",
+          "quantity": 2,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "chopped garlic",
+          "quantity": 2,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "hot sauce",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "salt and pepper",
+          "quantity": 1,
+          "unit": "to taste"
+        },
+        {
+          "ingredient": "skinless, boneless chicken breast halves - cut into 1/2 inch strips",
+          "quantity": 4,
+          "unit": "whole"
+        },
+        {
+          "ingredient": "vegetable oil",
+          "quantity": 1,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "step": "1. Mix together brown sugar, honey, soy sauce, ginger, garlic and hot sauce in a small bowl."
+        },
+        {
+          "step": "2. Lightly salt and pepper the chicken strips."
+        },
+        {
+          "step": "3. Heat oil in a large skillet over medium heat. Add chicken strips and brown on both sides, about 1 minute per side. Pour the sauce over the chicken. Simmer uncovered until the sauce thickens, 8 to 10 minutes."
+        }
+      ],
+      "comments": [
+        {
+          "user": "Mitko",
+          "comment": "So delicious!!!"
+        },
+        {
+          "user": "Gosho",
+          "comment": "Awesome!!! :)"
+        },
+        {
+          "user": "Yoana",
+          "comment": "try"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Lasagna",
+      "preparationTime": "120",
+      "likes": [
+        580
+      ],
+      "img": "http://images.media-allrecipes.com/userphotos/720x405/3359675.jpg",
+      "ingredients": [
+        {
+          "ingredient": "sweet Italian sausage",
+          "quantity": 7,
+          "unit": "ounces"
+        },
+        {
+          "ingredient": "lean ground beef ",
+          "quantity": 5,
+          "unit": "ounces"
+        },
+        {
+          "ingredient": "minced onion",
+          "quantity": 0.5,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "minced onion",
+          "quantity": 2,
+          "unit": "cloves"
+        },
+        {
+          "ingredient": "crushed tomatoes",
+          "quantity": 28,
+          "unit": "ounces"
+        },
+        {
+          "ingredient": "tomato paste",
+          "quantity": 6,
+          "unit": "ounces"
+        },
+        {
+          "ingredient": "canned tomato sauce",
+          "quantity": 6.5,
+          "unit": "ounces"
+        },
+        {
+          "ingredient": "water",
+          "quantity": 0.5,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "white sugar",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "dried basil leaves",
+          "quantity": 1.5,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "fennel seeds",
+          "quantity": 0.5,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "Italian seasoning",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "salt",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "ground black pepper",
+          "quantity": 0.25,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "chopped fresh parsley",
+          "quantity": 4,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "lasagna noodles",
+          "quantity": 12,
+          "unit": "whole"
+        },
+        {
+          "ingredient": "ricotta cheese",
+          "quantity": 16,
+          "unit": "ounces"
+        },
+        {
+          "ingredient": "egg",
+          "quantity": 1,
+          "unit": "whole"
+        },
+        {
+          "ingredient": "mozzarella cheese, sliced ",
+          "quantity": 0.75,
+          "unit": "pound"
+        },
+        {
+          "ingredient": "grated Parmesan cheese",
+          "quantity": 0.75,
+          "unit": "cup"
+        }
+      ],
+      "steps": [
+        {
+          "step": "1. In a Dutch oven, cook sausage, ground beef, onion, and garlic over medium heat until well browned. Stir in crushed tomatoes, tomato paste, tomato sauce, and water. Season with sugar, basil, fennel seeds, Italian seasoning, 1 tablespoon salt, pepper, and 2 tablespoons parsley. Simmer, covered, for about 1 1/2 hours, stirring occasionally."
+        },
+        {
+          "step": "2. Bring a large pot of lightly salted water to a boil. Cook lasagna noodles in boiling water for 8 to 10 minutes. Drain noodles, and rinse with cold water. In a mixing bowl, combine ricotta cheese with egg, remaining parsley, and 1/2 teaspoon salt."
+        },
+        {
+          "step": "3. Preheat oven to 375 degrees F (190 degrees C)."
+        },
+        {
+          "step": "4. To assemble, spread 1 1/2 cups of meat sauce in the bottom of a 9x13 inch baking dish. Arrange 6 noodles lengthwise over meat sauce. Spread with one half of the ricotta cheese mixture. Top with a third of mozzarella cheese slices. Spoon 1 1/2 cups meat sauce over mozzarella, and sprinkle with 1/4 cup Parmesan cheese. Repeat layers, and top with remaining mozzarella and Parmesan cheese. Cover with foil: to prevent sticking, either spray foil with cooking spray, or make sure the foil does not touch the cheese."
+        },
+        {
+          "step": "5. Bake in preheated oven for 25 minutes. Remove foil, and bake an additional 25 minutes. Cool for 15 minutes before serving."
+        }
+      ],
+      "comments": [
+        {
+          "user": "Mitko",
+          "comment": "So delicious!!!"
+        },
+        {
+          "user": "Gosho",
+          "comment": "Awesome!!! :)"
+        },
+        {
+          "user": "Yoana",
+          "comment": "try"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Broiled Lobster Tails",
+      "preparationTime": "20",
+      "likes": [
+        50
+      ],
+      "img": "https://getmainelobster.com/wp-content/uploads/2014/07/maine-lobster-tails-banner.jpg",
+      "ingredients": [
+        {
+          "ingredient": "lobster tails",
+          "quantity": 2,
+          "unit": "whole"
+        },
+        {
+          "ingredient": "butter, melted",
+          "quantity": 0.5,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "ground paprika",
+          "quantity": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "salt",
+          "quantity": 1,
+          "unit": "to taste"
+        },
+        {
+          "ingredient": "ground white pepper",
+          "quantity": 1,
+          "unit": "to taste"
+        },
+        {
+          "ingredient": "lemon - cut into wedges, for garnish",
+          "quantity": 1,
+          "unit": "whole"
+        }
+      ],
+      "steps": [
+        {
+          "step": "1. Preheat the broiler."
+        },
+        {
+          "step": "2. Place lobster tails on a baking sheet. With a sharp knife or kitchen shears, carefully cut top side of lobster shells lengthwise. Pull apart shells slightly, and season meat with equal amounts butter, paprika, salt, and white pepper."
+        },
+        {
+          "step": "3. Broil lobster tails until lightly browned and lobster meat is opaque, about 5 to 10 minutes. "
+        },
+        {
+          "step": "4. Garnish with lemon wedges to serve."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Dr. Greger's Luck of The Greens Veggie Bowl",
+      "preparationTime": "30",
+      "likes": [
+        5
+      ],
+      "img": "https://trello-attachments.s3.amazonaws.com/58cce2345db1f19d0f5e5fae/960x640/fa7dd02aef92c4a3cbe8d14485ad7f62/green_bowl.jpg.png",
+      "ingredients": [
+        {
+          "ingredient": "fresh basil leaves",
+          "quantity": 2,
+          "unit": "cups"
+        },
+        {
+          "ingredient": "walnuts",
+          "quantity": 0.25,
+          "unit": "cups"
+        },
+        {
+          "ingredient": "cloves fresh garlic",
+          "quantity": 2,
+          "unit": "cloves"
+        },
+        {
+          "ingredient": "peeled lemon",
+          "quantity": 0.25,
+          "unit": "whole"
+        },
+        {
+          "ingredient": "lemon zest",
+          "quantity": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "fresh turmeric root or turmeric powder",
+          "quantity": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "pinto beans (canned, salt free)",
+          "quantity": 0.25,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "water or liquid from bean can",
+          "quantity": 0.25,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "pepper",
+          "quantity": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        {
+          "step": "1. Combine all ingredients in a food processor. Blend until smooth."
+        },
+        {
+          "step": "2. That's all!"
+        }
+      ],
+      "comments": []
+    },
+    {
       "id": 8,
       "name": "English Apple Pie",
       "preparationTime": "60",
-      "likes": "42",
+      "likes": [
+        42
+      ],
       "img": "https://trello-attachments.s3.amazonaws.com/57f438a7c34db6ed75bd4ff6/1000x563/c7f31debb3ff7502ddfffddb792eed65/apple_pie.jpg",
       "ingredients": [
         {
@@ -101,58 +1240,83 @@
       "comments": []
     },
     {
-      "id": 7,
-      "name": "Постен пататник",
-      "preparationTime": "45",
-      "likes": "50",
-      "img": "https://trello-attachments.s3.amazonaws.com/5800a285ac8563dc9d281b17/666x500/4ba07fe648f5cd4b1098973a7860ce5c/patatnik.jpg",
+      "id": 3,
+      "name": "Portobello \"steaks\" with a side of mashed cauliflower",
+      "preparationTime": "70",
+      "likes": [
+        33
+      ],
+      "img": "https://trello-attachments.s3.amazonaws.com/580e34f3955d15182e1ff651/666x467/85c16ac1e396d05e787081700ac0cd74/portobello_steaks.jpg",
       "ingredients": [
         {
-          "ingredient": "картофи",
-          "quantity": 1,
-          "unit": "kg"
-        },
-        {
-          "ingredient": "кромид лук",
+          "ingredient": "portobello mushrooms",
           "quantity": 2,
           "unit": "whole"
         },
         {
-          "ingredient": "джоджен",
-          "quantity": 1,
-          "unit": "to taste"
+          "ingredient": "lemon",
+          "quantity": 0.25,
+          "unit": "whole"
         },
         {
-          "ingredient": "сол",
-          "quantity": 1,
-          "unit": "to taste"
+          "ingredient": "balsamic vinegar",
+          "quantity": 2,
+          "unit": "tbsp"
         },
         {
-          "ingredient": "олио",
+          "ingredient": "tahini",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "cherry tomatoes",
+          "quantity": 0.25,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "mixed greens",
+          "quantity": 2,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "fresh cauliflower",
+          "quantity": 0.5,
+          "unit": "whole"
+        },
+        {
+          "ingredient": "1/2 clove of garlic",
+          "quantity": 0.05,
+          "unit": "whole"
+        },
+        {
+          "ingredient": "salt-free horseradish (optional)",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "black pepper (to taste)",
           "quantity": 1,
           "unit": "to taste"
         }
       ],
       "steps": [
         {
-          "step": "1. Суровите картофи се обелват и се настъргват на едро ренде."
+          "step": "1. Rinse all the produce. Peel and mince the garlic. Slice the cherry tomatoes in half. Remove the portobello mushroom stem. Chop the fresh cauliflower into small pieces. "
         },
         {
-          "step": "2. След това се настъргва и лукът."
+          "step": "2. Boil the fresh cauliflower for about 10 minutes or until tender. Mash with a fork or potato masher, or puree in a food processor with some of the cooking liquid. Season with pepper and minced garlic."
         },
         {
-          "step": "3. Добавя се сол и джоджен на вкус. Разбъркват се и се оставят 15 минути да престоят."
+          "step": "3. Heat a grill pan, outdoor grill, or skillet over medium-high. Drizzle the portobello mushroom cap with balsamic vinegar, and place on hot pan. Cover and cook for 5 minutes, then flip and season with pepper, replace cover and cook for another 5-10 minutes, or until the portobello mushroom is tender. (Cooking time may vary, depending on the size of your portobello mushroom.) If you have a panini press or countertop grill, you can use that instead."
         },
         {
-          "step": "4. В широк тиган се сипва олио и се слага сместа да се пържи под похлупак."
+          "step": "4. Whisk together tahini and lemon juice, adding a splash of water or balsamic vinegar to thin. Pile mixed greens and cherry tomatoes on a plate and drizzle with the lemon-tahini dressing. "
         },
         {
-          "step": "5. Когато отдолу стане златисто се обръща върху капака, връща се в тигана и се изпържва от другата страна."
-        },
-        {
-          "step": "6. За по-лесно може да се сложи в намазана с олио тава и да се изпече във фурната."
+          "step": "5. Serve with mashed cauliflower topped with a dollop of horseradish and portobello /“steaks/”."
         }
-      ]
+      ],
+      "comments": []
     },
     {
       "id": 6,
@@ -285,216 +1449,6 @@
       ]
     },
     {
-      "id": 5,
-      "name": "Dr. Greger's Luck of The Greens Veggie Bowl",
-      "preparationTime": "30",
-      "likes": "5",
-      "img": "https://trello-attachments.s3.amazonaws.com/58cce2345db1f19d0f5e5fae/960x640/fa7dd02aef92c4a3cbe8d14485ad7f62/green_bowl.jpg.png",
-      "ingredients": [
-        {
-          "ingredient": "fresh basil leaves",
-          "quantity": 2,
-          "unit": "cup"
-        },
-        {
-          "ingredient": "walnuts",
-          "quantity": 0.25,
-          "unit": "cup"
-        },
-        {
-          "ingredient": "2 cloves fresh garlic",
-          "quantity": 0.2,
-          "unit": "whole"
-        },
-        {
-          "ingredient": "peeled lemon",
-          "quantity": 0.25,
-          "unit": "whole"
-        },
-        {
-          "ingredient": "lemon zest",
-          "quantity": 0.25,
-          "unit": "tsp"
-        },
-        {
-          "ingredient": "fresh turmeric root or turmeric powder",
-          "quantity": 0.25,
-          "unit": "tsp"
-        },
-        {
-          "ingredient": "pinto beans (canned, salt free)",
-          "quantity": 0.25,
-          "unit": "cup"
-        },
-        {
-          "ingredient": "water or liquid from bean can",
-          "quantity": 0.25,
-          "unit": "cup"
-        },
-        {
-          "ingredient": "pepper",
-          "quantity": 1,
-          "unit": "to taste"
-        }
-      ],
-      "steps": "Luck of the greens!\n A green veggie bowl with split peas, avocado, brussels sprouts, broccoli, asparagus, green peppers, zucchini, and quinoa. Served on a bed of kale and topped with homemade pesto sauce.\n METHOD:\n Combine all ingredients in a food processor. Blend until smooth.\n Recipe from 'How Not to Die' page 374.\n Image from: Kristina DeMuth\n For more tasty recipe ideas, check out the [NutritionFacts.org Instagram page](https://www.instagram.com/nutrition_facts_org/)"
-    },
-    {
-      "id": 4,
-      "name": "Зеленчуков пай",
-      "preparationTime": "60",
-      "likes": 2,
-      "img": "https://trello-attachments.s3.amazonaws.com/583953f9340ebbb0b625db91/335x235/c8b73bf6bd0feb9e32c76076a6da90e3/zelenchukov-pay_437.jpg.png",
-      "ingredients": [
-        {
-          "ingredient": "брашно от лимец",
-          "quantity": 250,
-          "unit": "g"
-        },
-        {
-          "ingredient": "филтрирана вода",
-          "quantity": 0.75,
-          "unit": "waterglass"
-        },
-        {
-          "ingredient": "сода за хляб",
-          "quantity": 0.25,
-          "unit": "tsp"
-        },
-        {
-          "ingredient": "лимонов сок",
-          "quantity": 1,
-          "unit": "to taste"
-        },
-        {
-          "ingredient": "хималайска сол",
-          "quantity": 1,
-          "unit": "to taste"
-        },
-        {
-          "ingredient": "захар мусковадо",
-          "quantity": 1,
-          "unit": "pinch"
-        },
-        {
-          "ingredient": "сминдух",
-          "quantity": 1,
-          "unit": "to taste"
-        },
-        {
-          "ingredient": "карфиол",
-          "quantity": 0.25,
-          "unit": "whole"
-        },
-        {
-          "ingredient": "тофу",
-          "quantity": 150,
-          "unit": "g"
-        },
-        {
-          "ingredient": "брашно от елда",
-          "quantity": 2,
-          "unit": "tbsp"
-        },
-        {
-          "ingredient": "хранителна мая",
-          "quantity": 3.5,
-          "unit": "tbsp"
-        },
-        {
-          "ingredient": "асафетида",
-          "quantity": 1,
-          "unit": "to taste"
-        },
-        {
-          "ingredient": "черен пипер",
-          "quantity": 1,
-          "unit": "to taste"
-        },
-        {
-          "ingredient": "хималайска сол",
-          "quantity": 1,
-          "unit": "to taste"
-        },
-        {
-          "ingredient": "тиквички",
-          "quantity": 2,
-          "unit": "whole"
-        },
-        {
-          "ingredient": "патладжани",
-          "quantity": 2,
-          "unit": "whole"
-        },
-        {
-          "ingredient": "моркови",
-          "quantity": 2,
-          "unit": "whole"
-        }
-      ],
-      "steps": "*[рецепта от VitaRama](http://vitarama.bg/bg/zelenchukov-pai/437/item/)*\n Приготвяне:\n 1. Смесете брашното, солта, захарта и сминдуха. Добавете водата с малко лимонов сок. Замесете твърдо тесто като за пай. Оставете да престои за около половин час.\n 2. Сварете карфиола на пара.\n 3. Разточете тестото на кръг дебелина 3-4 мм с диаметър за формата, в която ще печете заедно с височината на борда. В кръгла силиконова форма или форма с незалепващо покритие поставете разточения лист и оформете борда. Сложете за около 10 минути в предварително загрята до180 градуса фурна. Извадете и оставете да се охлади.\n 4. Блендирайте до хомогенна смес карфиола, тофуто, брашното от елда, хранителната мая, черния пипер, асафетидата и солта.\n 5. Нарежете зеленчуците с помощта на белачка за зеленчуци или ренде на фини и дълги ленти. Започнете да ги навивате на не много стегната спирала като редувате кръг от морков, кръг от тиквичка, кръг от патладжан. Докато се оформи, голяма красива розетка с диаметъра на съда, в който печете пая.\n 6. След това изсипете плънката в твата с тестото. Внимателно преместете розетката от зеленчуци върху плънката и претиснете така, че тя да влезе между слоевете на розетката, но без да излиза над ръба на зеленчуците.\n 7. Печете за около 30 минути в загрята до 180 градуса фурна."
-    },
-    {
-      "id": 3,
-      "name": "Portobello \"steaks\" with a side of mashed cauliflower",
-      "preparationTime": "70",
-      "likes": "33",
-      "img": "https://trello-attachments.s3.amazonaws.com/580e34f3955d15182e1ff651/666x467/85c16ac1e396d05e787081700ac0cd74/portobello_steaks.jpg",
-      "ingredients": [
-        {
-          "ingredient": "portobello mushrooms",
-          "quantity": 2,
-          "unit": "whole"
-        },
-        {
-          "ingredient": "lemon",
-          "quantity": 0.25,
-          "unit": "whole"
-        },
-        {
-          "ingredient": "balsamic vinegar",
-          "quantity": 2,
-          "unit": "tbsp"
-        },
-        {
-          "ingredient": "tahini",
-          "quantity": 1,
-          "unit": "tbsp"
-        },
-        {
-          "ingredient": "cherry tomatoes",
-          "quantity": 0.25,
-          "unit": "cup"
-        },
-        {
-          "ingredient": "mixed greens",
-          "quantity": 2,
-          "unit": "cup"
-        },
-        {
-          "ingredient": "fresh cauliflower",
-          "quantity": 0.5,
-          "unit": "whole"
-        },
-        {
-          "ingredient": "1/2 clove of garlic",
-          "quantity": 0.05,
-          "unit": "whole"
-        },
-        {
-          "ingredient": "salt-free horseradish (optional)",
-          "quantity": 1,
-          "unit": "tbsp"
-        },
-        {
-          "ingredient": "black pepper (to taste)",
-          "quantity": 1,
-          "unit": "to taste"
-        }
-      ],
-      "steps": "Recipe from *[Dr. Greger's Lighter profile](https://www.lighter.world/providers/Michael_Greger)*\n 1. Rinse all the produce. Peel and mince the garlic. Slice the cherry tomatoes in half. Remove the portobello mushroom stem. Chop the fresh cauliflower into small pieces.\n 2. Boil the fresh cauliflower for about 10 minutes or until tender. Mash with a fork or potato masher, or puree in a food processor with some of the cooking liquid. Season with pepper and minced garlic.\n 3. Heat a grill pan, outdoor grill, or skillet over medium-high. Drizzle the portobello mushroom cap with balsamic vinegar, and place on hot pan. Cover and cook for 5 minutes, then flip and season with pepper, replace cover and cook for another 5-10 minutes, or until the portobello mushroom is tender. (Cooking time may vary, depending on the size of your portobello mushroom.) If you have a panini press or countertop grill, you can use that instead.\n 4. Whisk together tahini and lemon juice, adding a splash of water or balsamic vinegar to thin. Pile mixed greens and cherry tomatoes on a plate and drizzle with the lemon-tahini dressing.\n 5. Serve with mashed cauliflower topped with a dollop of horseradish and portobello 'steaks'. Serves 1"
-    },
-    {
       "id": 2,
       "name": "Spaghetti Carbonara",
       "preparationTime": "40",
@@ -600,13 +1554,16 @@
         {
           "step": "15. Serve immediately with chopped parsley sprinkled on top, and extra Parmesan cheese at table."
         }
-      ]
+      ],
+      "comments": []
     },
     {
       "id": 1,
       "name": "Margherita Pizza",
       "preparationTime": "45",
-      "likes": "11",
+      "likes": [
+        11
+      ],
       "img": "https://trello-attachments.s3.amazonaws.com/5786228a9dbaf8f1c7ee5e69/5900a0c1fa776c05511b2ee9/097b4c81b1f582a73dbf172ec1403e78/Margherita-Pizza-pic.jpg",
       "ingredients": [
         {
@@ -650,7 +1607,107 @@
           "unit": "n/a"
         }
       ],
-      "steps": "Prepare the pizza dough through step 11, including preheating the oven to 475F as described in step 8.Mix the olive oil and chopped garlic together in a small dish. After waiting 15 minutes as described in step 11, spread olive oil/garlic mixture on top of crust. Top with pizza sauce, then the mozzarella cheese slices, then the tomato slices. Bake for 14-16 minutes or until the crust is lightly browned and the cheese is bubbling. For the last minute, I move the oven rack to the top rack to really brown the edges. That's optional. Remove from the oven and top with fresh basil and pepper. Slice pizza and serve immediately. Store leftover pizza covered tightly in the refrigerator and reheat as you prefer. Baked pizza slices may be frozen up to 1 month. Please see homemade pizza crust recipe for how to make ahead and freeze the pizza dough."
+      "steps": [
+        {
+          "step": "1. Prepare the pizza dough through step 11, including preheating the oven to 475F as described in step 8."
+        },
+        {
+          "step": "2. Mix the olive oil and chopped garlic together in a small dish."
+        },
+        {
+          "step": "3. After waiting 15 minutes as described in step 11, spread olive oil/garlic mixture on top of crust."
+        },
+        {
+          "step": "4. Top with pizza sauce, then the mozzarella cheese slices, then the tomato slices."
+        },
+        {
+          "step": "5. Bake for 14-16 minutes or until the crust is lightly browned and the cheese is bubbling."
+        },
+        {
+          "step": "6. For the last minute, I move the oven rack to the top rack to really brown the edges. That's optional."
+        },
+        {
+          "step": "7. Remove from the oven and top with fresh basil and pepper."
+        },
+        {
+          "step": "8. Slice pizza and serve immediately. Store leftover pizza covered tightly in the refrigerator and reheat as you prefer. Baked pizza slices may be frozen up to 1 month. Please see homemade pizza crust recipe for how to make ahead and freeze the pizza dough."
+        }
+      ],
+      "comments": []
+    },
+    {
+      "id": 4,
+      "name": "Зеленчуков пай",
+      "preparationTime": "60",
+      "likes": [
+        2
+      ],
+      "img": "https://trello-attachments.s3.amazonaws.com/583953f9340ebbb0b625db91/335x235/c8b73bf6bd0feb9e32c76076a6da90e3/zelenchukov-pay_437.jpg.png",
+      "ingredients": [
+        {
+          "ingredient": "chopped broccoli or sliced fresh cauliflowerets ",
+          "quantity": 2,
+          "unit": "cups"
+        },
+        {
+          "ingredient": "chopped onion ",
+          "quantity": 0.33,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "chopped green bell pepper ",
+          "quantity": 0.33,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "shredded Cheddar cheese",
+          "quantity": 1,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "Original Bisquick™ mix ",
+          "quantity": 0.5,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "milk",
+          "quantity": 1,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "salt ",
+          "quantity": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "pepper",
+          "quantity": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "eggs",
+          "quantity": 2,
+          "unit": "whole"
+        }
+      ],
+      "steps": [
+        {
+          "step": "1. Heat oven to 400ºF. Grease 9-inch pie plate. Heat 1 inch salted water to boiling in medium saucepan."
+        },
+        {
+          "step": "2. Add broccoli; cover and heat to boiling. Cook about 5 minutes or until almost tender; drain thoroughly."
+        },
+        {
+          "step": "3. Stir together cooked broccoli, onion, bell pepper and cheese in pie plate. "
+        },
+        {
+          "step": "4. Stir remaining ingredients until blended. Pour into pie plate."
+        },
+        {
+          "step": "5. Bake 35 to 45 minutes or until golden brown and knife inserted in center comes out clean. Cool 5 minutes. "
+        }
+      ],
+      "comments": []
     }
   ],
   "users": [
@@ -669,10 +1726,5 @@
       "usernameLower": "mama"
     }
   ],
-  "currentUser": [
-    {
-      "username": "Yoana",
-      "authKey": "10yfaGT!PNVou&bAUt%+j@&gk&WiK^)tarsT^aFrIdDOvzE%*MiEqFAejbi="
-    }
-  ]
+  "currentUser": []
 }
