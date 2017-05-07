@@ -1713,17 +1713,13 @@
   "users": [
     {
       "data": {
-        "username": "Yoana",
-        "passHash": "ba80289edfa24b5674abb5a47bf487526a633f40"
+        "username": "test1",
+        "passHash": "8b3a104217ee0dc5436284f55cb02334c374413e",
+        "firstName": "Test",
+        "lastName": "LastTest",
+        "email": "test@abv.bg"
       },
-      "usernameLower": "yoana"
-    },
-    {
-      "data": {
-        "username": "mama",
-        "passHash": "4c5999e84c62d051536864e6e6643b7258942e70"
-      },
-      "usernameLower": "mama"
+      "usernameLower": "test1"
     }
   ],
   "currentUser": []

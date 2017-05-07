@@ -15,7 +15,10 @@ let dataService = (function () {
     function register(user) {
         let reqUser = {
             username: user.username,
-            passHash: CryptoJS.SHA1(user.username + user.password).toString()
+            passHash: CryptoJS.SHA1(user.username + user.password).toString(),
+            firstName: user.firstName,
+            lastName: user.lastName,
+            email: user.email
         };
 
         return requester.postJSON("/api/users/register", {
@@ -53,15 +56,15 @@ let dataService = (function () {
             authKey: sessionStorage.getItem(SESSION_STORAGE_AUTHKEY_KEY)
         };
         return requester.postJSON("/api/hasUser", currentUser)
-        .then((data) => {
-            let foundUser = data.result;
-            if(!foundUser){
-                return false;
-            }
-            else{
-                return true;
-            }
-        });
+            .then((data) => {
+                let foundUser = data.result;
+                if (!foundUser) {
+                    return false;
+                }
+                else {
+                    return true;
+                }
+            });
     }
 
     return {
@@ -74,9 +77,9 @@ let dataService = (function () {
 }());
 
 if (typeof module !== 'undefined') {
-  module.exports = (function(){ 
-    return [
-      dataService
-    ]; 
-  })();
+    module.exports = (function () {
+        return [
+            dataService
+        ];
+    })();
 }

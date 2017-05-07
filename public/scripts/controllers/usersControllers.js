@@ -9,8 +9,18 @@ let usersControllers = {
                 $("#btn-register").on("click", (ev) => {
                     let user = {
                         username: $("#tb-username").val(),
-                        password: $("#tb-pass").val()
+                        password: $("#tb-pass").val(),
+                        firstName: $("#tb-first-name").val(),
+                        lastName: $("#tb-last-name").val(),
+                        email: $("#tb-email").val()
                     };
+                    console.log("user to send: " + user);
+                    $("#tb-username").val("");
+                    $("#tb-pass").val("");
+                    $("#tb-first-name").val("");
+                    $("#tb-last-name").val("");
+                    $("#tb-email").val("");
+                    
                     dataService.register(user)
                         .then(function () {
                             $(".register").remove();
@@ -66,9 +76,9 @@ let usersControllers = {
 };
 
 if (typeof module !== 'undefined') {
-  module.exports = (function(){ 
-    return [
-      usersControllers
-    ]; 
-  })();
+    module.exports = (function () {
+        return [
+            usersControllers
+        ];
+    })();
 }
