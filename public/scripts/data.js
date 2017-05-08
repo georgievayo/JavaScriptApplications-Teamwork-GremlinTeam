@@ -58,7 +58,9 @@ let dataService = (function () {
         return requester.postJSON("/api/hasUser", currentUser)
             .then((data) => {
                 let foundUser = data.result;
-                if (!foundUser) {
+                console.log(foundUser);
+                if (foundUser === undefined) {
+                    console.log("not logged")
                     return false;
                 }
                 else {
