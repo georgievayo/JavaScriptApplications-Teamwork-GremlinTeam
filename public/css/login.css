@@ -26,6 +26,13 @@
     border-radius: 3px;
 }
 
+.createRecipe {
+	background: rgba(0, 0, 0, .8);   
+    margin-top: 6%;
+    height: 650px;
+    border-radius: 3px;
+}
+
 .button-checkbox{
   color:white;
 }
