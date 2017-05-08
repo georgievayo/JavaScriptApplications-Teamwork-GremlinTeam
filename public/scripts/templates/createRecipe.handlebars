@@ -1,29 +1,30 @@
-<div class="form">
-    <label>
-        Title:
-        <input id="tb-name" class="form-control" type="text">
-    </label>
-    <br />
-    <label>
-        Preparation time:
-        <input id="tb-preparation-time" class="form-control" type="text">
-    </label>
-    <br />
-    <label>
-        Ingredients:
-        <input id="tb-ingredients" class="form-control" type="text">
-    </label>
-    <br />
-    <label>
-        Instructions:
-        <input id="tb-instructions" class="form-control" type="text">
-    </label>
-    <br />
-    <label>
-        Image url:
-        <input  id="tb-img" class="form-control" type="text">
-    </label>
-    <br />
-    <button id="btn-add" class="btn btn-success">Submit</button>
-    <button id="btn-add" class="btn btn-danger">Cancel</button>    
+<div class="row createRecipe">
+<div class="row">&nbsp;</div><div class="row">&nbsp;</div>
+    <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+    <form role="form">
+    <div class="form-group">     
+        <input id="tb-name" name="recipe-title" class="form-control input-lg" type="text" placeholder="Recipe title">
+    </div>
+    <div class="form-group">
+        <input id="tb-preparation-time" name="preparation-time" class="form-control input-lg" type="text" placeholder="Preparation time">
+    </div>
+    <div class="form-group">
+        <textarea id="tb-ingredients" name="ingredient-list" class="form-control input-lg" rows="5" placeholder="Ingredients"></textarea>
+    </div>
+    <div class="form-group">
+        <textarea id="tb-instructions" name="instructions-list" class="form-control input-lg" rows="5" placeholder="Instructions"></textarea>
+    </div>
+    <div class="form-group">
+        <input id="tb-img" class="form-control input-lg" type="text" placeholder="Image url">
+    </div>
+    <div class="row">
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+      <input type="submit" value="Submit" id="btn-add" class="btn btn-success btn-block btn-lg">
+    </div>
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+      <input type="submit" value="Cancel" id="btn-cancel" class="btn btn-danger btn-block btn-lg">
+     </div>
+    </div>
+    </form>
+    </div>
 </div>

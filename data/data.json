@@ -1,6 +1,92 @@
 {
   "recipes": [
     {
+      "id": 16,
+      "name": "Curried Coconut Chicken",
+      "preparationTime": "70",
+      "likes": [
+        47
+      ],
+      "img": "http://images.media-allrecipes.com/userphotos/560x315/3591067.jpg",
+      "ingredients": [
+        {
+          "ingredient": "boneless skinless chicken breasts, cut into 1/2-inch chunks",
+          "quantity": 2,
+          "unit": "pounds"
+        },
+        {
+          "ingredient": "salt and pepper",
+          "quantity": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "vegetable oil",
+          "quantity": 1.5,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "curry powder",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "onion, thinly sliced",
+          "quantity": 0.5,
+          "unit": "clove"
+        },
+        {
+          "ingredient": "garlic, crushed",
+          "quantity": 2,
+          "unit": "cloves"
+        },
+        {
+          "ingredient": "coconut milk",
+          "quantity": 1,
+          "unit": "can"
+        },
+        {
+          "ingredient": "stewed, diced tomatoes",
+          "quantity": 1,
+          "unit": "can"
+        },
+        {
+          "ingredient": "tomato sauce",
+          "quantity": 1,
+          "unit": "can"
+        },
+        {
+          "ingredient": "sugar",
+          "quantity": 3,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "step": "1. Season chicken pieces with salt and pepper."
+        },
+        {
+          "step": "2. Heat oil and curry powder in a large skillet over medium-high heat for two minutes. Stir in onions and garlic, and cook 1 minute more. Add chicken, tossing lightly to coat with curry oil. Reduce heat to medium, and cook for 7 to 10 minutes, or until chicken is no longer pink in center and juices run clear."
+        },
+        {
+          "step": "3. Pour coconut milk, tomatoes, tomato sauce, and sugar into the pan, and stir to combine. Cover and simmer, stirring occasionally, approximately 30 to 40 minutes."
+        }
+      ],
+      "comments": [
+        {
+          "user": "Mitko",
+          "comment": "So delicious!!!"
+        },
+        {
+          "user": "Gosho",
+          "comment": "Awesome!!! :)"
+        },
+        {
+          "user": "Yoana",
+          "comment": "try"
+        }
+      ]
+    },
+    {
       "id": 5,
       "name": "Dr. Greger's Luck of The Greens Veggie Bowl",
       "preparationTime": "30",
@@ -67,95 +153,6 @@
         {
           "user": "awe",
           "comment": "oik,l"
-        }
-      ]
-    },
-    {
-      "id": 15,
-      "name": "Burrito Pie",
-      "preparationTime": "60",
-      "likes": [
-        32
-      ],
-      "img": "http://images.media-allrecipes.com/userphotos/720x405/392583.jpg",
-      "ingredients": [
-        {
-          "ingredient": "ground beef",
-          "quantity": 2,
-          "unit": "pounds"
-        },
-        {
-          "ingredient": "onion, chopped",
-          "quantity": 1,
-          "unit": "whole"
-        },
-        {
-          "ingredient": "minced garlic",
-          "quantity": 2,
-          "unit": "tsp"
-        },
-        {
-          "ingredient": "black olives, sliced",
-          "quantity": 2,
-          "unit": "ounces"
-        },
-        {
-          "ingredient": "diced green chili peppers",
-          "quantity": 4,
-          "unit": "ounces"
-        },
-        {
-          "ingredient": "diced tomatoes with green chile peppers",
-          "quantity": 1,
-          "unit": "can"
-        },
-        {
-          "ingredient": "taco sauce",
-          "quantity": 1,
-          "unit": "jar"
-        },
-        {
-          "ingredient": "refried beans",
-          "quantity": 2,
-          "unit": "cans"
-        },
-        {
-          "ingredient": "tortillas",
-          "quantity": 12,
-          "unit": "whole"
-        },
-        {
-          "ingredient": "shredded Colby cheese",
-          "quantity": 9,
-          "unit": "ounces"
-        }
-      ],
-      "steps": [
-        {
-          "step": "1. Preheat oven to 350 degrees F (175 degrees C)."
-        },
-        {
-          "step": "2. In a large skillet over medium heat, saute the ground beef for 5 minutes. Add the onion and garlic, and saute for 5 more minutes. Drain any excess fat, if desired. Mix in the olives, green chile peppers, tomatoes with green chile peppers, taco sauce and refried beans. Stir mixture thoroughly, reduce heat to low, and let simmer for 15 to 20 minutes."
-        },
-        {
-          "step": "3. Spread a thin layer of the meat mixture in the bottom of a 4 quart casserole dish. Cover with a layer of tortillas followed by more meat mixture, then a layer of cheese. Repeat tortilla, meat, cheese pattern until all the tortillas are used, topping off with a layer of meat mixture and cheese."
-        },
-        {
-          "step": "4. Bake for 20 to 30 minutes in the preheated oven, or until cheese is slightly brown and bubbly."
-        }
-      ],
-      "comments": [
-        {
-          "user": "Mitko",
-          "comment": "So delicious!!!"
-        },
-        {
-          "user": "Gosho",
-          "comment": "Awesome!!! :)"
-        },
-        {
-          "user": "Yoana",
-          "comment": "try"
         }
       ]
     },
@@ -693,6 +690,80 @@
       ]
     },
     {
+      "id": 4,
+      "name": "Зеленчуков пай",
+      "preparationTime": "60",
+      "likes": [
+        2
+      ],
+      "img": "https://trello-attachments.s3.amazonaws.com/583953f9340ebbb0b625db91/335x235/c8b73bf6bd0feb9e32c76076a6da90e3/zelenchukov-pay_437.jpg.png",
+      "ingredients": [
+        {
+          "ingredient": "chopped broccoli or sliced fresh cauliflowerets ",
+          "quantity": 2,
+          "unit": "cups"
+        },
+        {
+          "ingredient": "chopped onion ",
+          "quantity": 0.33,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "chopped green bell pepper ",
+          "quantity": 0.33,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "shredded Cheddar cheese",
+          "quantity": 1,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "Original Bisquick™ mix ",
+          "quantity": 0.5,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "milk",
+          "quantity": 1,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "salt ",
+          "quantity": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "pepper",
+          "quantity": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "eggs",
+          "quantity": 2,
+          "unit": "whole"
+        }
+      ],
+      "steps": [
+        {
+          "step": "1. Heat oven to 400ºF. Grease 9-inch pie plate. Heat 1 inch salted water to boiling in medium saucepan."
+        },
+        {
+          "step": "2. Add broccoli; cover and heat to boiling. Cook about 5 minutes or until almost tender; drain thoroughly."
+        },
+        {
+          "step": "3. Stir together cooked broccoli, onion, bell pepper and cheese in pie plate. "
+        },
+        {
+          "step": "4. Stir remaining ingredients until blended. Pour into pie plate."
+        },
+        {
+          "step": "5. Bake 35 to 45 minutes or until golden brown and knife inserted in center comes out clean. Cool 5 minutes. "
+        }
+      ],
+      "comments": []
+    },
+    {
       "id": 8,
       "name": "English Apple Pie",
       "preparationTime": "60",
@@ -795,92 +866,6 @@
       "comments": []
     },
     {
-      "id": 16,
-      "name": "Curried Coconut Chicken",
-      "preparationTime": "70",
-      "likes": [
-        47
-      ],
-      "img": "http://images.media-allrecipes.com/userphotos/560x315/3591067.jpg",
-      "ingredients": [
-        {
-          "ingredient": "boneless skinless chicken breasts, cut into 1/2-inch chunks",
-          "quantity": 2,
-          "unit": "pounds"
-        },
-        {
-          "ingredient": "salt and pepper",
-          "quantity": 1,
-          "unit": "tsp"
-        },
-        {
-          "ingredient": "vegetable oil",
-          "quantity": 1.5,
-          "unit": "tbsp"
-        },
-        {
-          "ingredient": "curry powder",
-          "quantity": 2,
-          "unit": "tbsp"
-        },
-        {
-          "ingredient": "onion, thinly sliced",
-          "quantity": 0.5,
-          "unit": "clove"
-        },
-        {
-          "ingredient": "garlic, crushed",
-          "quantity": 2,
-          "unit": "cloves"
-        },
-        {
-          "ingredient": "coconut milk",
-          "quantity": 1,
-          "unit": "can"
-        },
-        {
-          "ingredient": "stewed, diced tomatoes",
-          "quantity": 1,
-          "unit": "can"
-        },
-        {
-          "ingredient": "tomato sauce",
-          "quantity": 1,
-          "unit": "can"
-        },
-        {
-          "ingredient": "sugar",
-          "quantity": 3,
-          "unit": "tbsp"
-        }
-      ],
-      "steps": [
-        {
-          "step": "1. Season chicken pieces with salt and pepper."
-        },
-        {
-          "step": "2. Heat oil and curry powder in a large skillet over medium-high heat for two minutes. Stir in onions and garlic, and cook 1 minute more. Add chicken, tossing lightly to coat with curry oil. Reduce heat to medium, and cook for 7 to 10 minutes, or until chicken is no longer pink in center and juices run clear."
-        },
-        {
-          "step": "3. Pour coconut milk, tomatoes, tomato sauce, and sugar into the pan, and stir to combine. Cover and simmer, stirring occasionally, approximately 30 to 40 minutes."
-        }
-      ],
-      "comments": [
-        {
-          "user": "Mitko",
-          "comment": "So delicious!!!"
-        },
-        {
-          "user": "Gosho",
-          "comment": "Awesome!!! :)"
-        },
-        {
-          "user": "Yoana",
-          "comment": "try"
-        }
-      ]
-    },
-    {
       "id": 3,
       "name": "Portobello \"steaks\" with a side of mashed cauliflower",
       "preparationTime": "70",
@@ -958,6 +943,95 @@
         }
       ],
       "comments": []
+    },
+    {
+      "id": 15,
+      "name": "Burrito Pie",
+      "preparationTime": "60",
+      "likes": [
+        32
+      ],
+      "img": "http://images.media-allrecipes.com/userphotos/720x405/392583.jpg",
+      "ingredients": [
+        {
+          "ingredient": "ground beef",
+          "quantity": 2,
+          "unit": "pounds"
+        },
+        {
+          "ingredient": "onion, chopped",
+          "quantity": 1,
+          "unit": "whole"
+        },
+        {
+          "ingredient": "minced garlic",
+          "quantity": 2,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "black olives, sliced",
+          "quantity": 2,
+          "unit": "ounces"
+        },
+        {
+          "ingredient": "diced green chili peppers",
+          "quantity": 4,
+          "unit": "ounces"
+        },
+        {
+          "ingredient": "diced tomatoes with green chile peppers",
+          "quantity": 1,
+          "unit": "can"
+        },
+        {
+          "ingredient": "taco sauce",
+          "quantity": 1,
+          "unit": "jar"
+        },
+        {
+          "ingredient": "refried beans",
+          "quantity": 2,
+          "unit": "cans"
+        },
+        {
+          "ingredient": "tortillas",
+          "quantity": 12,
+          "unit": "whole"
+        },
+        {
+          "ingredient": "shredded Colby cheese",
+          "quantity": 9,
+          "unit": "ounces"
+        }
+      ],
+      "steps": [
+        {
+          "step": "1. Preheat oven to 350 degrees F (175 degrees C)."
+        },
+        {
+          "step": "2. In a large skillet over medium heat, saute the ground beef for 5 minutes. Add the onion and garlic, and saute for 5 more minutes. Drain any excess fat, if desired. Mix in the olives, green chile peppers, tomatoes with green chile peppers, taco sauce and refried beans. Stir mixture thoroughly, reduce heat to low, and let simmer for 15 to 20 minutes."
+        },
+        {
+          "step": "3. Spread a thin layer of the meat mixture in the bottom of a 4 quart casserole dish. Cover with a layer of tortillas followed by more meat mixture, then a layer of cheese. Repeat tortilla, meat, cheese pattern until all the tortillas are used, topping off with a layer of meat mixture and cheese."
+        },
+        {
+          "step": "4. Bake for 20 to 30 minutes in the preheated oven, or until cheese is slightly brown and bubbly."
+        }
+      ],
+      "comments": [
+        {
+          "user": "Mitko",
+          "comment": "So delicious!!!"
+        },
+        {
+          "user": "Gosho",
+          "comment": "Awesome!!! :)"
+        },
+        {
+          "user": "Yoana",
+          "comment": "try"
+        }
+      ]
     },
     {
       "id": 6,
@@ -1199,78 +1273,88 @@
       "comments": []
     },
     {
-      "id": 4,
-      "name": "Зеленчуков пай",
-      "preparationTime": "60",
+      "id": 18,
+      "name": "Baked Scallops",
+      "preparationTime": "50",
       "likes": [
-        2
+        147
       ],
-      "img": "https://trello-attachments.s3.amazonaws.com/583953f9340ebbb0b625db91/335x235/c8b73bf6bd0feb9e32c76076a6da90e3/zelenchukov-pay_437.jpg.png",
+      "img": "http://images.media-allrecipes.com/userphotos/560x315/394217.jpg",
       "ingredients": [
         {
-          "ingredient": "chopped broccoli or sliced fresh cauliflowerets ",
-          "quantity": 2,
-          "unit": "cups"
+          "ingredient": "butter, melted",
+          "quantity": 4,
+          "unit": "tbsp"
         },
         {
-          "ingredient": "chopped onion ",
-          "quantity": 0.33,
+          "ingredient": "bay scallops, rinsed and drained",
+          "quantity": 1.5,
+          "unit": "pounds"
+        },
+        {
+          "ingredient": "seasoned dry bread crumbs",
+          "quantity": 1.5,
           "unit": "cup"
         },
         {
-          "ingredient": "chopped green bell pepper ",
-          "quantity": 0.33,
-          "unit": "cup"
-        },
-        {
-          "ingredient": "shredded Cheddar cheese",
+          "ingredient": "onion powder",
           "quantity": 1,
-          "unit": "cup"
+          "unit": "tsp"
         },
         {
-          "ingredient": "Original Bisquick™ mix ",
-          "quantity": 0.5,
-          "unit": "cup"
-        },
-        {
-          "ingredient": "milk",
+          "ingredient": "garlic powder",
           "quantity": 1,
-          "unit": "cup"
+          "unit": "tsp"
         },
         {
-          "ingredient": "salt ",
+          "ingredient": "paprika",
           "quantity": 0.5,
           "unit": "tsp"
         },
         {
-          "ingredient": "pepper",
+          "ingredient": "dried parsley",
+          "quantity": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "garlic, minced",
+          "quantity": 3,
+          "unit": "cloves"
+        },
+        {
+          "ingredient": "grated Parmesan cheese",
           "quantity": 0.25,
-          "unit": "tsp"
-        },
-        {
-          "ingredient": "eggs",
-          "quantity": 2,
-          "unit": "whole"
+          "unit": "cup"
         }
       ],
       "steps": [
         {
-          "step": "1. Heat oven to 400ºF. Grease 9-inch pie plate. Heat 1 inch salted water to boiling in medium saucepan."
+          "step": "1. Preheat oven to 400 degrees F (200 degrees C)."
         },
         {
-          "step": "2. Add broccoli; cover and heat to boiling. Cook about 5 minutes or until almost tender; drain thoroughly."
+          "step": "2. Pour melted butter into a 2 quart oval casserole dish. Distribute butter and scallops evenly inside the dish."
         },
         {
-          "step": "3. Stir together cooked broccoli, onion, bell pepper and cheese in pie plate. "
+          "step": "3. Combine the bread crumbs, onion powder, garlic powder, paprika, parsley, minced garlic and Parmesan cheese. Sprinkle this mixture over the scallops."
         },
         {
-          "step": "4. Stir remaining ingredients until blended. Pour into pie plate."
-        },
-        {
-          "step": "5. Bake 35 to 45 minutes or until golden brown and knife inserted in center comes out clean. Cool 5 minutes. "
+          "step": "4. Bake in pre-heated oven until scallops are firm, about 20 minutes."
         }
       ],
-      "comments": []
+      "comments": [
+        {
+          "user": "Mitko",
+          "comment": "So delicious!!!"
+        },
+        {
+          "user": "Gosho",
+          "comment": "Awesome!!! :)"
+        },
+        {
+          "user": "Yoana",
+          "comment": "try"
+        }
+      ]
     },
     {
       "id": 17,
@@ -1354,90 +1438,6 @@
         },
         {
           "step": "4. Remove from heat, and stir in mushrooms with their liquid, butter, chives, and parmesan. Season with salt and pepper to taste."
-        }
-      ],
-      "comments": [
-        {
-          "user": "Mitko",
-          "comment": "So delicious!!!"
-        },
-        {
-          "user": "Gosho",
-          "comment": "Awesome!!! :)"
-        },
-        {
-          "user": "Yoana",
-          "comment": "try"
-        }
-      ]
-    },
-    {
-      "id": 18,
-      "name": "Baked Scallops",
-      "preparationTime": "50",
-      "likes": [
-        147
-      ],
-      "img": "http://images.media-allrecipes.com/userphotos/560x315/394217.jpg",
-      "ingredients": [
-        {
-          "ingredient": "butter, melted",
-          "quantity": 4,
-          "unit": "tbsp"
-        },
-        {
-          "ingredient": "bay scallops, rinsed and drained",
-          "quantity": 1.5,
-          "unit": "pounds"
-        },
-        {
-          "ingredient": "seasoned dry bread crumbs",
-          "quantity": 1.5,
-          "unit": "cup"
-        },
-        {
-          "ingredient": "onion powder",
-          "quantity": 1,
-          "unit": "tsp"
-        },
-        {
-          "ingredient": "garlic powder",
-          "quantity": 1,
-          "unit": "tsp"
-        },
-        {
-          "ingredient": "paprika",
-          "quantity": 0.5,
-          "unit": "tsp"
-        },
-        {
-          "ingredient": "dried parsley",
-          "quantity": 0.5,
-          "unit": "tsp"
-        },
-        {
-          "ingredient": "garlic, minced",
-          "quantity": 3,
-          "unit": "cloves"
-        },
-        {
-          "ingredient": "grated Parmesan cheese",
-          "quantity": 0.25,
-          "unit": "cup"
-        }
-      ],
-      "steps": [
-        {
-          "step": "1. Preheat oven to 400 degrees F (200 degrees C)."
-        },
-        {
-          "step": "2. Pour melted butter into a 2 quart oval casserole dish. Distribute butter and scallops evenly inside the dish."
-        },
-        {
-          "step": "3. Combine the bread crumbs, onion powder, garlic powder, paprika, parsley, minced garlic and Parmesan cheese. Sprinkle this mixture over the scallops."
-        },
-        {
-          "step": "4. Bake in pre-heated oven until scallops are firm, about 20 minutes."
         }
       ],
       "comments": [
@@ -1751,6 +1751,18 @@
     {
       "username": "awe",
       "authKey": "10*KkcIXqbh&Q=FapxSLsUPYoRTsVx_=qcvV!l!rmbt-uXG!*cag%)Dnx%Rq"
+    },
+    {
+      "username": "awe",
+      "authKey": "10Ef%c^H%ozPPwrmPD-lMtmQVv$+=w_kF#=MhcWoF_JDazAiY-NxetiJqx#o"
+    },
+    {
+      "username": "awe",
+      "authKey": "11YmyroLVKXdqZwxM@!qhhAJ&vLh*mY@*HF$s-^P*K_lCjUbxFLj!j^Y-o#r"
+    },
+    {
+      "username": "awe",
+      "authKey": "10Vida%yLwrQe$)C((*sQPE*o#$hEX#=p$drApzLOg+%INdy)KqUZxu_&yn-"
     }
   ]
 }
