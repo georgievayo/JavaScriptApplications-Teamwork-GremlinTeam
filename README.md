@@ -3,6 +3,7 @@
  
 
 [logo]: https://raw.githubusercontent.com/georgievayo/JavaScriptApplications-Teamwork-GremlinTeam/master/public/imgs/mobile-logo-mini.png "Forkstare logo"
+[youTube]: https://raw.githubusercontent.com/georgievayo/JavaScriptApplications-Teamwork-GremlinTeam/master/public/imgs/YouTube-icon/png "YouTube logo"
 
 ##### ![alt text][logo] F O R K S T A R E
 
@@ -17,4 +18,6 @@
 
 4. Bash ``` $npm start ``` to launch node server on localhost, ``` ctrl ``` + ``` c ``` to take it down.
 
-###### [link to full project requirements](https://github.com/TelerikAcademy/JavaScript-Applications/blob/master/Teamwork/README.md "https://github.com/TelerikAcademy/JavaScript-Applications")
+###### [ link to full project requirements](https://github.com/TelerikAcademy/JavaScript-Applications/blob/master/Teamwork/README.md "https://github.com/TelerikAcademy/JavaScript-Applications")
+
+##### ![alt text][youTube][ link to YouTube video](https://youtu.be/wjnzcTih8Sw "Forkstare video") showcasing this project
