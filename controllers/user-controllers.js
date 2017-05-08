@@ -66,7 +66,7 @@ module.exports = (db) => {
         },
         hasLoggedUser: (req, res) => {
             let user = req.body;
-            console.log(user.username);
+            //console.log(user.username);
             let users = db.get("currentUser")
             .find(user)
             .value();

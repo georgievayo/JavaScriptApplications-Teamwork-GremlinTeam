@@ -52,9 +52,9 @@
 }
 
 body {
-    background-image: url("../imgs/pizza.jpg");
+    background-image: url("../imgs/background.jpg");
     background-size: 140%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 	/*body { padding-top: 70px; }*/
 }
 
