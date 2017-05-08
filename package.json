@@ -18,7 +18,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node node_modules/mocha/bin/mocha unit_tests/mocha-tests.js -c",
+    "test": "node node_modules/mocha/bin/mocha unit_tests/unit-tests.js -c",
     "start": "node app.js"
   },
   "author": "gremlins",
