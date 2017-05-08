@@ -1,9 +1,9 @@
 var handlebars = handlebars || Handlebars;
 const $navButtons = $("#nav-buttons").children();
-const $recentButton = $('#nav-recent');
-const $popularButton = $('#nav-popular');
-const $allButton = $('#nav-all');
-const $aboutButton = $('#nav-about');
+const $recentButton = $("#nav-recent");
+const $popularButton = $("#nav-popular");
+const $allButton = $("#nav-all");
+const $aboutButton = $("#nav-about");
 
 let controllers = {
     all: function () {
@@ -18,7 +18,7 @@ let controllers = {
                 let html = templateFunc(recipes);
                 $("#main").html(html);
                 $navButtons.removeClass();
-                $allButton.addClass('active');
+                $allButton.addClass("active");
             })
     },
     recent: function () {
@@ -32,7 +32,7 @@ let controllers = {
                 let html = templateFunc(recipes);
                 $("#main").html(html);
                 $navButtons.removeClass();
-                $recentButton.addClass('active');
+                $recentButton.addClass("active");
             })
     },
     popular: function () {
@@ -46,7 +46,7 @@ let controllers = {
                 let html = templateFunc(recipes);
                 $("#main").html(html);
                 $navButtons.removeClass();
-                $popularButton.addClass('active');
+                $popularButton.addClass("active");
             })
     },
     details: function (params) {
@@ -104,7 +104,7 @@ let controllers = {
     search: function () {
         let recipeToSearch = $("#tb-search").val();
         let foundRecipes = [];
-        requester.putJSON('/api/search', { data: recipeToSearch })
+        requester.putJSON("/api/search", { data: recipeToSearch })
             .then((recipes) => {
                 foundRecipes = recipes.result;
                 return templates.get("allRecipes");
@@ -127,14 +127,14 @@ let controllers = {
                             $("#btn-add").on("click", (ev) => {
                                 let splittedIngredients = $("#tb-ingredients").val().split(", ");
                                 let ingredientsToAdd = [];
-                                ingredients.forEach(function (ingr) {
-                                    let quantity = ingr.split(' ')[0];
-                                    let unit = ingr.split(' ')[1];
-                                    let ingredient = ingr.split(' ')[2];
+                                splittedIngredients.forEach(function (ingr) {
+                                    let quantity = ingr.split(" ")[0];
+                                    let unit = ingr.split(" ")[1];
+                                    let ingredient = ingr.split(" ")[2];
                                     ingredientsToAdd.push({ quantity: quantity, unit: unit, ingredient: ingredient });
                                 }, this);
 
-                                let splittedSteps = $("#tb-instructions").val().split('\n');
+                                let splittedSteps = $("#tb-instructions").val().split("\n");
                                 let stepsToAdd = [];
                                 splittedSteps.forEach(function (step) {
                                     stepsToAdd.push({ step: step });
@@ -153,17 +153,18 @@ let controllers = {
                                 dataService.create(recipe)
                                     .then((res) => {
                                         if (res === "Not authorized User") {
-                                            alert("The recipe was not added! Try again!")
+                                            toastr.error("The recipe was not added! Try again!")
                                         }
                                         else {
-                                            alert("The recipe was added successfully!");
+                                            toastr.success("The recipe was added successfully!");
+                                            $(".createRecipe").remove();
                                         }
                                     })
                             });
                         });
                 }
                 else {
-                    alert("You cannot add new recipe! Please, login!");
+                    toastr.warning("You cannot add new recipe! Please, login!");
                 }
             });
     },

@@ -11,15 +11,15 @@ module.exports = (db) => {
         register: (req, res) => {
             var user = req.body;
             user.usernameLower = user.data.username.toLowerCase();
-            let foundUser = db.get('users').find({
+            let foundUser = db.get("users").find({
                 usernameLower: user.data.username.toLowerCase()
             }).value();
             if (foundUser !== undefined) {
-                res.send('Username is already taken')
+                res.send("Username is already taken")
                     .status(400);
                 return;
             }
-            db.get('users')
+            db.get("users")
                 .push(user)
                 .write();
 
@@ -65,7 +65,6 @@ module.exports = (db) => {
         },
         hasLoggedUser: (req, res) => {
             let user = req.body;
-            //console.log(user.username);
             let users = db.get("currentUser")
                 .find(user)
                 .value();

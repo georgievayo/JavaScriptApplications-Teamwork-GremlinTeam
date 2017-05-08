@@ -70,7 +70,7 @@ let requester = (function () {
     };
 }());
 
-if (typeof module !== 'undefined') {
+if (typeof module !== "undefined") {
   module.exports = (function(){ 
     return [
       requester

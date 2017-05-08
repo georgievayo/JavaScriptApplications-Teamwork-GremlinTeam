@@ -1,21 +1,21 @@
-const idGenerator = require('../Utils/id-generator.js')();
+const idGenerator = require("../Utils/id-generator.js");
 
 module.exports = (db) => {
     return {
         getRecent: (req, res) => {
-            let recipes = db.get('recipes').value();
+            let recipes = db.get("recipes").value();
             recipes.sort((a, b) => a.id > b.id ? 0 : 1);
             const recent = recipes.slice(0, 9);
             res.send({ result: recent });
         },
         getMostPopular: (req, res) => {
-            let recipes = db.get('recipes').value();
+            let recipes = db.get("recipes").value();
             recipes.sort((a, b) => a.likes > b.likes ? 0 : 1);
             const popular = recipes.slice(0, 9);
             res.send({ result: popular });
         },
         getAllRecipes: (req, res) => {
-            let recipes = db.get('recipes').value();
+            let recipes = db.get("recipes").value();
             res.send({ result: recipes });
         },
         getRecipe: (req, res) => {
@@ -39,15 +39,19 @@ module.exports = (db) => {
         postRecipe: (req, res) => {
             var user = req.body.headers;
             if (!user) {
-                res.send('Not authorized User');
+                res.send("Not authorized User");
                 return;
             }
+
             let newRecipe = req.body.data;
-            newRecipe.id = idGenerator();
-            db.get('recipes')
+            let newId = idGenerator();
+            newRecipe.id = newId;
+            db.get("recipes")
                 .push(newRecipe)
                 .write();
-            res.status(200);
+                
+            res.send({result: newRecipe})
+            .status(200);
         },
         updateRecipe: (req, res) => {
             let id = +req.params.id;
@@ -55,14 +59,14 @@ module.exports = (db) => {
                 let comment = req.body;
                 db.get("recipes")
                     .find({ id: id })
-                    .get('comments')
+                    .get("comments")
                     .push(comment)
                     .write();
             }
             else {
                 let likes = +db.get("recipes")
                     .find({ id: id })
-                    .get('likes').value();
+                    .get("likes").value();
 
                 db.get("recipes")
                     .find({ id: id })
@@ -79,7 +83,7 @@ module.exports = (db) => {
             }
             let comments = db.get("recipes")
                 .find({ id: id })
-                .get('comments').value();
+                .get("comments").value();
             res.send({ result: comments });
         }
     }

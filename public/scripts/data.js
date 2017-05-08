@@ -1,12 +1,12 @@
 let dataService = (function () {
-    const SESSION_STORAGE_USERNAME_KEY = 'signed-in-user-username',
-        SESSION_STORAGE_AUTHKEY_KEY = 'signed-in-user-auth-key';
+    const SESSION_STORAGE_USERNAME_KEY = "signed-in-user-username",
+        SESSION_STORAGE_AUTHKEY_KEY = "signed-in-user-auth-key";
 
     function create(recipe) {
         var options = {
             data: recipe,
             headers: {
-                'x-auth-key': sessionStorage.getItem(SESSION_STORAGE_AUTHKEY_KEY)
+                "x-auth-key": sessionStorage.getItem(SESSION_STORAGE_AUTHKEY_KEY)
             }
         };
         return requester.postJSON("/api/recipes", options);
@@ -56,9 +56,7 @@ let dataService = (function () {
         return requester.postJSON("/api/hasUser", currentUser)
             .then((data) => {
                 let foundUser = data.result;
-                console.log(foundUser);
                 if (foundUser === undefined) {
-                    console.log("not logged")
                     return false;
                 }
                 else {
@@ -76,7 +74,7 @@ let dataService = (function () {
     };
 }());
 
-if (typeof module !== 'undefined') {
+if (typeof module !== "undefined") {
     module.exports = (function () {
         return [
             dataService
