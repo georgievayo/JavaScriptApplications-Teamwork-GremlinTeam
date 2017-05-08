@@ -76,3 +76,8 @@ body {
 	background: linear-gradient(to right, rgba(255,255,255,0.9) 0%,rgba(255,255,255,0.9) 42%,rgba(255,255,255,0) 90%,rgba(255,255,255,0) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6ffffff', endColorstr='#00ffffff',GradientType=1 );
 }
+
+.toastr-possition{
+	right: 3%;
+	top: 15%;
+}

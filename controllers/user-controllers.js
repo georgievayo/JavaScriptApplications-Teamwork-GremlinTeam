@@ -15,18 +15,17 @@ module.exports = (db) => {
                 usernameLower: user.data.username.toLowerCase()
             }).value();
             if (foundUser !== undefined) {
-                res.status(400)
-                    .json('Username is already taken');
+                res.send('Username is already taken')
+                    .status(400);
                 return;
             }
             db.get('users')
                 .push(user)
                 .write();
 
-            res.status(201)
-                .json({
-                    result: user
-                });
+            res.send({
+                result: user
+            }).status(201);
         },
         login: (req, res) => {
             let user = req.body.data;
@@ -68,8 +67,8 @@ module.exports = (db) => {
             let user = req.body;
             //console.log(user.username);
             let users = db.get("currentUser")
-            .find(user)
-            .value();
+                .find(user)
+                .value();
             res.send({ result: users });
         }
     }

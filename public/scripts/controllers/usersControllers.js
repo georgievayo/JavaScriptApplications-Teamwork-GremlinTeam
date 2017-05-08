@@ -20,10 +20,16 @@ let usersControllers = {
                     $("#tb-first-name").val("");
                     $("#tb-last-name").val("");
                     $("#tb-email").val("");
-                    
+
                     dataService.register(user)
-                        .then(function () {
-                            $(".register").remove();
+                        .then(function (res) {
+                            if (!res.result) {
+                                toastr.error("Username is already taken!");
+                            }
+                            else {
+                                toastr.success("You have been successfully registered!");
+                                $(".register").remove();
+                            }
                         });
                 });
             });
@@ -41,12 +47,12 @@ let usersControllers = {
                     };
                     dataService.login(user)
                         .then((res) => {
-                            // if user was not logged in
                             if (!res.result) {
-                                alert("Username or password is invallid!");
+                                toastr.error("Username or password is invallid!");
                                 return;
                             }
-                            alert("You have been logged in!");
+
+                            toastr.success("You have been logged in!");
                             $(".login").remove();
                             $("#login").hide();
                             $("#logout").show();
@@ -56,7 +62,7 @@ let usersControllers = {
     },
     logout: function () {
         dataService.logout();
-        alert("You have been logged out!");
+        toastr.success("You have been logged out!");
         $("#logout").hide();
         $("#login").show();
 
