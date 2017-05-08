@@ -14,7 +14,7 @@ let usersControllers = {
                         lastName: $("#tb-last-name").val(),
                         email: $("#tb-email").val()
                     };
-                    console.log("user to send: " + user);
+
                     $("#tb-username").val("");
                     $("#tb-pass").val("");
                     $("#tb-first-name").val("");
@@ -42,7 +42,7 @@ let usersControllers = {
                     dataService.login(user)
                         .then((res) => {
                             // if user was not logged in
-                            if (res === null) {
+                            if (!res.result) {
                                 alert("Username or password is invallid!");
                                 return;
                             }

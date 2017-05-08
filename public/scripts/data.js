@@ -33,14 +33,12 @@ let dataService = (function () {
         };
         return requester.putJSON("/api/users/login", { data: reqUser })
             .then((res) => {
-                if (res === "Username or password is invalid") {
-                    return null;
-                }
-
+                if(res.result){
                 let user = res.result;
                 sessionStorage.setItem(SESSION_STORAGE_USERNAME_KEY, user.username);
                 sessionStorage.setItem(SESSION_STORAGE_AUTHKEY_KEY, user.authKey);
-                return user;
+            }
+                return res;            
             });
     };
 

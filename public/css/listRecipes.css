@@ -5,6 +5,26 @@
   color: whitesmoke;
 }
 
+#recipes {
+    background: rgba(255, 255, 255, .7);    
+    margin-left: 10%;
+    margin-bottom: 5%;
+    border-radius: 3px;
+}
+
+.recipe {
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.recipe-header {
+    text-align: center;
+}
+
+.recipe-image {    
+	width: 300px;
+}
+
 .recipe a{
   color: 	white;
 }

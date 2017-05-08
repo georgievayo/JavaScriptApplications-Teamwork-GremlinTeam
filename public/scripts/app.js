@@ -18,8 +18,9 @@ router
     })
     .resolve();
 
-if (!activeUserPresent) {
 let activeUserPresent = !dataService.hasLoggedUser();
+
+if (!activeUserPresent) {
     $("#logout").hide();
     $("#login").show();
 }
