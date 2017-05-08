@@ -27,7 +27,8 @@ app.post("/api/recipes", dataControllers.postRecipe);
 app.put("/api/users/login", userControllers.login);
 app.post("/api/users/logout", userControllers.logout);
 
-app.listen(3000, () => {
-    console.log("App is running on localhost:3000");
+let port = process.env.PORT || 3000;
+app.listen(port, () => {
+    console.log(`App is running on localhost:${port}`);
 });
 
