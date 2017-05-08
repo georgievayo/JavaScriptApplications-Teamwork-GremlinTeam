@@ -3,7 +3,7 @@
  
 
 [logo]: https://raw.githubusercontent.com/georgievayo/JavaScriptApplications-Teamwork-GremlinTeam/master/public/imgs/mobile-logo-mini.png "Forkstare logo"
-[youTube]: https://raw.githubusercontent.com/georgievayo/JavaScriptApplications-Teamwork-GremlinTeam/master/public/imgs/YouTube-icon/png "YouTube logo"
+[youTube]: https://raw.githubusercontent.com/georgievayo/JavaScriptApplications-Teamwork-GremlinTeam/master/public/imgs/YouTube-icon.png ".YouTube logo"
 
 ##### ![alt text][logo] F O R K S T A R E
 
