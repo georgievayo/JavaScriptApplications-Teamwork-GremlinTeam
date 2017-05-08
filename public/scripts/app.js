@@ -18,16 +18,22 @@ router
     })
     .resolve();
 
-let activeUserPresent = !dataService.hasLoggedUser();
+dataService.hasLoggedUser()
+    .then((data) => {
+        let activeUserPresent = data.result;
+        if (!activeUserPresent) {
+            $("#logout").hide();
+            $("#login").show();
+            $("#nav-add").remove();
 
-if (!activeUserPresent) {
-    $("#logout").hide();
-    $("#login").show();
-}
-else {
-    $("#login").hide();
-    $("#logout").show();
-}
+        }
+        else {
+            $("#login").hide();
+            $("#logout").show();
+            $("#nav-buttons").append("<li id=\"nav-add\"><a href=\"#/create\">Add new recipe</a></li>");
+        }
+    });
+
 
 $("#btn-search").on("click", (ev) => {
     controllers.search();

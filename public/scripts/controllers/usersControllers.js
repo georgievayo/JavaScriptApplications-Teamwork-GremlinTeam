@@ -56,6 +56,7 @@ let usersControllers = {
                             $(".login").remove();
                             $("#login").hide();
                             $("#logout").show();
+                            $("#nav-buttons").append("<li id=\"nav-add\"><a href=\"#/create\">Add new recipe</a></li>");
                         });
                 });
             });
@@ -65,6 +66,7 @@ let usersControllers = {
         toastr.success("You have been logged out!");
         $("#logout").hide();
         $("#login").show();
+        $("#nav-add").remove();
 
     },
     all: function () {

@@ -3,7 +3,6 @@ const chars = 'qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM!@#$%^&*()_+-
 
 let authKeyGenerator = {
     generate: function (id) {
-        console.log(id);
         var authKey = '';
         authKey += id;
         while (authKey.length < length) {

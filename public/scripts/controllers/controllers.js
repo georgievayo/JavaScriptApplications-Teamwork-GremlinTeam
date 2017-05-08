@@ -58,7 +58,7 @@ let controllers = {
                 recipe = data.result;
                 dataService.hasLoggedUser()
                     .then((hasUser) => {
-                        if (hasUser) {
+                        if (hasUser.result) {
                             return templates.get("singleRecipeLoggedUser");
                         }
                         else {
@@ -77,7 +77,7 @@ let controllers = {
                                     username = data.result[0].username;
                                     let comment = $("#description").val();
                                     $("#description").val("");
-                                    
+
                                     let commentToSend = { user: username, comment: comment };
                                     let updatedRecipe = {};
                                     requester.putJSON(`/api/recipes/details/${id}`, commentToSend)
@@ -118,7 +118,7 @@ let controllers = {
     create: function () {
         dataService.hasLoggedUser()
             .then((hasUser) => {
-                if (hasUser) {
+                if (hasUser.result) {
                     templates.get("createRecipe")
                         .then((template) => {
                             let templateFunc = handlebars.compile(template);

@@ -376,6 +376,92 @@
       ]
     },
     {
+      "id": 16,
+      "name": "Curried Coconut Chicken",
+      "preparationTime": "70",
+      "likes": [
+        47
+      ],
+      "img": "http://images.media-allrecipes.com/userphotos/560x315/3591067.jpg",
+      "ingredients": [
+        {
+          "ingredient": "boneless skinless chicken breasts, cut into 1/2-inch chunks",
+          "quantity": 2,
+          "unit": "pounds"
+        },
+        {
+          "ingredient": "salt and pepper",
+          "quantity": 1,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "vegetable oil",
+          "quantity": 1.5,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "curry powder",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "onion, thinly sliced",
+          "quantity": 0.5,
+          "unit": "clove"
+        },
+        {
+          "ingredient": "garlic, crushed",
+          "quantity": 2,
+          "unit": "cloves"
+        },
+        {
+          "ingredient": "coconut milk",
+          "quantity": 1,
+          "unit": "can"
+        },
+        {
+          "ingredient": "stewed, diced tomatoes",
+          "quantity": 1,
+          "unit": "can"
+        },
+        {
+          "ingredient": "tomato sauce",
+          "quantity": 1,
+          "unit": "can"
+        },
+        {
+          "ingredient": "sugar",
+          "quantity": 3,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "step": "1. Season chicken pieces with salt and pepper."
+        },
+        {
+          "step": "2. Heat oil and curry powder in a large skillet over medium-high heat for two minutes. Stir in onions and garlic, and cook 1 minute more. Add chicken, tossing lightly to coat with curry oil. Reduce heat to medium, and cook for 7 to 10 minutes, or until chicken is no longer pink in center and juices run clear."
+        },
+        {
+          "step": "3. Pour coconut milk, tomatoes, tomato sauce, and sugar into the pan, and stir to combine. Cover and simmer, stirring occasionally, approximately 30 to 40 minutes."
+        }
+      ],
+      "comments": [
+        {
+          "user": "Mitko",
+          "comment": "So delicious!!!"
+        },
+        {
+          "user": "Gosho",
+          "comment": "Awesome!!! :)"
+        },
+        {
+          "user": "Yoana",
+          "comment": "try"
+        }
+      ]
+    },
+    {
       "id": 17,
       "name": "Gourmet Mushroom Risotto",
       "preparationTime": "50",
@@ -475,174 +561,69 @@
       ]
     },
     {
-      "id": 16,
-      "name": "Curried Coconut Chicken",
-      "preparationTime": "70",
+      "id": 9,
+      "name": "Sweet, Sticky and Spicy Chicken",
+      "preparationTime": "120",
       "likes": [
-        47
+        580
       ],
-      "img": "http://images.media-allrecipes.com/userphotos/560x315/3591067.jpg",
+      "img": "http://images.media-allrecipes.com/userphotos/720x405/4477756.jpg",
       "ingredients": [
         {
-          "ingredient": "boneless skinless chicken breasts, cut into 1/2-inch chunks",
+          "ingredient": "brown sugar",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "honey",
           "quantity": 2,
-          "unit": "pounds"
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "soy sauce",
+          "quantity": 0.25,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "chopped fresh ginger root",
+          "quantity": 2,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "chopped garlic",
+          "quantity": 2,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "hot sauce",
+          "quantity": 2,
+          "unit": "tbsp"
         },
         {
           "ingredient": "salt and pepper",
           "quantity": 1,
-          "unit": "tsp"
-        },
-        {
-          "ingredient": "vegetable oil",
-          "quantity": 1.5,
-          "unit": "tbsp"
-        },
-        {
-          "ingredient": "curry powder",
-          "quantity": 2,
-          "unit": "tbsp"
-        },
-        {
-          "ingredient": "onion, thinly sliced",
-          "quantity": 0.5,
-          "unit": "clove"
-        },
-        {
-          "ingredient": "garlic, crushed",
-          "quantity": 2,
-          "unit": "cloves"
-        },
-        {
-          "ingredient": "coconut milk",
-          "quantity": 1,
-          "unit": "can"
-        },
-        {
-          "ingredient": "stewed, diced tomatoes",
-          "quantity": 1,
-          "unit": "can"
-        },
-        {
-          "ingredient": "tomato sauce",
-          "quantity": 1,
-          "unit": "can"
-        },
-        {
-          "ingredient": "sugar",
-          "quantity": 3,
-          "unit": "tbsp"
-        }
-      ],
-      "steps": [
-        {
-          "step": "1. Season chicken pieces with salt and pepper."
-        },
-        {
-          "step": "2. Heat oil and curry powder in a large skillet over medium-high heat for two minutes. Stir in onions and garlic, and cook 1 minute more. Add chicken, tossing lightly to coat with curry oil. Reduce heat to medium, and cook for 7 to 10 minutes, or until chicken is no longer pink in center and juices run clear."
-        },
-        {
-          "step": "3. Pour coconut milk, tomatoes, tomato sauce, and sugar into the pan, and stir to combine. Cover and simmer, stirring occasionally, approximately 30 to 40 minutes."
-        }
-      ],
-      "comments": [
-        {
-          "user": "Mitko",
-          "comment": "So delicious!!!"
-        },
-        {
-          "user": "Gosho",
-          "comment": "Awesome!!! :)"
-        },
-        {
-          "user": "Yoana",
-          "comment": "try"
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "name": "Garlic Shrimp",
-      "preparationTime": "25",
-      "likes": [
-        14
-      ],
-      "img": "http://images.media-allrecipes.com/userphotos/720x405/1330843.jpg",
-      "ingredients": [
-        {
-          "ingredient": "olive oil",
-          "quantity": 1.5,
-          "unit": "tbsp"
-        },
-        {
-          "ingredient": "shrimp, peeled and deveined",
-          "quantity": 1,
-          "unit": "pound"
-        },
-        {
-          "ingredient": "salt",
-          "quantity": 1,
           "unit": "to taste"
         },
         {
-          "ingredient": "garlic, finely minced",
-          "quantity": 6,
-          "unit": "cloves"
+          "ingredient": "skinless, boneless chicken breast halves - cut into 1/2 inch strips",
+          "quantity": 4,
+          "unit": "whole"
         },
         {
-          "ingredient": "red pepper flakes",
-          "quantity": 0.25,
-          "unit": "tsp"
-        },
-        {
-          "ingredient": "lemon juice",
-          "quantity": 3,
-          "unit": "tbsp"
-        },
-        {
-          "ingredient": "caper brine",
+          "ingredient": "vegetable oil",
           "quantity": 1,
           "unit": "tbsp"
-        },
-        {
-          "ingredient": "cold butter",
-          "quantity": 1.5,
-          "unit": "tsp"
-        },
-        {
-          "ingredient": "chopped Italian flat leaf parsley, divided",
-          "quantity": 0.33,
-          "unit": "cup"
-        },
-        {
-          "ingredient": "cold butter",
-          "quantity": 1.5,
-          "unit": "tbsp"
-        },
-        {
-          "ingredient": "water",
-          "quantity": 1,
-          "unit": "as needed"
         }
       ],
       "steps": [
         {
-          "step": "1. Heat olive oil in a heavy skillet over high heat until it just begins to smoke. Place shrimp in an even layer on the bottom of the pan and cook for 1 minute without stirring."
+          "step": "1. Mix together brown sugar, honey, soy sauce, ginger, garlic and hot sauce in a small bowl."
         },
         {
-          "step": "2. Season shrimp with salt; cook and stir until shrimp begin to turn pink, about 1 minute."
+          "step": "2. Lightly salt and pepper the chicken strips."
         },
         {
-          "step": "3. Stir in garlic and red pepper flakes; cook and stir 1 minute. Stir in lemon juice, caper brine, 1 1/2 teaspoon cold butter, and half the parsley."
-        },
-        {
-          "step": "4. Cook until butter has melted, about 1 minute, then turn heat to low and stir in 1 1/2 tablespoon cold butter. Cook and stir until all butter has melted to form a thick sauce and shrimp are pink and opaque, about 2 to 3 minutes."
-        },
-        {
-          "step": "5. Remove shrimp with a slotted spoon and transfer to a bowl; continue to cook butter sauce, adding water 1 teaspoon at a time if too thick, about 2 minutes. Season with salt to taste."
-        },
-        {
-          "step": "6. Serve shrimp topped with the pan sauce. Garnish with remaining flat-leaf parsley."
+          "step": "3. Heat oil in a large skillet over medium heat. Add chicken strips and brown on both sides, about 1 minute per side. Pour the sauce over the chicken. Simmer uncovered until the sauce thickens, 8 to 10 minutes."
         }
       ],
       "comments": [
@@ -661,74 +642,83 @@
       ]
     },
     {
-      "id": 5,
-      "name": "Dr. Greger's Luck of The Greens Veggie Bowl",
-      "preparationTime": "30",
+      "id": 3,
+      "name": "Portobello \"steaks\" with a side of mashed cauliflower",
+      "preparationTime": "70",
       "likes": [
-        5
+        33
       ],
-      "img": "https://trello-attachments.s3.amazonaws.com/58cce2345db1f19d0f5e5fae/960x640/fa7dd02aef92c4a3cbe8d14485ad7f62/green_bowl.jpg.png",
+      "img": "https://trello-attachments.s3.amazonaws.com/580e34f3955d15182e1ff651/666x467/85c16ac1e396d05e787081700ac0cd74/portobello_steaks.jpg",
       "ingredients": [
         {
-          "ingredient": "fresh basil leaves",
+          "ingredient": "portobello mushrooms",
           "quantity": 2,
-          "unit": "cups"
+          "unit": "whole"
         },
         {
-          "ingredient": "walnuts",
-          "quantity": 0.25,
-          "unit": "cups"
-        },
-        {
-          "ingredient": "cloves fresh garlic",
-          "quantity": 2,
-          "unit": "cloves"
-        },
-        {
-          "ingredient": "peeled lemon",
+          "ingredient": "lemon",
           "quantity": 0.25,
           "unit": "whole"
         },
         {
-          "ingredient": "lemon zest",
-          "quantity": 0.25,
-          "unit": "tsp"
+          "ingredient": "balsamic vinegar",
+          "quantity": 2,
+          "unit": "tbsp"
         },
         {
-          "ingredient": "fresh turmeric root or turmeric powder",
-          "quantity": 0.25,
-          "unit": "tsp"
+          "ingredient": "tahini",
+          "quantity": 1,
+          "unit": "tbsp"
         },
         {
-          "ingredient": "pinto beans (canned, salt free)",
-          "quantity": 0.25,
-          "unit": "cup"
-        },
-        {
-          "ingredient": "water or liquid from bean can",
+          "ingredient": "cherry tomatoes",
           "quantity": 0.25,
           "unit": "cup"
         },
         {
-          "ingredient": "pepper",
+          "ingredient": "mixed greens",
+          "quantity": 2,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "fresh cauliflower",
+          "quantity": 0.5,
+          "unit": "whole"
+        },
+        {
+          "ingredient": "1/2 clove of garlic",
+          "quantity": 0.05,
+          "unit": "whole"
+        },
+        {
+          "ingredient": "salt-free horseradish (optional)",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "black pepper (to taste)",
           "quantity": 1,
           "unit": "to taste"
         }
       ],
       "steps": [
         {
-          "step": "1. Combine all ingredients in a food processor. Blend until smooth."
+          "step": "1. Rinse all the produce. Peel and mince the garlic. Slice the cherry tomatoes in half. Remove the portobello mushroom stem. Chop the fresh cauliflower into small pieces. "
         },
         {
-          "step": "2. That's all!"
+          "step": "2. Boil the fresh cauliflower for about 10 minutes or until tender. Mash with a fork or potato masher, or puree in a food processor with some of the cooking liquid. Season with pepper and minced garlic."
+        },
+        {
+          "step": "3. Heat a grill pan, outdoor grill, or skillet over medium-high. Drizzle the portobello mushroom cap with balsamic vinegar, and place on hot pan. Cover and cook for 5 minutes, then flip and season with pepper, replace cover and cook for another 5-10 minutes, or until the portobello mushroom is tender. (Cooking time may vary, depending on the size of your portobello mushroom.) If you have a panini press or countertop grill, you can use that instead."
+        },
+        {
+          "step": "4. Whisk together tahini and lemon juice, adding a splash of water or balsamic vinegar to thin. Pile mixed greens and cherry tomatoes on a plate and drizzle with the lemon-tahini dressing. "
+        },
+        {
+          "step": "5. Serve with mashed cauliflower topped with a dollop of horseradish and portobello /“steaks/”."
         }
       ],
-      "comments": [
-        {
-          "user": "awe",
-          "comment": "oik,l"
-        }
-      ]
+      "comments": []
     },
     {
       "id": 7,
@@ -1160,83 +1150,72 @@
       "comments": []
     },
     {
-      "id": 9,
-      "name": "Sweet, Sticky and Spicy Chicken",
-      "preparationTime": "120",
+      "id": 5,
+      "name": "Dr. Greger's Luck of The Greens Veggie Bowl",
+      "preparationTime": "30",
       "likes": [
-        580
+        5
       ],
-      "img": "http://images.media-allrecipes.com/userphotos/720x405/4477756.jpg",
+      "img": "https://trello-attachments.s3.amazonaws.com/58cce2345db1f19d0f5e5fae/960x640/fa7dd02aef92c4a3cbe8d14485ad7f62/green_bowl.jpg.png",
       "ingredients": [
         {
-          "ingredient": "brown sugar",
-          "quantity": 1,
-          "unit": "tbsp"
-        },
-        {
-          "ingredient": "honey",
+          "ingredient": "fresh basil leaves",
           "quantity": 2,
-          "unit": "tbsp"
+          "unit": "cups"
         },
         {
-          "ingredient": "soy sauce",
+          "ingredient": "walnuts",
+          "quantity": 0.25,
+          "unit": "cups"
+        },
+        {
+          "ingredient": "cloves fresh garlic",
+          "quantity": 2,
+          "unit": "cloves"
+        },
+        {
+          "ingredient": "peeled lemon",
+          "quantity": 0.25,
+          "unit": "whole"
+        },
+        {
+          "ingredient": "lemon zest",
+          "quantity": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "fresh turmeric root or turmeric powder",
+          "quantity": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "pinto beans (canned, salt free)",
           "quantity": 0.25,
           "unit": "cup"
         },
         {
-          "ingredient": "chopped fresh ginger root",
-          "quantity": 2,
-          "unit": "tsp"
+          "ingredient": "water or liquid from bean can",
+          "quantity": 0.25,
+          "unit": "cup"
         },
         {
-          "ingredient": "chopped garlic",
-          "quantity": 2,
-          "unit": "tsp"
-        },
-        {
-          "ingredient": "hot sauce",
-          "quantity": 2,
-          "unit": "tbsp"
-        },
-        {
-          "ingredient": "salt and pepper",
+          "ingredient": "pepper",
           "quantity": 1,
           "unit": "to taste"
-        },
-        {
-          "ingredient": "skinless, boneless chicken breast halves - cut into 1/2 inch strips",
-          "quantity": 4,
-          "unit": "whole"
-        },
-        {
-          "ingredient": "vegetable oil",
-          "quantity": 1,
-          "unit": "tbsp"
         }
       ],
       "steps": [
         {
-          "step": "1. Mix together brown sugar, honey, soy sauce, ginger, garlic and hot sauce in a small bowl."
+          "step": "1. Combine all ingredients in a food processor. Blend until smooth."
         },
         {
-          "step": "2. Lightly salt and pepper the chicken strips."
-        },
-        {
-          "step": "3. Heat oil in a large skillet over medium heat. Add chicken strips and brown on both sides, about 1 minute per side. Pour the sauce over the chicken. Simmer uncovered until the sauce thickens, 8 to 10 minutes."
+          "step": "2. That's all!"
         }
       ],
       "comments": [
         {
-          "user": "Mitko",
-          "comment": "So delicious!!!"
-        },
-        {
-          "user": "Gosho",
-          "comment": "Awesome!!! :)"
-        },
-        {
-          "user": "Yoana",
-          "comment": "try"
+          "user": "awe",
+          "comment": "oik,l"
         }
       ]
     },
@@ -1299,6 +1278,166 @@
         },
         {
           "step": "3. Stir in cayenne pepper. Refrigerate 1 hour for best flavor, or serve immediately."
+        }
+      ],
+      "comments": [
+        {
+          "user": "Mitko",
+          "comment": "So delicious!!!"
+        },
+        {
+          "user": "Gosho",
+          "comment": "Awesome!!! :)"
+        },
+        {
+          "user": "Yoana",
+          "comment": "try"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Зеленчуков пай",
+      "preparationTime": "60",
+      "likes": [
+        2
+      ],
+      "img": "https://trello-attachments.s3.amazonaws.com/583953f9340ebbb0b625db91/335x235/c8b73bf6bd0feb9e32c76076a6da90e3/zelenchukov-pay_437.jpg.png",
+      "ingredients": [
+        {
+          "ingredient": "chopped broccoli or sliced fresh cauliflowerets ",
+          "quantity": 2,
+          "unit": "cups"
+        },
+        {
+          "ingredient": "chopped onion ",
+          "quantity": 0.33,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "chopped green bell pepper ",
+          "quantity": 0.33,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "shredded Cheddar cheese",
+          "quantity": 1,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "Original Bisquick™ mix ",
+          "quantity": 0.5,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "milk",
+          "quantity": 1,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "salt ",
+          "quantity": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "pepper",
+          "quantity": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "eggs",
+          "quantity": 2,
+          "unit": "whole"
+        }
+      ],
+      "steps": [
+        {
+          "step": "1. Heat oven to 400ºF. Grease 9-inch pie plate. Heat 1 inch salted water to boiling in medium saucepan."
+        },
+        {
+          "step": "2. Add broccoli; cover and heat to boiling. Cook about 5 minutes or until almost tender; drain thoroughly."
+        },
+        {
+          "step": "3. Stir together cooked broccoli, onion, bell pepper and cheese in pie plate. "
+        },
+        {
+          "step": "4. Stir remaining ingredients until blended. Pour into pie plate."
+        },
+        {
+          "step": "5. Bake 35 to 45 minutes or until golden brown and knife inserted in center comes out clean. Cool 5 minutes. "
+        }
+      ],
+      "comments": []
+    },
+    {
+      "id": 13,
+      "name": "Buffalo Chicken Wings",
+      "preparationTime": "120",
+      "likes": [
+        84
+      ],
+      "img": "http://images.media-allrecipes.com/userphotos/720x405/445293.jpg",
+      "ingredients": [
+        {
+          "ingredient": "all-purpose flour",
+          "quantity": 0.5,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "paprika",
+          "quantity": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "cayenne pepper",
+          "quantity": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "salt",
+          "quantity": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "chicken wings",
+          "quantity": 10,
+          "unit": "whole"
+        },
+        {
+          "ingredient": "oil for deep frying",
+          "quantity": 1,
+          "unit": "to taste"
+        },
+        {
+          "ingredient": "butter",
+          "quantity": 0.25,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "hot sauce",
+          "quantity": 0.25,
+          "unit": "cup"
+        },
+        {
+          "ingredient": "ground black pepper",
+          "quantity": 1,
+          "unit": "dash"
+        },
+        {
+          "ingredient": "garlic powder",
+          "quantity": 1,
+          "unit": "dash"
+        }
+      ],
+      "steps": [
+        {
+          "step": "1. In a small bowl mix together the flour, paprika, cayenne pepper and salt. Place chicken wings in a large nonporous glass dish or bowl and sprinkle flour mixture over them until they are evenly coated. Cover dish or bowl and refrigerate for 60 to 90 minutes."
+        },
+        {
+          "step": "2. Heat oil in a deep fryer to 375 degrees F (190 degrees C). The oil should be just enough to cover wings entirely, an inch or so deep. Combine the butter, hot sauce, pepper and garlic powder in a small saucepan over low heat. Stir together and heat until butter is melted and mixture is well blended. Remove from heat and reserve for serving."
+        },
+        {
+          "step": "3. Fry coated wings in hot oil for 10 to 15 minutes, or until parts of wings begin to turn brown. Remove from heat, place wings in serving bowl, add hot sauce mixture and stir together. Serve."
         }
       ],
       "comments": [
@@ -1398,74 +1537,88 @@
       ]
     },
     {
-      "id": 13,
-      "name": "Buffalo Chicken Wings",
-      "preparationTime": "120",
+      "id": 10,
+      "name": "Garlic Shrimp",
+      "preparationTime": "25",
       "likes": [
-        84
+        14
       ],
-      "img": "http://images.media-allrecipes.com/userphotos/720x405/445293.jpg",
+      "img": "http://images.media-allrecipes.com/userphotos/720x405/1330843.jpg",
       "ingredients": [
         {
-          "ingredient": "all-purpose flour",
-          "quantity": 0.5,
-          "unit": "cup"
+          "ingredient": "olive oil",
+          "quantity": 1.5,
+          "unit": "tbsp"
         },
         {
-          "ingredient": "paprika",
-          "quantity": 0.25,
-          "unit": "tsp"
-        },
-        {
-          "ingredient": "cayenne pepper",
-          "quantity": 0.25,
-          "unit": "tsp"
+          "ingredient": "shrimp, peeled and deveined",
+          "quantity": 1,
+          "unit": "pound"
         },
         {
           "ingredient": "salt",
-          "quantity": 0.25,
-          "unit": "tsp"
-        },
-        {
-          "ingredient": "chicken wings",
-          "quantity": 10,
-          "unit": "whole"
-        },
-        {
-          "ingredient": "oil for deep frying",
           "quantity": 1,
           "unit": "to taste"
         },
         {
-          "ingredient": "butter",
+          "ingredient": "garlic, finely minced",
+          "quantity": 6,
+          "unit": "cloves"
+        },
+        {
+          "ingredient": "red pepper flakes",
           "quantity": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "lemon juice",
+          "quantity": 3,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "caper brine",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "ingredient": "cold butter",
+          "quantity": 1.5,
+          "unit": "tsp"
+        },
+        {
+          "ingredient": "chopped Italian flat leaf parsley, divided",
+          "quantity": 0.33,
           "unit": "cup"
         },
         {
-          "ingredient": "hot sauce",
-          "quantity": 0.25,
-          "unit": "cup"
+          "ingredient": "cold butter",
+          "quantity": 1.5,
+          "unit": "tbsp"
         },
         {
-          "ingredient": "ground black pepper",
+          "ingredient": "water",
           "quantity": 1,
-          "unit": "dash"
-        },
-        {
-          "ingredient": "garlic powder",
-          "quantity": 1,
-          "unit": "dash"
+          "unit": "as needed"
         }
       ],
       "steps": [
         {
-          "step": "1. In a small bowl mix together the flour, paprika, cayenne pepper and salt. Place chicken wings in a large nonporous glass dish or bowl and sprinkle flour mixture over them until they are evenly coated. Cover dish or bowl and refrigerate for 60 to 90 minutes."
+          "step": "1. Heat olive oil in a heavy skillet over high heat until it just begins to smoke. Place shrimp in an even layer on the bottom of the pan and cook for 1 minute without stirring."
         },
         {
-          "step": "2. Heat oil in a deep fryer to 375 degrees F (190 degrees C). The oil should be just enough to cover wings entirely, an inch or so deep. Combine the butter, hot sauce, pepper and garlic powder in a small saucepan over low heat. Stir together and heat until butter is melted and mixture is well blended. Remove from heat and reserve for serving."
+          "step": "2. Season shrimp with salt; cook and stir until shrimp begin to turn pink, about 1 minute."
         },
         {
-          "step": "3. Fry coated wings in hot oil for 10 to 15 minutes, or until parts of wings begin to turn brown. Remove from heat, place wings in serving bowl, add hot sauce mixture and stir together. Serve."
+          "step": "3. Stir in garlic and red pepper flakes; cook and stir 1 minute. Stir in lemon juice, caper brine, 1 1/2 teaspoon cold butter, and half the parsley."
+        },
+        {
+          "step": "4. Cook until butter has melted, about 1 minute, then turn heat to low and stir in 1 1/2 tablespoon cold butter. Cook and stir until all butter has melted to form a thick sauce and shrimp are pink and opaque, about 2 to 3 minutes."
+        },
+        {
+          "step": "5. Remove shrimp with a slotted spoon and transfer to a bowl; continue to cook butter sauce, adding water 1 teaspoon at a time if too thick, about 2 minutes. Season with salt to taste."
+        },
+        {
+          "step": "6. Serve shrimp topped with the pan sauce. Garnish with remaining flat-leaf parsley."
         }
       ],
       "comments": [
@@ -1482,159 +1635,6 @@
           "comment": "try"
         }
       ]
-    },
-    {
-      "id": 4,
-      "name": "Зеленчуков пай",
-      "preparationTime": "60",
-      "likes": [
-        2
-      ],
-      "img": "https://trello-attachments.s3.amazonaws.com/583953f9340ebbb0b625db91/335x235/c8b73bf6bd0feb9e32c76076a6da90e3/zelenchukov-pay_437.jpg.png",
-      "ingredients": [
-        {
-          "ingredient": "chopped broccoli or sliced fresh cauliflowerets ",
-          "quantity": 2,
-          "unit": "cups"
-        },
-        {
-          "ingredient": "chopped onion ",
-          "quantity": 0.33,
-          "unit": "cup"
-        },
-        {
-          "ingredient": "chopped green bell pepper ",
-          "quantity": 0.33,
-          "unit": "cup"
-        },
-        {
-          "ingredient": "shredded Cheddar cheese",
-          "quantity": 1,
-          "unit": "cup"
-        },
-        {
-          "ingredient": "Original Bisquick™ mix ",
-          "quantity": 0.5,
-          "unit": "cup"
-        },
-        {
-          "ingredient": "milk",
-          "quantity": 1,
-          "unit": "cup"
-        },
-        {
-          "ingredient": "salt ",
-          "quantity": 0.5,
-          "unit": "tsp"
-        },
-        {
-          "ingredient": "pepper",
-          "quantity": 0.25,
-          "unit": "tsp"
-        },
-        {
-          "ingredient": "eggs",
-          "quantity": 2,
-          "unit": "whole"
-        }
-      ],
-      "steps": [
-        {
-          "step": "1. Heat oven to 400ºF. Grease 9-inch pie plate. Heat 1 inch salted water to boiling in medium saucepan."
-        },
-        {
-          "step": "2. Add broccoli; cover and heat to boiling. Cook about 5 minutes or until almost tender; drain thoroughly."
-        },
-        {
-          "step": "3. Stir together cooked broccoli, onion, bell pepper and cheese in pie plate. "
-        },
-        {
-          "step": "4. Stir remaining ingredients until blended. Pour into pie plate."
-        },
-        {
-          "step": "5. Bake 35 to 45 minutes or until golden brown and knife inserted in center comes out clean. Cool 5 minutes. "
-        }
-      ],
-      "comments": []
-    },
-    {
-      "id": 3,
-      "name": "Portobello \"steaks\" with a side of mashed cauliflower",
-      "preparationTime": "70",
-      "likes": [
-        33
-      ],
-      "img": "https://trello-attachments.s3.amazonaws.com/580e34f3955d15182e1ff651/666x467/85c16ac1e396d05e787081700ac0cd74/portobello_steaks.jpg",
-      "ingredients": [
-        {
-          "ingredient": "portobello mushrooms",
-          "quantity": 2,
-          "unit": "whole"
-        },
-        {
-          "ingredient": "lemon",
-          "quantity": 0.25,
-          "unit": "whole"
-        },
-        {
-          "ingredient": "balsamic vinegar",
-          "quantity": 2,
-          "unit": "tbsp"
-        },
-        {
-          "ingredient": "tahini",
-          "quantity": 1,
-          "unit": "tbsp"
-        },
-        {
-          "ingredient": "cherry tomatoes",
-          "quantity": 0.25,
-          "unit": "cup"
-        },
-        {
-          "ingredient": "mixed greens",
-          "quantity": 2,
-          "unit": "cup"
-        },
-        {
-          "ingredient": "fresh cauliflower",
-          "quantity": 0.5,
-          "unit": "whole"
-        },
-        {
-          "ingredient": "1/2 clove of garlic",
-          "quantity": 0.05,
-          "unit": "whole"
-        },
-        {
-          "ingredient": "salt-free horseradish (optional)",
-          "quantity": 1,
-          "unit": "tbsp"
-        },
-        {
-          "ingredient": "black pepper (to taste)",
-          "quantity": 1,
-          "unit": "to taste"
-        }
-      ],
-      "steps": [
-        {
-          "step": "1. Rinse all the produce. Peel and mince the garlic. Slice the cherry tomatoes in half. Remove the portobello mushroom stem. Chop the fresh cauliflower into small pieces. "
-        },
-        {
-          "step": "2. Boil the fresh cauliflower for about 10 minutes or until tender. Mash with a fork or potato masher, or puree in a food processor with some of the cooking liquid. Season with pepper and minced garlic."
-        },
-        {
-          "step": "3. Heat a grill pan, outdoor grill, or skillet over medium-high. Drizzle the portobello mushroom cap with balsamic vinegar, and place on hot pan. Cover and cook for 5 minutes, then flip and season with pepper, replace cover and cook for another 5-10 minutes, or until the portobello mushroom is tender. (Cooking time may vary, depending on the size of your portobello mushroom.) If you have a panini press or countertop grill, you can use that instead."
-        },
-        {
-          "step": "4. Whisk together tahini and lemon juice, adding a splash of water or balsamic vinegar to thin. Pile mixed greens and cherry tomatoes on a plate and drizzle with the lemon-tahini dressing. "
-        },
-        {
-          "step": "5. Serve with mashed cauliflower topped with a dollop of horseradish and portobello /“steaks/”."
-        }
-      ],
-      "comments": []
     },
     {
       "id": 1,
@@ -1737,10 +1737,5 @@
       "usernameLower": "awe"
     }
   ],
-  "currentUser": [
-    {
-      "username": "test1",
-      "authKey": "19d=hMwwa#bFpVNIOSUmBjW_zwguTDjVxw+#nTBcs+@NRfq^yrbi+gWahluF"
-    }
-  ]
+  "currentUser": []
 }

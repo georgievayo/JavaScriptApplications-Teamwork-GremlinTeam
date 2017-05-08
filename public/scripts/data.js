@@ -33,12 +33,12 @@ let dataService = (function () {
         };
         return requester.putJSON("/api/users/login", { data: reqUser })
             .then((res) => {
-                if(res.result){
-                let user = res.result;
-                sessionStorage.setItem(SESSION_STORAGE_USERNAME_KEY, user.username);
-                sessionStorage.setItem(SESSION_STORAGE_AUTHKEY_KEY, user.authKey);
-            }
-                return res;            
+                if (res.result) {
+                    let user = res.result;
+                    sessionStorage.setItem(SESSION_STORAGE_USERNAME_KEY, user.username);
+                    sessionStorage.setItem(SESSION_STORAGE_AUTHKEY_KEY, user.authKey);
+                }
+                return res;
             });
     };
 
@@ -53,16 +53,7 @@ let dataService = (function () {
             username: sessionStorage.getItem(SESSION_STORAGE_USERNAME_KEY),
             authKey: sessionStorage.getItem(SESSION_STORAGE_AUTHKEY_KEY)
         };
-        return requester.postJSON("/api/hasUser", currentUser)
-            .then((data) => {
-                let foundUser = data.result;
-                if (foundUser === undefined) {
-                    return false;
-                }
-                else {
-                    return true;
-                }
-            });
+        return requester.postJSON("/api/hasUser", currentUser);
     }
 
     return {

@@ -68,7 +68,7 @@ module.exports = (db) => {
             let users = db.get("currentUser")
                 .find(user)
                 .value();
-            res.send({ result: users });
+            res.send({ result: !!users });
         }
     }
 };
