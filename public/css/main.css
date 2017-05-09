@@ -6,7 +6,7 @@
 }
 
 .navbar{
-	width: 101%;
+	width: 102.05%;	
 }
 .menu-item-left {
     display: inline;
@@ -64,7 +64,7 @@
 }*/
 
 body { 
-	width: 99%;
+width: 98%;
 background-image: url("../imgs/background.jpg"); 
 -webkit-background-size: cover;
 -moz-background-size: 100%;
