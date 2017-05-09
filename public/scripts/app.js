@@ -11,9 +11,10 @@ router
     .on("/about", controllers.about)
     .on("/users/logout", usersControllers.logout)
     .on("/home", () => {
+        $("#main").append("<div class=\"welcome-msg\">Welcome to Forkstare!<br/><p>Find the best recipes to discover, try, create, or share with any kitchen in the world. <br/>Access over 20000 short recipes from local experts.</p></div>");        
     })
     .on(() => {
-        router.navigate("#/home");
+        router.navigate("#/home");       
         $("#main").children().remove();
     })
     .resolve();
