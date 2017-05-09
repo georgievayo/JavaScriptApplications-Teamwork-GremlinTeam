@@ -5,6 +5,7 @@ const bodyParser = require('body-parser');
 const dataControllers = require('./controllers/data-controllers')(db);
 const userControllers = require('./controllers/user-controllers')(db);
 const keyGenerator = require('./Utils/auth-key-generator');
+const logger = require('./Utils/logger');
 
 let app = express();
 app.use(express.static('public'));
@@ -29,6 +30,6 @@ app.post("/api/users/logout", userControllers.logout);
 
 let port = process.env.PORT || 3000;
 app.listen(port, () => {
-    console.log(`App is running on localhost:${port}`);
+    logger.info(`App is running on localhost:${port}`);
 });
 
