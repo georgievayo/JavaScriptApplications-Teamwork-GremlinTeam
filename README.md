@@ -15,6 +15,10 @@ This is a single page application where you can find recipes for your favourite 
 
 ## Used frameworks:
 
+* Bootstrap
+
+* Handlebars
+
 * Express
 
 * Lowdb
